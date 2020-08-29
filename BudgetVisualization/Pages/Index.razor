@@ -1,7 +1,31 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@using BudgetVisualization.Components
+@using BudgetVisualization.Services
 
-Welcome to your new app.
+@inject BrowserService Service
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<h1>Window Dimensions</h1>
+
+<p>Window Height: @Height</p>
+<p>Window Width: @Width</p>
+
+<button @onclick="GetDimensions">Get Dimensions</button>
+
+@if (IsMobile)
+{
+
+    <p>
+        Mobile Website
+    </p>
+}
+else
+{
+    <p>
+        Desktop Website
+    </p>
+}
+
+
+<style>
+</style>
