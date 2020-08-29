@@ -1,22 +1,46 @@
-﻿<div class="mat-layout-grid">
+﻿<div class="mat-layout-grid" style="max-width: 800px">
     <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell" style="background-color: @color; width: @width; height: @height">
-            <div>@ItemName</div> <br/>
-            $@BudgetValue Proposed <br/>
-            @percent% from last year
-            @if (Active)
-            {
-                <div>Active Selection</div>
-            }
+
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
+            <div class="item-illustration">Illustration</div>
         </div>
+
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
+            <div class="item-content">
+                @ItemName <br />
+                $@BudgetValue Proposed
+            </div>
+
+            <div class="item-percent">
+                @percent% from last year
+            </div>
+        </div>
+
     </div>
 </div>
 
 <style>
-    .cell {
-        width: 800px;
-        height: 800px;
-        background-color: #e8f0f6;
+    .item {
+        width: 200px;
+        height: 200px;
+        background-color: #accce7;
+    }
+
+    .item-content {
+        text-align: center;
+    }
+
+    .item-percent {
+        text-align: center;
+        vertical-align: text-bottom;
+        font-size: 15px;
+    }
+
+    .item-illustration {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 </style>
 
@@ -42,18 +66,19 @@
     public string SelectionType { get; set; }
 
     string color;
-    string width = "200px";
-    string height = "200px";
+
+    string defaultColor = "#accce7";
+    string activeColor = "#86abca";
 
     protected override void OnInitialized()
     {
         if(Active)
         {
-            color = "#86abca";
+            color = activeColor;
         }
         else
         {
-            color = "#accce7";
+            color = defaultColor;
         }
     }
 }
