@@ -1,8 +1,10 @@
-﻿<div class="mat-layout-grid" style="max-width: 800px">
+﻿<div class="mat-layout-grid mat-layout-grid-align-left" style="max-width: 800px">
     <div class="mat-layout-grid-inner">
 
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
-            <div class="item-illustration">Illustration</div>
+            <div class="item-illustration">
+                <MatIcon Icon="@MatIconNames.Work"></MatIcon>
+            </div>
         </div>
 
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
@@ -15,14 +17,14 @@
                 @percent% from last year
             </div>
         </div>
-
     </div>
 </div>
 
 <style>
     .item {
+        position: relative;
         width: 200px;
-        height: 200px;
+        height: 150px;
         background-color: #accce7;
     }
 
@@ -32,7 +34,8 @@
 
     .item-percent {
         text-align: center;
-        vertical-align: text-bottom;
+        position: absolute;
+        bottom: 0px;
         font-size: 15px;
     }
 
