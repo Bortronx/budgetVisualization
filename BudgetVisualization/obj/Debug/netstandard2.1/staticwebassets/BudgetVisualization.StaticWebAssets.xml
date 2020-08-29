@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\PROJECTS\POLITICAL_BUDGET_VISUALIZATION\APP\budgetVisualization\BudgetVisualization\bin\Debug\netstandard2.1\wwwroot\" />
-  <ContentRoot BasePath="_content/MatBlazor" Path="C:\Users\Bortr\.nuget\packages\matblazor\2.6.2\build\..\staticwebassets\" />
-</StaticWebAssets>
