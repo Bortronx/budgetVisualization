@@ -4,20 +4,20 @@
             @ItemName
         </div>
         <div class="mat-layout-grid-cell">
-            @ItemValue
-        </div>
-        <div class="mat-layout-grid-cell">
             @BudgetValue
         </div>
         <div class="mat-layout-grid-cell">
             @percent
         </div>
         <div class="mat-layout-grid-cell">
-            @Active
-        </div>
-        <div class="mat-layout-grid-cell">
             @SelectionType
         </div>
+        @if (Active)
+        {
+            <div class="mat-layout-grid-cell">
+                Active Selection
+            </div>
+        }
     </div>
 </div>
 
