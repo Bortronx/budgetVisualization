@@ -7,14 +7,22 @@
         margin: 0px;
     }
 
+    .demo-mat-card-clean-margin,
+    .message-heading {
+        display: inline;
+    }
+
+    .message {
+        border: 3px solid #EFE211;
+        border-radius: 25px;
+        padding: 5px;
+    }
+
+    .demo-mat-card-clean-margin,
+    .message-heading,
     .icon {
         display: inline;
     }
-
-    .demo-mat-card-clean-margin {
-        display: inline;
-    }
-
 </style>
 
 <MatCard class="demo-mat-card">
@@ -32,6 +40,21 @@
         </MatBody2>
     </MatCardContent>
 </MatCard>
+
+###adding a second option here
+
+<div class="message">
+        <MatIcon class="icon" Icon="warning"></MatIcon>
+        <h4 class="message-heading">
+            Where does the budget funding come from?
+        </h4>
+        <p>
+            The general fund is your paycheck, fines, and fees. How do you think your money should be spent?
+            We've created some comparisons below. Select a budget in the main menu on the left and then scroll through
+            options to compare them with police and jails budget items.
+        </p>
+</div>
+
 
 
 @code {
