@@ -1,20 +1,14 @@
 ﻿<div class="mat-layout-grid">
     <div class="mat-layout-grid-inner">
         <div class="mat-layout-grid-cell">
-            @ItemName
+            @ItemName <br/>
+            $@BudgetValue Proposed <br/>
+            @percent% from last year
+            @if (Active)
+            {
+                <div>Active Selection</div>
+            }
         </div>
-        <div class="mat-layout-grid-cell">
-            @BudgetValue
-        </div>
-        <div class="mat-layout-grid-cell">
-            @percent
-        </div>
-        @if (Active)
-        {
-            <div class="mat-layout-grid-cell">
-                Active Selection
-            </div>
-        }
     </div>
 </div>
 
