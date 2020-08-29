@@ -6,6 +6,18 @@
         <div class="mat-layout-grid-cell">
             @ItemValue
         </div>
+        <div class="mat-layout-grid-cell">
+            @BudgetValue
+        </div>
+        <div class="mat-layout-grid-cell">
+            @percent
+        </div>
+        <div class="mat-layout-grid-cell">
+            @Active
+        </div>
+        <div class="mat-layout-grid-cell">
+            @SelectionType
+        </div>
     </div>
 </div>
 
@@ -23,12 +35,14 @@
     public float BudgetValue { get; set; }
 
     [Parameter]
-    public float PercentIncrease { get; set; }
+    public float percent { get; set; }
 
     [Parameter]
     public bool Active { get; set; }
 
     [Parameter]
     public string SelectionType { get; set; }
+
+
 
 }
