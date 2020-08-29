@@ -1,6 +1,6 @@
-﻿<div class="mat-layout-grid" style="width: 800px; height: 800px">
+﻿<div class="mat-layout-grid">
     <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell" style="background-color: #e8f0f6">
+        <div class="mat-layout-grid-cell" style="background-color: @color; width: @width; height: @height">
             <div>@ItemName</div> <br/>
             $@BudgetValue Proposed <br/>
             @percent% from last year
@@ -12,6 +12,13 @@
     </div>
 </div>
 
+<style>
+    .cell {
+        width: 800px;
+        height: 800px;
+        background-color: #e8f0f6;
+    }
+</style>
 
 
 @code {
@@ -34,5 +41,19 @@
     [Parameter]
     public string SelectionType { get; set; }
 
+    string color;
+    string width = "200px";
+    string height = "200px";
 
+    protected override void OnInitialized()
+    {
+        if(Active)
+        {
+            color = "#86abca";
+        }
+        else
+        {
+            color = "#accce7";
+        }
+    }
 }
