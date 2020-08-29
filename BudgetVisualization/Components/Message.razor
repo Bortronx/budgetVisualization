@@ -1,16 +1,4 @@
 ﻿<style>
-    .demo-mat-card-content {
-        padding: 1rem;
-    }
-
-    .demo-mat-card-clean-margin {
-        margin: 0px;
-    }
-
-    .demo-mat-card-clean-margin,
-    .message-heading {
-        display: inline;
-    }
 
     .message {
         border: 3px solid #EFE211;
@@ -18,41 +6,33 @@
         padding: 5px;
     }
 
-    .demo-mat-card-clean-margin,
-    .message-heading,
     .icon {
-        display: inline;
+        font-size: 5em;
     }
+
+    .icon-grid {
+        margin: auto;
+    }
+
 </style>
 
-@*<MatCard class="demo-mat-card">
-    <MatCardContent>
-        <div class="demo-mat-card-content">
+
+<div class="mat-layout-grid message">
+    <div class="mat-layout-grid-inner">
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-2 icon-grid">
             <MatIcon class="icon" Icon="warning"></MatIcon>
-            <MatHeadline6 class="demo-mat-card-clean-margin">
+       </div>
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-10">
+            <h4 class="message-heading">
                 Where does the budget funding come from?
-            </MatHeadline6>
+            </h4>
+            <p>
+                The general fund is your paycheck, fines, and fees. How do you think your money should be spent?
+                We've created some comparisons below. Select a budget in the main menu on the left and then scroll through
+                options to compare them with police and jails budget items.
+            </p>
         </div>
-        <MatBody2 class="demo-mat-card-content demo-mat-card-clean-margin">
-            The general fund is your paycheck, fines, and fees. How do you think your money should be spent?
-            We've created some comparisons below. Select a budget in the main menu on the left and then scroll through
-            options to compare them with police and jails budget items.
-        </MatBody2>
-    </MatCardContent>
-</MatCard>
-
-###adding a second option here*@
-
-<div class="message">
-        <MatIcon class="icon" Icon="warning"></MatIcon>
-        <h4 class="message-heading">
-            Where does the budget funding come from?
-        </h4>
-        <p>
-            The general fund is your paycheck, fines, and fees. How do you think your money should be spent?
-            We've created some comparisons below. Select a budget in the main menu on the left and then scroll through
-            options to compare them with police and jails budget items.
-        </p>
+    </div>
 </div>
 
 
