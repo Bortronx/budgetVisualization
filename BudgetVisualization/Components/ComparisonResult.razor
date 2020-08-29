@@ -1,0 +1,29 @@
+﻿<div class="mat-layout-grid">
+    <div class="mat-layout-grid-inner">
+        <div class="mat-layout-grid-cell">
+            <p>
+                For the price of @SecondSelection, we could pay
+                for @CalculatedValue @Units @FirstSelection.
+            </p>
+        </div>
+
+       
+    </div>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public string FirstSelection { get; set; }
+
+    [Parameter]
+    public string SecondSelection { get; set; }
+
+    [Parameter]
+    public string Units { get; set; }
+
+    [Parameter]
+    public double CalculatedValue { get; set; }
+
+}
