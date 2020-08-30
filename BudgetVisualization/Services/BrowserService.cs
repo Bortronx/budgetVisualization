@@ -8,6 +8,12 @@ namespace BudgetVisualization.Services
 {
     public class BrowserService
     {
+        public class BrowserDimension
+        {
+            public int Width { get; set; }
+            public int Height { get; set; }
+        }
+
         private readonly IJSRuntime _js;
 
         public BrowserService(IJSRuntime js)
@@ -20,10 +26,17 @@ namespace BudgetVisualization.Services
             return await _js.InvokeAsync<BrowserDimension>("getDimensions");
         }
 
-        public class BrowserDimension
+        public async Task<bool> CheckIsMobile()
         {
-            public int Width { get; set; }
-            public int Height { get; set; }
+            var dimension = await GetDimensions();
+            System.Console.WriteLine("Dimensions: " + dimension.Height + "h " + dimension.Width + "w");
+
+            float height = dimension.Height;
+            float width = dimension.Width;
+
+            System.Console.WriteLine("Dimensions ratio: " + ((height / width) > 1.0f));
+
+            return (height / width) > 1.0f;
         }
     }
 }

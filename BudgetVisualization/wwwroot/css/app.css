@@ -148,6 +148,22 @@ app {
     .main .top-row a, .main .top-row .btn-link {
         margin-left: 0;
     }
+
+    /* NavMenu */
+    .sidebarApp-item {
+        height: 120px;
+        float: left;
+        padding: 3vw;
+        width: 20vw;
+        background-color: whitesmoke
+    }
+
+    .sidebarApp {
+        background-color: whitesmoke;
+        width: 100vw;
+        display: inline-block;
+        height: -webkit-fill-available;
+    }
 }
 
 @media (min-width: 768px) {
@@ -180,4 +196,17 @@ app {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+
+    /* NavMenu */
+    .sidebarApp-item {
+        height: 120px;
+        background-color: whitesmoke;
+    }
+
+    .sidebarApp {
+        width: 110px;
+        height: 100vh;
+        background-color: whitesmoke;
+    }
+
 }

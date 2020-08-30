@@ -1,18 +1,11 @@
 ﻿@page "/"
+@page "/{SectionName}"
 
 @using BudgetVisualization.Components
-@using BudgetVisualization.Services
 
-@inject BrowserService Service
+@SectionName
 
-<h1>Window Dimensions</h1>
-
-<p>Window Height: @Height</p>
-<p>Window Width: @Width</p>
-
-<button @onclick="GetDimensions">Get Dimensions</button>
-
-@if (IsMobile)
+@if (AppState.IsMobile)
 {
 
     <p>
@@ -28,4 +21,5 @@ else
 
 
 <style>
+
 </style>
