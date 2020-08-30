@@ -16,46 +16,46 @@ namespace BudgetVisualization.Data
             AddBudgetSection("Community Services",
                 new List<ProposedItem>
                 {
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                 });
 
             AddBudgetSection("Transportation",
                  new List<ProposedItem>
                  {
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                  });
 
             AddBudgetSection("Judicial Administration",
                  new List<ProposedItem>
                  {
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                  });
 
             AddBudgetSection("Housing",
                  new List<ProposedItem>
                  {
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                  });
 
             AddBudgetSection("Juvenile Services",
                  new List<ProposedItem>
                  {
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000, percent: 0.1f,
-                    imageURL: "https://picsum.photos/200/200"),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                  });
 
 

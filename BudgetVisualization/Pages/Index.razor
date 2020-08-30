@@ -2,24 +2,57 @@
 @page "/{SectionName}"
 
 @using BudgetVisualization.Components
+@using BudgetVisualization.Data
+
 
 @SectionName
+
+
+
+    <MatList Style="width:425px">
+        <MatListItem Class="proposedItem">
+            <ProposedBudgetItem itemData=@myItem />
+        </MatListItem>
+        <MatListDivider></MatListDivider>
+        <MatListItem Class="proposedItem">
+            <ProposedBudgetItem itemData=@myItem />
+        </MatListItem>
+        <MatListDivider></MatListDivider>
+        <MatListItem Class="proposedItem">
+            <ProposedBudgetItem itemData=@myItem />
+        </MatListItem>
+    </MatList>
+
+
+
 
 @if (AppState.IsMobile)
 {
 
-    <p>
-        Mobile Website
-    </p>
+<p>
+    Mobile Website
+</p>
 }
 else
 {
-    <p>
-        Desktop Website
-    </p>
+<p>
+    Desktop Website
+</p>
 }
 
 
 <style>
+    .proposedItem {
+        height: 1px;
+        width: 800px
+    }
 
 </style>
+
+@code {
+    ProposedItem myItem = new ProposedItem("Employment Training",
+                                            762000,
+                                            762000,
+                                            "http://picsum.photos/150/150",
+                                            -25);
+}
