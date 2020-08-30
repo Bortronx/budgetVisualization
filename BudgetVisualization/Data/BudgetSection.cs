@@ -9,7 +9,7 @@ namespace BudgetVisualization.Data
     {
         public string SectionName;
 
-        public List<ProposedItems> ProposedItems;
+        public List<ProposedItem> ProposedItems;
 
 
     }
