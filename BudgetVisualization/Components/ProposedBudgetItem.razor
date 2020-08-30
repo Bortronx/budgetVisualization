@@ -1,11 +1,9 @@
 ﻿@using BudgetVisualization.Data 
 
-<div class="mat-layout-grid mat-layout-grid-align-left" style="max-width: 800px">
+<div class="mat-layout-grid mat-layout-grid-align-left item-box">
     <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
-            <div class="item-illustration">
-                <img src=@itemData.imageURL />
-            </div>
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item item-illustration">
+            <img src=@itemData.imageURL />
         </div>
 
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
@@ -46,6 +44,12 @@
         margin-left: 25px;
         margin-right: auto;
         width: 50%;
+    }
+
+    .item-box {
+        margin: auto;
+        width: fit-content;
+        padding: 0.5rem;
     }
 </style>
 
