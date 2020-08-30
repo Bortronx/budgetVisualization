@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using BudgetVisualization.Services;
+using BudgetVisualization.Data;
 
 namespace BudgetVisualization
 {
@@ -20,6 +21,8 @@ namespace BudgetVisualization
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
             builder.Services.AddScoped<BrowserService>();
+
+            builder.Services.AddScoped<BudgetData>();
 
             await builder.Build().RunAsync();
         }
