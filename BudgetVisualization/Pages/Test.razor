@@ -1,10 +1,21 @@
 ﻿@page "/test"
 @using BudgetVisualization.Components
+@using BudgetVisualization.Data
 
 <h3>Test</h3>
 
+<ProposedBudgetItem itemData=@myItem />
 
 
 @code {
+
+    ProposedItem myItem = new ProposedItem("Employment Training", 
+                                            762000, 
+                                            762000, 
+                                            -25, 
+                                            false, 
+                                            "years");
+
+    
 
 }

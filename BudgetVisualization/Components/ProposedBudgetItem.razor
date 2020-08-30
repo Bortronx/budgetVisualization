@@ -11,7 +11,8 @@
 
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
             <div class="item-content">
-                @itemData.ItemName <br />
+                @itemData.ItemName 
+<br />
                 $@itemData.BudgetValue Proposed
             </div>
 
@@ -52,7 +53,8 @@
 
 @code {
 
-    ProposedItem itemData = new ProposedItem();
+    [Parameter]
+    public ProposedItem itemData { get; set; }
 
     string color;
 
