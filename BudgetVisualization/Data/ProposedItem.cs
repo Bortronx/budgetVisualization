@@ -19,6 +19,7 @@ namespace BudgetVisualization.Data
         public bool Active { get; set; }
 
         public string SelectionType { get; set; }
+
         public string imageURL { get; set; }
         
         public ProposedItem(
@@ -26,16 +27,12 @@ namespace BudgetVisualization.Data
             float ItemValue,
             int BudgetValue,
             float percent, 
-            bool Active, 
-            string SelectionType,
             string imageURL)
         {
             this.ItemName = ItemName;
             this.ItemValue = ItemValue;
             this.BudgetValue = BudgetValue;
             this.percent = percent;
-            this.Active = Active;
-            this.SelectionType = SelectionType;
             this.imageURL = imageURL;
 
         }
