@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BudgetVisualization.Data
 {
-    public class ProposedItems
+    public class ProposedItem
     {
         
     }
