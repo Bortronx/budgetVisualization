@@ -20,7 +20,13 @@ namespace BudgetVisualization.Data
 
         public string SelectionType { get; set; }
         
-        public ProposedItem(string ItemName, float ItemValue, float BudgetValue, float percent, bool Active, string SelectionType)
+        public ProposedItem(
+            string ItemName, 
+            float ItemValue, 
+            float BudgetValue, 
+            float percent, 
+            bool Active, 
+            string SelectionType)
         {
             this.ItemName = ItemName;
             this.ItemValue = ItemValue;
