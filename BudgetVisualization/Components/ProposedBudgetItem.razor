@@ -5,14 +5,13 @@
 
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
             <div class="item-illustration">
-                <MatIcon Icon="@MatIconNames.Work"></MatIcon>
+                <img src=@itemData.imageURL />
             </div>
         </div>
 
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-3 item">
             <div class="item-content">
-                @itemData.ItemName 
-<br />
+                @itemData.ItemName <br />
                 $@itemData.BudgetValue Proposed
             </div>
 
@@ -39,12 +38,13 @@
         text-align: center;
         position: absolute;
         bottom: 0px;
+        right: 35px;
         font-size: 15px;
     }
 
     .item-illustration {
         display: block;
-        margin-left: auto;
+        margin-left: 25px;
         margin-right: auto;
         width: 50%;
     }
