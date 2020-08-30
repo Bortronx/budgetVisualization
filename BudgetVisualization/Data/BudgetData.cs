@@ -11,7 +11,14 @@ namespace BudgetVisualization.Data
 
         public BudgetData()
         {
-            
+            BudgetSections = new List<BudgetSection>();
+
+
+        }
+
+        public void AddBudgetSection(string sectionName)
+        {
+            BudgetSections.Add(new BudgetSection(sectionName));
         }
 
     }
