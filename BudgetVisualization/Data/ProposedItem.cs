@@ -14,7 +14,7 @@ namespace BudgetVisualization.Data
 
         public float BudgetValue { get; set; }
 
-        public float percent { get; set; }
+        public float percentChange { get; set; }
 
         public bool Active { get; set; }
 
@@ -26,14 +26,14 @@ namespace BudgetVisualization.Data
             string ItemName, 
             float ItemValue,
             int BudgetValue,
-            float percent, 
-            string imageURL)
+            string imageURL,
+            float percentChange = 0)
         {
             this.ItemName = ItemName;
             this.ItemValue = ItemValue;
             this.BudgetValue = BudgetValue;
-            this.percent = percent;
             this.imageURL = imageURL;
+            this.percentChange = percentChange;
 
         }
 
