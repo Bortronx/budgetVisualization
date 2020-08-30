@@ -1,43 +1,24 @@
 ﻿@using Microsoft.AspNetCore.Components
 @inject NavigationManager uriHelper
 
-<MatNavMenu Class="sidebarApp">
-    <MatNavItem Class="sidebarApp-item"  Href="@uriHelper.ToAbsoluteUri("Community Services").AbsoluteUri">
-        <div class="sidebarApp-item-content">
-            <MatIcon Icon="supervised_user_circle"></MatIcon>
-            <div>Community Services </div>
-        </div>
-    </MatNavItem>
-    <MatDivider></MatDivider>
-    <MatNavItem Class="sidebarApp-item">
-        <div class="sidebarApp-item-content">
-            <MatIcon Icon="directions_bus"></MatIcon>
-            <div>Transportation  </div>
-        </div>
-    </MatNavItem>
-    <MatDivider></MatDivider>
-    <MatNavItem Class="sidebarApp-item">
-        <div class="sidebarApp-item-content">
-            <MatIcon Icon="outlined_flag"></MatIcon>
-            <div>Judicial Administration  </div>
-        </div>
-    </MatNavItem>
-    <MatDivider></MatDivider>
-    <MatNavItem Class="sidebarApp-item">
-        <div class="sidebarApp-item-content">
-            <MatIcon Icon="home"></MatIcon>
-            <div>Housing  </div>
-        </div>
-    </MatNavItem>
-    <MatDivider></MatDivider>
-    <MatNavItem Class="sidebarApp-item">
-        <div class="sidebarApp-item-content">
-            <MatIcon Icon="sentiment_satisfied"></MatIcon>
-            <div>Juvenile Services  </div>
-        </div>
-    </MatNavItem>
-    <MatDivider></MatDivider>
-</MatNavMenu>
+
+    <MatNavMenu Class="sidebarApp">
+
+        @for (int i = 0; i < (BudgetData.BudgetSections.Count); i++)
+            {
+                int ii = i;
+
+                <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri(
+                                                                  BudgetData.BudgetSections[ii].SectionName).AbsoluteUri">
+                    <div class="sidebarApp-item-content">
+                        <MatIcon Icon="@BudgetData.BudgetSections[ii].Icon"></MatIcon>
+                        <div>@BudgetData.BudgetSections[ii].SectionName</div>
+                    </div>
+                </MatNavItem>
+                <MatDivider></MatDivider>
+        }
+
+    </MatNavMenu>
 
 
 
