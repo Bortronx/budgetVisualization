@@ -201,6 +201,7 @@ app {
     .sidebarApp-item {
         height: 120px;
         background-color: whitesmoke;
+        justify-content: space-around;
     }
 
     .sidebarApp {
