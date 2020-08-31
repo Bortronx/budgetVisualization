@@ -1,30 +1,54 @@
-﻿@using BudgetVisualization.Data 
+﻿@using BudgetVisualization.Data
 
-<div class="mat-layout-grid item-box">
-    <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell item">
-            <img src=@itemData.imageURL />
-        </div>
-
-        <div class="mat-layout-grid-cell item">
-            <div class="item-content">
-                @itemData.ItemName <br />
-                $@itemData.BudgetValue Proposed
+@if(itemData.Active)
+ {
+    <div class="mat-layout-grid item-box" style="background-color: @activeColor">
+        <div class="mat-layout-grid-inner">
+            <div class="mat-layout-grid-cell item">
+                <img src=@itemData.imageURL />
             </div>
 
-            <div class="item-percent">
-                @itemData.percentChange% from last year
+            <div class="mat-layout-grid-cell item">
+                <div class="item-content">
+                    @itemData.ItemName <br />
+                    $@itemData.BudgetValue Proposed
+                </div>
+
+                <div class="item-percent">
+                    @itemData.percentChange% from last year
+                </div>
             </div>
         </div>
     </div>
-</div>
+ }
+ else
+ {
+    <div class="mat-layout-grid item-box" style="background-color: @defaultColor">
+        <div class="mat-layout-grid-inner">
+            <div class="mat-layout-grid-cell item">
+                <img src=@itemData.imageURL />
+            </div>
+
+            <div class="mat-layout-grid-cell item">
+                <div class="item-content">
+                    @itemData.ItemName <br />
+                    $@itemData.BudgetValue Proposed
+                </div>
+
+                <div class="item-percent">
+                    @itemData.percentChange% from last year
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
 
 <style>
     .item {
         position: relative;
         width: 200px;
         height: 150px;
-        background-color: #accce7;
     }
 
     .item-content {
@@ -64,16 +88,4 @@
     string defaultColor = "#accce7";
     string activeColor = "#86abca";
 
-    protected override void OnInitialized()
-    {
-
-        if(itemData.Active)
-        {
-            color = activeColor;
-        }
-        else
-        {
-            color = defaultColor;
-        }
-    }
 }
