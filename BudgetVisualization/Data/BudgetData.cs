@@ -16,9 +16,15 @@ namespace BudgetVisualization.Data
             AddBudgetSection("Community Services",
                 new List<ProposedItem>
                 {
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    new ProposedItem(ItemName: "Employment and Training", ItemValue: 1000, BudgetValue: 216000,
                     imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
+                    new ProposedItem(ItemName: "Neighborhood Centers/ Community Resource Centers", ItemValue: 1000, BudgetValue: 3471000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Psychological Services", ItemValue: 1000, BudgetValue: 284000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Rehabilitative Service", ItemValue: 1000, BudgetValue: 3408000,
+                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    new ProposedItem(ItemName: "Violence Prevention & Intervention", ItemValue: 1000, BudgetValue: 4472000,
                     imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                 });
 
