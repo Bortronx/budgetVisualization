@@ -151,11 +151,17 @@ app {
 
     /* NavMenu */
     .sidebarApp-item {
-        height: 120px;
+        height: 13vh;
         float: left;
-        padding: 3vw;
-        width: 20vw;
-        background-color: whitesmoke
+        padding-top: 12px;
+        width: 33.3vw;
+        background-color: whitesmoke;
+        border-right-style: inset;
+        border-right-width: 1px;
+        border-right-color: white;
+        border-bottom-style: ridge;
+        border-bottom-width: 1px;
+        border-bottom-color: snow;
     }
 
     .sidebarApp {
@@ -164,6 +170,57 @@ app {
         display: inline-block;
         height: -webkit-fill-available;
     }
+
+    .comparison-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .comparison-text {
+        font-size: 1.25em;
+        text-align: center;
+    }
+
+    .carousell {
+        max-width: 47.8vw;
+        max-height: 45vh;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        float: left;
+        margin: 1vw;
+    }
+
+
+
+    .carousell-result {
+        float: left;
+        display: flex;
+        padding: 0.5rem;
+    }
+
+    .carousell::-webkit-scrollbar { /* WebKit */
+        width: 0px;
+    }
+
+    .message {
+        border: 3px solid #F6D55C;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        display: none;
+    }
+
+    .icon {
+        font-size: 5em;
+        color: #F6D55C;
+    }
+
+    .icon-grid {
+        margin: auto;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -184,8 +241,8 @@ app {
     }
 
     .main > div {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
+        padding-left: 1rem !important;
+        padding-right: 0.5rem !important;
     }
 
     .navbar-toggler {
@@ -199,15 +256,72 @@ app {
 
     /* NavMenu */
     .sidebarApp-item {
-        height: 120px;
         background-color: whitesmoke;
         justify-content: space-around;
+        padding-top: 25px;
+        height: fit-content;
+        border-bottom-style: ridge;
+        border-bottom-width: 1px;
+        border-bottom-color: #e4e4e4;
     }
 
     .sidebarApp {
         width: 110px;
         height: 100vh;
         background-color: whitesmoke;
+    }
+
+    .carousell-result {
+        display: flex;
+        flex-flow: column;
+        height: 70vh;
+        padding: 12px;
+    }
+
+    .carousell::-webkit-scrollbar { /* WebKit */
+        width: 0px;
+    }
+
+    .proposedItem {
+        height: auto;
+        padding: 0;
+        background-color: #accce7;
+    }
+
+    .carousell {
+        max-width: 30vw;
+        max-height: 70vh;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        float: left;
+        margin-right: 1vw;
+    }
+
+    .comparison-image {
+        height: 20vw;
+    }
+
+    .comparison-text {
+        padding: 12px;
+    }
+
+    .message {
+        border: 3px solid #F6D55C;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        /*display: none;*/
+    }
+
+    .icon {
+        font-size: 5em;
+        color: #F6D55C;
+    }
+
+    .icon-grid {
+        margin: auto;
     }
 
 }

@@ -1,31 +1,16 @@
 ﻿<style>
 
-    .comparison-image {
-        width: 100%;
-        margin-bottom: 20px;
-    }
 
-    .comparison-text {
-        font-size: 1.25em;
-        text-align: center;
-    }
+
 
 </style>
 
 
-<div class="mat-layout-grid">
-    <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell">
-            <img class="comparison-image" src="@ImagePath" />
-            <p class="comparison-text">
-                For the price of @SecondSelection, we could pay
-                for @CalculatedValue @Units @FirstSelection.
-            </p>
-        </div>
-
-       
-    </div>
-</div>
+<img class="comparison-image" src="@ImagePath" />
+<p class="comparison-text">
+    For the price of @SecondSelection, we could pay
+    for @CalculatedValue @Units @FirstSelection.
+</p>
 
 
 @code {

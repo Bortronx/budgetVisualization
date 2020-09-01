@@ -7,47 +7,120 @@
 
 @SectionName
 
+<div style="height: 1vh"></div>
 
+<Message></Message>
 
-    <MatList Style="width:425px">
-        <MatListItem Class="proposedItem">
-            <ProposedBudgetItem itemData=@myItem />
-        </MatListItem>
-        <MatListDivider></MatListDivider>
-        <MatListItem Class="proposedItem">
-            <ProposedBudgetItem itemData=@myItem />
-        </MatListItem>
-        <MatListDivider></MatListDivider>
-        <MatListItem Class="proposedItem">
-            <ProposedBudgetItem itemData=@myItem />
-        </MatListItem>
-    </MatList>
+<div>
+    <div class="carousell">
+        <MatList Style="padding:0px;">
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+        </MatList>
+    </div>
+    <div class="carousell">
+        <MatList Style="padding: 0px;">
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+            <MatListItem Class="proposedItem">
+                <ProposedBudgetItem itemData=@myItem />
+            </MatListItem>
+            <MatListDivider></MatListDivider>
+        </MatList>
+    </div>
+    <div class="carousell-result">
+        <ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="10" ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>
+    </div>
 
+</div>
+
+<div class="mat-layout-grid" style="padding: 2px;">
+    <div class="mat-layout-grid-inner">
+    </div>
+</div>
 
 
 
 @if (AppState.IsMobile)
 {
 
-<p>
-    Mobile Website
-</p>
+    <p>
+        Mobile Website
+    </p>
 }
 else
 {
-<p>
-    Desktop Website
-</p>
+    <p>
+        Desktop Website
+    </p>
 }
 
 
 <style>
-    .proposedItem {
-        height: auto;
-        padding: 0;
-        background-color: #accce7;
-    }
 
+    
 </style>
 
 @code {
