@@ -1,50 +1,80 @@
 ﻿@using BudgetVisualization.Data
 
-@if(itemData.Active)
- {
-    <div class="mat-layout-grid item-box" style="background-color: @activeColor">
-        <div class="mat-layout-grid-inner">
-            <div class="mat-layout-grid-cell item">
-                <img src=@itemData.imageURL />
+@if (itemData.Active)
+{
+    <div style="padding: 10px;">
+        <img src="http://picsum.photos/150/150">
+        <div style="display: inline-block;">
+            <div class="" style="">
+                Employment Training
+                <br>
+                $762000  Proposed
             </div>
-
-            <div class="mat-layout-grid-cell item">
-                <div class="item-content">
-                    @itemData.ItemName <br />
-                    $@itemData.BudgetValue Proposed
-                </div>
-
-                <div class="item-percent">
-                    @itemData.percentChange% from last year
-                </div>
+            <div class="" style="color: gray;">
+                -25% from last year
             </div>
         </div>
     </div>
- }
- else
- {
-    <div class="mat-layout-grid item-box" style="background-color: @defaultColor">
-        <div class="mat-layout-grid-inner">
-            <div class="mat-layout-grid-cell item">
-                <img src=@itemData.imageURL />
+
+    @*<div class="mat-layout-grid item-box" style="background-color: @activeColor">
+            <div class="mat-layout-grid-inner">
+                <div class="mat-layout-grid-cell item">
+                    <img src=@itemData.imageURL />
+                </div>
+
+                <div class="mat-layout-grid-cell item">
+                    <div class="item-content">
+                        @itemData.ItemName <br />
+                        $@itemData.BudgetValue Proposed
+                    </div>
+
+                    <div class="item-percent">
+                        @itemData.percentChange% from last year
+                    </div>
+                </div>
             </div>
-
-            <div class="mat-layout-grid-cell item">
-                <div class="item-content">
-                    @itemData.ItemName <br />
-                    $@itemData.BudgetValue Proposed
-                </div>
-
-                <div class="item-percent">
-                    @itemData.percentChange% from last year
-                </div>
+        </div>*@
+}
+else
+{
+    <div style="padding: 10px;">
+        <img src="http://picsum.photos/150/150">
+        <div style="display: inline-block;">
+            <div class="" style="">
+                Employment Training
+                <br>
+                $762000  Proposed
+            </div>
+            <div class="" style="color: gray;">
+                -25% from last year
             </div>
         </div>
     </div>
+
+    @*<div class="mat-layout-grid item-box" style="background-color: @defaultColor">
+            <div class="mat-layout-grid-inner">
+                <div class="mat-layout-grid-cell item">
+                    <img src=@itemData.imageURL />
+                </div>
+
+                <div class="mat-layout-grid-cell item">
+                    <div class="item-content">
+                        @itemData.ItemName <br />
+                        $@itemData.BudgetValue Proposed
+                    </div>
+
+                    <div class="item-percent">
+                        @itemData.percentChange% from last year
+                    </div>
+                </div>
+            </div>
+        </div>*@
 }
 
 
 <style>
+
+
     .item {
         position: relative;
         width: 200px;

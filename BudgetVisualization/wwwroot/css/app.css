@@ -207,7 +207,7 @@ app {
         border: 3px solid #F6D55C;
         border-radius: 25px;
         padding: 10px;
-        margin-top: 1vw;
+        margin-top: 2vw;
         margin-bottom: 1vw;
         display: none;
     }
@@ -219,6 +219,15 @@ app {
 
     .icon-grid {
         margin: auto;
+    }
+
+    .proposedItem {
+        height: auto;
+        padding: 0;
+        background-color: #e6e6e6;
+        font-size: 13px;
+        border-radius: 8px;
+        margin-bottom: 3px;
     }
 
 }
@@ -310,7 +319,7 @@ app {
         border: 3px solid #F6D55C;
         border-radius: 25px;
         padding: 10px;
-        margin-top: 1vw;
+        margin-top: 2vw;
         margin-bottom: 1vw;
         /*display: none;*/
     }

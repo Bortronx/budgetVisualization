@@ -4,11 +4,6 @@
 @using BudgetVisualization.Components
 @using BudgetVisualization.Data
 
-
-@SectionName
-
-<div style="height: 1vh"></div>
-
 <Message></Message>
 
 <div>
@@ -17,38 +12,21 @@
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListDivider></MatListDivider>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListDivider></MatListDivider>
         </MatList>
     </div>
     <div class="carousell">
@@ -56,52 +34,30 @@
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
             <MatListItem Class="proposedItem">
                 <ProposedBudgetItem itemData=@myItem />
             </MatListItem>
-            <MatListDivider></MatListDivider>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListDivider></MatListDivider>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListDivider></MatListDivider>
         </MatList>
     </div>
-    <div class="carousell-result">
+    <div class="carousell-result mat-elevation-z1">
         <ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="10" ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>
     </div>
 
 </div>
 
-<div class="mat-layout-grid" style="padding: 2px;">
-    <div class="mat-layout-grid-inner">
-    </div>
-</div>
-
-
+@SectionName
 
 @if (AppState.IsMobile)
 {
