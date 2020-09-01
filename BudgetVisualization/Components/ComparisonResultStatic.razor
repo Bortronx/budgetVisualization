@@ -1,0 +1,37 @@
+﻿<style>
+
+    .comparison-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .comparison-text {
+        font-size: 1.25em;
+        text-align: center;
+    }
+</style>
+
+
+<div class="mat-layout-grid">
+    <div class="mat-layout-grid-inner">
+        <div class="mat-layout-grid-cell">
+            <img class="comparison-image" src="@ImagePath" />
+            <p class="comparison-text">
+                @ComparisonText
+            </p>
+        </div>
+
+
+    </div>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public string ComparisonText { get; set; }
+
+    [Parameter]
+    public string ImagePath { get; set; }
+
+}
