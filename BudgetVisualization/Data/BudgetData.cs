@@ -17,11 +17,11 @@ namespace BudgetVisualization.Data
                 new List<ProposedItem>
                 {
                     new ProposedItem(ItemName: "Employment and Training", ItemValue: 1000, BudgetValue: 216000,
-                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    imageURL: "http://miamidsa.org/wp-content/uploads/2020/08/Empolyment-and-Training.jpg",  percentChange: 0.1f),
                     new ProposedItem(ItemName: "Neighborhood Centers/ Community Resource Centers", ItemValue: 1000, BudgetValue: 3471000,
                     imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                     new ProposedItem(ItemName: "Psychological Services", ItemValue: 1000, BudgetValue: 284000,
-                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+                    imageURL: "http://miamidsa.org/wp-content/uploads/2020/09/Psycological-Services.jpg",  percentChange: 0.1f),
                     new ProposedItem(ItemName: "Rehabilitative Service", ItemValue: 1000, BudgetValue: 3408000,
                     imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                     new ProposedItem(ItemName: "Violence Prevention & Intervention", ItemValue: 1000, BudgetValue: 4472000,
