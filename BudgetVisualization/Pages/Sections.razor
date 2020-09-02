@@ -15,7 +15,10 @@
                         int ii = i;
 
                         var item = BudgetData.GetSection(SectionName).ProposedItems[ii];
-                        <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedLeft(ii, item))">
+
+                        string ItemStyle = (ii == rowRightActiveIndex) ? selectedStyle : unselectedStyle;
+
+                        <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedLeft(ii, item))" Style="@ItemStyle">
                             <ProposedBudgetItem itemData=item />
                         </MatListItem>
                     }
@@ -41,7 +44,9 @@
             </div>
         </div>
         <div class="carousell-result mat-elevation-z1">
-            <ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="@CalculatedComparisonValue" ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>
+            <ComparisonResultStatic ComparisonText="@CurrentComparisonText" ImagePath="@CurrentComparisonImage"></ComparisonResultStatic>
+            @*<ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="@CalculatedComparisonValue"
+                ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>*@
         </div>
 
     </div>

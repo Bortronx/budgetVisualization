@@ -11,14 +11,21 @@ namespace BudgetVisualization.Pages
         [Parameter]
         public string SectionName { get; set; }
 
+
+        //<-- Comparison
         public float CalculatedComparisonValue { get; set; }
 
         public string ComparisonUnit { get; set; }
 
-        private string selectedStyle = "background-color: darkgray;";
+        public string CurrentComparisonText { get; set; }
 
-        private string unselectedStyle = "";
+        public string CurrentComparisonImage { get; set; }
 
+
+
+        
+
+        //<-- Proposed Items
         public int rowRightActiveIndex;
 
         public ProposedItem rowRightItem;
@@ -26,6 +33,13 @@ namespace BudgetVisualization.Pages
         public int rowLeftActiveIndex;
 
         public ProposedItem rowLeftItem;
+
+        //Style
+        private string selectedStyle = "background-color: darkgray;";
+
+        private string unselectedStyle = "";
+        
+
 
         protected override async Task OnInitializedAsync()
         {
@@ -65,7 +79,12 @@ namespace BudgetVisualization.Pages
             {
                 System.Console.WriteLine("RESULT:" + rowRightItem.ItemName + rowLeftItem.ItemName);
 
-                GetComparisonResult(rowLeftItem.ItemValue, rowRightItem.BudgetValue, rowLeftItem.SelectionType);
+                //GetComparisonResult(rowLeftItem.ItemValue, rowRightItem.BudgetValue, rowLeftItem.SelectionType);
+
+                CurrentComparisonText = BudgetData.PreMadeComparsionResults[(rowLeftActiveIndex * BudgetData.GetCurrentComparedToSection()
+                    .ProposedItems.Count)  + rowRightActiveIndex];
+
+                StateHasChanged();
             }
             
         }

@@ -1,29 +1,15 @@
-﻿<style>
-
-    .comparison-image {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .comparison-text {
-        font-size: 1.25em;
-        text-align: center;
-    }
-</style>
-
-
-<div class="mat-layout-grid">
-    <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell">
-            <img class="comparison-image" src="@ImagePath" />
-            <p class="comparison-text">
-                @ComparisonText
-            </p>
-        </div>
-
-
-    </div>
+﻿
+<img class="comparison-image" src="@ImagePath" />
+<div class="comparison-text">
+    <p style="overflow: scroll;">
+        @ComparisonText
+    </p>
+    @*<p class="comparison-text-part comparison-text-part-original">
+       
+    </p>
+    <p class="comparison-text-part"> elderly to substance abuse treatment.</p>*@
 </div>
+
 
 
 @code {
@@ -33,5 +19,7 @@
 
     [Parameter]
     public string ImagePath { get; set; }
+
+    
 
 }
