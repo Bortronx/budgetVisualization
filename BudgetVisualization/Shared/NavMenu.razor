@@ -15,13 +15,17 @@
         {
             int ii = i;
 
-            <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri(
+            if (i != BudgetData.sectionBeingComparedIndex)
+            {
+                <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri(
                                                                   BudgetData.BudgetSections[ii].SectionName).AbsoluteUri">
-                <div class="sidebarApp-item-content">
-                    <MatIcon Icon="@BudgetData.BudgetSections[ii].Icon"></MatIcon>
-                    <div>@BudgetData.BudgetSections[ii].SectionName</div>
-                </div>
-            </MatNavItem>
+                    <div class="sidebarApp-item-content">
+                        <MatIcon Icon="@BudgetData.BudgetSections[ii].Icon"></MatIcon>
+                        <div>@BudgetData.BudgetSections[ii].SectionName</div>
+                    </div>
+                </MatNavItem>
+            }
+
         }
 
         <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri("Resources").AbsoluteUri">

@@ -9,6 +9,11 @@ namespace BudgetVisualization.Data
     {
         public List<BudgetSection> BudgetSections;
 
+        // The index within the Budget Section list of the item being compared to
+        public int sectionBeingComparedIndex = 1;
+
+        public string sectionBeingComparedName;
+
         public BudgetData()
         {
             BudgetSections = new List<BudgetSection>();
@@ -28,13 +33,64 @@ namespace BudgetVisualization.Data
                     imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
                 });
 
-            AddBudgetSection("Transportation",
+            AddBudgetSection("Policing",
                  new List<ProposedItem>
                  {
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
-                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
-                    new ProposedItem(ItemName: "Item 1", ItemValue: 1000, BudgetValue: 1000,
-                    imageURL: "https://picsum.photos/200/200",  percentChange: 0.1f),
+
+                    new ProposedItem(
+                        "45 New Police Officer Positions",
+                        2409966,
+                        53555,
+                        "http://picsum.photos/150/150",
+                        0),
+
+                    new ProposedItem(
+                        "Helicopter fleet",
+                        24000000,
+                        6000000,
+                        "http://picsum.photos/150/150",
+                        0),
+                    new ProposedItem(
+                        "Cloud-basedfingerprintIDsystem",
+                        1500000,
+                        1500000,
+                        "http://picsum.photos/150/150",
+                        0),
+
+                    new ProposedItem(
+                        "LawEnforcementRecordsManagementSystem",
+                        10500000,
+                        10500000,
+                        "http://picsum.photos/150/150",
+                        0),
+
+                    new ProposedItem(
+                        "ArmoredMedicalVehicle",
+                        10500000,
+                        10500000,
+                        "http://picsum.photos/150/150",
+                        0),
+
+                    new ProposedItem(
+                        "Correctionscivilianpositions",
+                        2870000,
+                        2870000,
+                        "http://picsum.photos/150/150",
+                        0),
+
+                    new ProposedItem(
+                        "AdministrativeOfficeoftheCourts",
+                        18963000,
+                        18963000,
+                        "http://picsum.photos/150/150",
+                        0),
+
+                    new ProposedItem(
+                        "StateAttorney",
+                        9814000,
+                        9814000,
+                        "http://picsum.photos/150/150",
+                        0),
                  });
 
 
@@ -44,6 +100,16 @@ namespace BudgetVisualization.Data
         public void AddBudgetSection(string sectionName, List<ProposedItem> proposedItems)
         {
             BudgetSections.Add(new BudgetSection(sectionName, proposedItems));
+        }
+
+        public BudgetSection GetCurrentComparedToSection()
+        {
+            return BudgetSections[sectionBeingComparedIndex];
+        }
+
+        public BudgetSection GetSection(string sectionName)
+        {
+            return BudgetSections.Find(x => x.SectionName.Contains(sectionName));
         }
 
     }

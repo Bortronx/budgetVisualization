@@ -10,57 +10,24 @@
         <div class="carousell-container">
             <div class="carousell">
                 <MatList Style="padding:0px;">
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@myItem />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@myItem />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@myItem />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@myItem />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@myItem />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@myItem />
-                    </MatListItem>
+                    @foreach (var item in BudgetData.GetSection(SectionName).ProposedItems)
+                    {
+                        <MatListItem Class="proposedItem">
+                            <ProposedBudgetItem itemData=@item />
+                        </MatListItem>
+                    }
                 </MatList>
             </div>
 
             @*Alignment messes up with sufficiently long text.*@
             <div class="carousell carousell-last">
                 <MatList Style="padding: 0px;">
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem1 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem2 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem3 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem4 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem5 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem6 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem7 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem8 />
-                    </MatListItem>
-                    <MatListItem Class="proposedItem">
-                        <ProposedBudgetItem itemData=@policeItem9 />
-                    </MatListItem>
+                    @foreach (var item in BudgetData.GetCurrentComparedToSection().ProposedItems)
+                    {
+                        <MatListItem Class="proposedItem">
+                            <ProposedBudgetItem itemData=@item />
+                        </MatListItem>
+                    }
                 </MatList>
             </div>
         </div>
@@ -70,100 +37,9 @@
 
     </div>
 
-
-
-@*@SectionName
-
-    @if (AppState.IsMobile)
-    {
-
-        <p>
-            Mobile Website
-        </p>
-    }
-    else
-    {
-        <p>
-            Desktop Website
-        </p>
-    }*@
-
-
-<style>
-</style>
-
 @code {
 
     [Parameter]
     public string SectionName { get; set; }
-
-    ProposedItem myItem = new ProposedItem("Employment Training",
-                                        762000,
-                                        762000,
-                                        "http://picsum.photos/150/150",
-                                        -25);
-
-    //Note: Might want to move this to a separate file idk
-    ProposedItem policeItem1 = new ProposedItem(
-        "45 New Police Officer Positions",
-        2409966,
-        53555,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem2 = new ProposedItem(
-        "Helicopter fleet",
-        24000000,
-        6000000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem3 = new ProposedItem(
-        "Video cameras & license plate readers",
-        6900000,
-        6900000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem4 = new ProposedItem(
-        "Cloud-based fingerprint ID system",
-        1500000,
-        1500000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem5 = new ProposedItem(
-        "Law Enforcement Records Management System",
-        10500000,
-        10500000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem6 = new ProposedItem(
-        "Armored Medical Vehicle",
-        10500000,
-        10500000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem7 = new ProposedItem(
-        "Corrections civilian positions",
-        2870000,
-        2870000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem8 = new ProposedItem(
-        "Administrative Office of the Courts",
-        18963000,
-        18963000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem9 = new ProposedItem(
-        "State Attorney",
-        9814000,
-        9814000,
-        "http://picsum.photos/150/150",
-        0);
+    
 }
