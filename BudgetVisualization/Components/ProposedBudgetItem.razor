@@ -6,12 +6,12 @@
         <img src="http://picsum.photos/150/150">
         <div style="float: right; margin-left: 10px;">
             <div class="" style="">
-                Employment Training
+                @itemData.ItemName
                 <br>
-                $762000  Proposed
+                $@itemData.BudgetValue Proposed
             </div>
             <div class="" style="color: gray;">
-                -25% from last year
+                @itemData.percentChange% from last year
             </div>
         </div>
     </div>
@@ -41,13 +41,20 @@ else
         <img src="http://picsum.photos/150/150">
         <div style="display: inline-block;">
             <div class="" style="">
-                Employment Training
+                @itemData.ItemName
                 <br>
-                $762000  Proposed
+                $@itemData.BudgetValue Proposed
             </div>
-            <div class="" style="color: gray;">
-                -25% from last year
-            </div>
+            @if (itemData.percentChange != 0)
+            {
+                <div class="" style="color: gray;">
+                    @itemData.percentChange% from last year
+                </div>
+            }else{
+                <div class="" style="color: gray;">
+                    
+                </div>
+            }
         </div>
     </div>
 
