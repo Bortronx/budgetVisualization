@@ -1,165 +1,177 @@
 ﻿@page "/"
-@page "/{SectionName}"
 
-@using BudgetVisualization.Components
-@using BudgetVisualization.Data
 
-<Message></Message>
 
-<div class="carousell-page">
-    <div class="carousell-container">
-        <div class="carousell">
-            <MatList Style="padding:0px;">
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@myItem />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@myItem />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@myItem />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@myItem />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@myItem />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@myItem />
-                </MatListItem>
-            </MatList>
+<div class="mat-layout-grid">
+    <div class="mat-layout-grid-inner">
+        <div class="mat-layout-grid-cell main-text mat-layout-grid-cell-span-8">
+            <img class="main-image" src="http://miamidsa.org/wp-content/uploads/2020/09/Fund-the-People-Miami.jpg" />
+            <p>
+                Every July, Miami-Dade County releases its plan for how to spend our money in our communities for the next year*.
+                The July release is meant to give County residents time to review the budget and make comments before it is adopted
+                in September. The <a href="https://www.miamidade.gov/global/management/budget/2020-21-proposed-budget.page" target=”_blank”>Proposed Budget</a>,
+                however, is a mammoth document with hundreds of pages of text, tables, and graphs
+                spread across three volumes and two dozen appendices.
+            </p>
+            <p>
+                Fundthepeoplemiami.com is our attempt to break down this mammoth document. We undertook this work with
+                a group of community organizations in the wake of George Floyd’s death, and it soon became apparent
+                that the disproportionate amount of spending on local law enforcement being decried across the country
+                was also evident in Miami. In this first iteration of the website, we focus on the discrepancies
+                between our county’s funding for policing versus non-violent social services. We hope that as more
+                people join our efforts and new findings are made we can create the most powerful and accessible budget
+                visualization tool our communities deserve.
+
+            </p>
         </div>
+        <div class="mat-layout-grid-cell glance mat-layout-grid-cell-span-4">
+            <h4 class="glance-heading">
+                MIAMI-DADE BUDGET<br />
+                AT A GLANCE
+            </h4>
+            <p class="glance-text-top">Total Funding for Operating Budget:</p>
+            <h4 class="glance-text-top teal">$5,713,706,000</h4>
 
-        @*Alignment messes up with sufficiently long text.*@
-        <div class="carousell carousell-last">
-            <MatList Style="padding: 0px;">
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem1 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem2 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem3 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem4 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem5 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem6 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem7 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem8 />
-                </MatListItem>
-                <MatListItem Class="proposedItem">
-                    <ProposedBudgetItem itemData=@policeItem9 />
-                </MatListItem>
-            </MatList>
+            <div class="red-line">
+                <p class="glance-text">Police Department</p>
+                <h5 class="red">$764,598,000</h5>
+            </div>
+
+            <div class="green-line">
+                <p class="glance-text">Transportation & Public Works</p>
+                <h5 class="green">$616,801,000</h5>
+            </div>
+
+            <div class="blue-line">
+                <p class="glance-text">Corrections</p>
+                <h5 class="blue">$383,686,000</h5>
+            </div>
+
+            <div class="orange-line">
+                <p class="glance-text">Community Services</p>
+                <h5 class="orange">$149,058,000</h5>
+            </div>
+
+            <div class="purple-line">
+                <p class="glance-text">Public Housing</p>
+                <h5 class="glance-text purple">$97,602,000*</h5>
+                <MatCaption>*$300,000 from the General Fund</MatCaption>
+            </div>
+
+            <div class="deep-red-line">
+                <p class="glance-text">Judicial Administration</p>
+                <h5 class="deep-red">$41,234,000</h5>
+            </div>
+
+            <div class="yellow-line">
+                <p class="glance-text">Juvenile Services</p>
+                <h5 class="yellow">$16,700,000</h5>
+            </div>
+
         </div>
     </div>
-    <div class="carousell-result mat-elevation-z1">
-        <ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="10" ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>
-    </div>
-
 </div>
-
-@*@SectionName
-
-@if (AppState.IsMobile)
-{
-
-    <p>
-        Mobile Website
-    </p>
-}
-else
-{
-    <p>
-        Desktop Website
-    </p>
-}*@
 
 
 <style>
+    .main-image {
+        width: 363px;
+        margin: auto;
+    }
 
-    
+    .glance {
+        background: #EAEAEA;
+        padding-top: 2.5em;
+        padding-left: 1.5em;
+    }
+
+    .glance-heading,
+    .glance-text-top {
+        text-align: center;
+    }
+
+    .glance-text-top,
+    .glance-text {
+        margin-bottom: 1px;
+    }
+
+
+    .teal {
+        color: #14736A;
+    }
+
+    .red {
+        color: #EB2128;
+    }
+
+    .red-line {
+        border-left: 2.4px solid #EB2128;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+
+    .green {
+        color: #26A26B;
+    }
+
+    .green-line {
+        border-left: 2.4px solid #26A26B;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+
+    .blue {
+        color: #0096CA;
+    }
+
+    .blue-line {
+        border-left: 2.4px solid #0096CA;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+
+    .orange {
+        color: #CF5300;
+    }
+
+    .orange-line {
+        border-left: 2.4px solid #CF5300;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+
+    .purple {
+        color: #554B86;
+    }
+
+    .purple-line {
+        border-left: 2.4px solid #554B86;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+
+    .deep-red {
+        color: #C51016;
+    }
+
+    .deep-red-line {
+        border-left: 2.4px solid #C51016;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+
+    .yellow {
+        color: #F6D55C;
+    }
+
+    .yellow-line {
+        border-left: 2.4px solid #F6D55C;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
 </style>
 
 @code {
-    ProposedItem myItem = new ProposedItem("Employment Training",
-                                            762000,
-                                            762000,
-                                            "http://picsum.photos/150/150",
-                                            -25);
 
-    //Note: Might want to move this to a separate file idk
-    ProposedItem policeItem1 = new ProposedItem(
-        "45 New Police Officer Positions",
-        2409966,
-        53555,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem2 = new ProposedItem(
-        "Helicopter fleet",
-        24000000,
-        6000000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem3 = new ProposedItem(
-        "Video cameras & license plate readers",
-        6900000,
-        6900000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem4 = new ProposedItem(
-        "Cloud-based fingerprint ID system",
-        1500000,
-        1500000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem5 = new ProposedItem(
-        "Law Enforcement Records Management System",
-        10500000,
-        10500000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem6 = new ProposedItem(
-        "Armored Medical Vehicle",
-        10500000,
-        10500000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem7 = new ProposedItem(
-        "Corrections civilian positions",
-        2870000,
-        2870000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem8 = new ProposedItem(
-        "Administrative Office of the Courts",
-        18963000,
-        18963000,
-        "http://picsum.photos/150/150",
-        0);
-
-    ProposedItem policeItem9 = new ProposedItem(
-        "State Attorney",
-        9814000,
-        9814000,
-        "http://picsum.photos/150/150",
-        0);
 }
+

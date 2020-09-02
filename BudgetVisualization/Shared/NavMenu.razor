@@ -4,18 +4,32 @@
 
     <MatNavMenu Class="sidebarApp  mat-elevation-z1">
 
-        @for (int i = 0; i < (BudgetData.BudgetSections.Count); i++)
-            {
-                int ii = i;
+        <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri("").AbsoluteUri">
+            <div class="sidebarApp-item-content">
+                <MatIcon Icon="home"></MatIcon>
+                <div>Overview</div>
+            </div>
+        </MatNavItem>
 
-                <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri(
+        @for (int i = 0; i < (BudgetData.BudgetSections.Count); i++)
+        {
+            int ii = i;
+
+            <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri(
                                                                   BudgetData.BudgetSections[ii].SectionName).AbsoluteUri">
-                    <div class="sidebarApp-item-content">
-                        <MatIcon Icon="@BudgetData.BudgetSections[ii].Icon"></MatIcon>
-                        <div>@BudgetData.BudgetSections[ii].SectionName</div>
-                    </div>
-                </MatNavItem>
+                <div class="sidebarApp-item-content">
+                    <MatIcon Icon="@BudgetData.BudgetSections[ii].Icon"></MatIcon>
+                    <div>@BudgetData.BudgetSections[ii].SectionName</div>
+                </div>
+            </MatNavItem>
         }
+
+        <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri("Resources").AbsoluteUri">
+            <div class="sidebarApp-item-content">
+                <MatIcon Icon="library_books"></MatIcon>
+                <div>Resources</div>
+            </div>
+        </MatNavItem>
 
     </MatNavMenu>
 
