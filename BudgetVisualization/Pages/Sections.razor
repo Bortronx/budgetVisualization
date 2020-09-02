@@ -10,10 +10,13 @@
         <div class="carousell-container">
             <div class="carousell">
                 <MatList Style="padding:0px;">
-                    @foreach (var item in BudgetData.GetSection(SectionName).ProposedItems)
+                    @for (int i = 0; i < BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
                     {
-                        <MatListItem Class="proposedItem">
-                            <ProposedBudgetItem itemData=@item />
+                        int ii = i;
+
+                        var item = BudgetData.GetSection(SectionName).ProposedItems[ii];
+                        <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedLeft(ii, item))">
+                            <ProposedBudgetItem itemData=item />
                         </MatListItem>
                     }
                 </MatList>
@@ -22,24 +25,23 @@
             @*Alignment messes up with sufficiently long text.*@
             <div class="carousell carousell-last">
                 <MatList Style="padding: 0px;">
-                    @foreach (var item in BudgetData.GetCurrentComparedToSection().ProposedItems)
+                    @for(int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
                     {
-                        <MatListItem Class="proposedItem">
-                            <ProposedBudgetItem itemData=@item />
+                        int ii = i;
+
+                        var item = BudgetData.GetCurrentComparedToSection().ProposedItems[ii];
+
+                        string ItemStyle = (ii == rowRightActiveIndex) ? selectedStyle : unselectedStyle;
+
+                        <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedRight(ii, item))" Style="@ItemStyle">
+                        <ProposedBudgetItem itemData=item/>
                         </MatListItem>
                     }
                 </MatList>
             </div>
         </div>
         <div class="carousell-result mat-elevation-z1">
-            <ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="10" ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>
+            <ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="@CalculatedComparisonValue" ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>
         </div>
 
     </div>
-
-@code {
-
-    [Parameter]
-    public string SectionName { get; set; }
-    
-}
