@@ -13,11 +13,13 @@ namespace BudgetVisualization.Data
 
         public List<ProposedItem> ProposedItems;
 
-        public BudgetSection(string sectionName, List<ProposedItem> proposedItems)
+        public BudgetSection(string sectionName, List<ProposedItem> proposedItems, string icon = "supervised_user_circle")
         {
             SectionName = sectionName;
 
             ProposedItems = proposedItems;
+
+            Icon = icon;
         }
 
     }
