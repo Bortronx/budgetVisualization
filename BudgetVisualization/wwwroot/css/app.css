@@ -173,39 +173,44 @@ app {
 
     .comparison-image {
         width: 35vw;
+        height: 200px;
+        float: left;
         margin-bottom: 20px;
     }
 
     .comparison-text {
         font-size: 1.25em;
         padding-left: 5px;
-        position: relative;
+        display: flex;
     }
+
 
     .carousell {
         max-width: 47.8vw;
-        max-height: 45vh;
+        max-height: 60vh;
         overflow-y: scroll;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
         float: left;
         margin: 1vw;
     }
 
 
-
     .carousell-result {
-        float: left;
-        display: flex;
+        top: 74vh;
+        position: fixed;
         padding: 0.5rem;
-        height: 26.6vh;
+        height: 100vh;
         width: 100vw;
         font-size: 12px;
         border-radius: 7px;
+        background: whitesmoke;
+        outline-style: auto;
+        outlin .carousell::-webkit-scrollbar { /* WebKit */
+        width: 0px;
     }
 
-    .carousell::-webkit-scrollbar { /* WebKit */
-        width: 0px;
+    .carousell-container {
+        display: flex;
+        height: 50%;
     }
 
     .message {
@@ -269,6 +274,8 @@ app {
             opacity: 1;
         }
     }
+
+
 
 
 }

@@ -16,7 +16,7 @@
 
                         var item = BudgetData.GetSection(SectionName).ProposedItems[ii];
 
-                        string ItemStyle = (ii == rowRightActiveIndex) ? selectedStyle : unselectedStyle;
+                        string ItemStyle = (ii == rowLeftActiveIndex) ? selectedStyle : unselectedStyle;
 
                         <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedLeft(ii, item))" Style="@ItemStyle">
                             <ProposedBudgetItem itemData=item />
