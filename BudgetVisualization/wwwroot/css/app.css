@@ -204,13 +204,17 @@ app {
         border-radius: 7px;
         background: whitesmoke;
         outline-style: auto;
-        outlin .carousell::-webkit-scrollbar { /* WebKit */
-        width: 0px;
+        outline-color: lightgray;
     }
 
     .carousell-container {
         display: flex;
         height: 50%;
+    }
+
+    .carousell::-webkit-scrollbar { 
+        /* WebKit */
+        width: 0px;
     }
 
     .message {
