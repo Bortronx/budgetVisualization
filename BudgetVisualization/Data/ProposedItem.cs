@@ -21,7 +21,13 @@ namespace BudgetVisualization.Data
         public string SelectionType { get; set; }
 
         public string imageURL { get; set; }
-        
+
+        public string ItemStyle { get; set; }
+
+        private string activeStyle;
+
+        private string baseStyle;
+
         public ProposedItem(
             string ItemName, 
             float ItemValue,
@@ -35,7 +41,18 @@ namespace BudgetVisualization.Data
             this.imageURL = imageURL;
             this.percentChange = percentChange;
 
+            ItemStyle = baseStyle;
         }
 
+
+        public void SetActive()
+        {
+            ItemStyle = activeStyle;
+        }
+
+        public void SetInactive()
+        {
+
+        }
     }
 }

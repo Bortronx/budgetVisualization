@@ -8,10 +8,24 @@ namespace BudgetVisualization.Pages
         [Inject]
         protected BudgetData BudgetData { get; set; }
 
+        [Parameter]
+        public string SectionName { get; set; }
+
         public float CalculatedComparisonValue { get; set; }
 
         public string ComparisonUnit { get; set; }
 
+        private string selectedStyle = "background-color: darkgray;";
+
+        private string unselectedStyle = "";
+
+        public int rowRightActiveIndex;
+
+        public ProposedItem rowRightItem;
+
+        public int rowLeftActiveIndex;
+
+        public ProposedItem rowLeftItem;
 
         protected override async Task OnInitializedAsync()
         {
@@ -23,6 +37,36 @@ namespace BudgetVisualization.Pages
 
         protected override void OnInitialized()
         {
+            
+        }
+
+        public void SetItemSelectedRight(int index, ProposedItem rightItem)
+        {
+            rowRightActiveIndex = index;
+
+            rowRightItem = rightItem;
+
+            Compare();
+        }
+
+        public void SetItemSelectedLeft(int index, ProposedItem leftItem)
+        {
+            rowLeftActiveIndex = index;
+
+            rowLeftItem = leftItem;
+
+            Compare();
+        }
+
+        public void Compare()
+        {
+            
+            if (rowLeftItem != null && rowRightItem != null)
+            {
+                System.Console.WriteLine("RESULT:" + rowRightItem.ItemName + rowLeftItem.ItemName);
+
+                GetComparisonResult(rowLeftItem.ItemValue, rowRightItem.BudgetValue, rowLeftItem.SelectionType);
+            }
             
         }
 
