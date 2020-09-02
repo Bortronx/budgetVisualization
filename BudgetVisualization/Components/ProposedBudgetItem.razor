@@ -1,46 +1,27 @@
 ﻿@using BudgetVisualization.Data
 
-@if (itemData.Active)
-{
-    <div style="padding: 10px;">
-        <img src="http://picsum.photos/150/150">
-        <div style="float: right; margin-left: 10px;">
-            <div class="" style="">
-                @itemData.ItemName
-                <br>
-                $@itemData.BudgetValue Proposed
-            </div>
+<div style="padding: 10px;">
+    <img src="@itemData.imageURL" style="width: 40%;">
+    <div style="display: inline-block;">
+        <div class="" style="">
+            @itemData.ItemName
+            <br>
+            $@itemData.BudgetValue Proposed
+        </div>
+        @if (itemData.percentChange != 0)
+        {
             <div class="" style="color: gray;">
                 @itemData.percentChange% from last year
             </div>
-        </div>
-    </div>
+        }
+        else
+        {
+            <div class="" style="color: gray;">
 
-
-}
-else
-{
-    <div style="padding: 10px;">
-        <img src="http://picsum.photos/150/150">
-        <div style="display: inline-block;">
-            <div class="" style="">
-                @itemData.ItemName
-                <br>
-                $@itemData.BudgetValue Proposed
             </div>
-            @if (itemData.percentChange != 0)
-            {
-                <div class="" style="color: gray;">
-                    @itemData.percentChange% from last year
-                </div>
-            }else{
-                <div class="" style="color: gray;">
-                    
-                </div>
-            }
-        </div>
+        }
     </div>
-}
+</div>
 
 
 <style>

@@ -17,6 +17,8 @@ namespace BudgetVisualization.Data
         //TODO REMOVE WHEN AUTOMATED
         public List<string> PreMadeComparsionResults;
 
+        public List<string> PreMadeComparsionResultsLinks;
+
         public BudgetData()
         {
             BudgetSections = new List<BudgetSection>();
@@ -44,55 +46,61 @@ namespace BudgetVisualization.Data
                         "45 New Police Officer Positions",
                         2409966,
                         53555,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/08/45officers.svg",
                         0),
 
                     new ProposedItem(
                         "Helicopter fleet",
                         24000000,
                         6000000,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/09/New-Police-Helicopters.jpg",
                         0),
                     new ProposedItem(
-                        "Cloud-basedfingerprintIDsystem",
+                        "Video cameras & license plate readers",
+                        6900000,
+                        6900000,
+                        "http://miamidsa.org/wp-content/uploads/2020/09/Video-Cameras-and-License-Plate-Readers.jpg",
+                        0),
+                    new ProposedItem(
+                        "Cloud-based fingerprint ID system",
                         1500000,
                         1500000,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/09/FingerprintIDSystem.svg",
                         0),
 
                     new ProposedItem(
-                        "LawEnforcementRecordsManagementSystem",
+                        "Law Enforcement Records Management System",
                         10500000,
                         10500000,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/09/LawEnforcementRecordsSystem.svg",
                         0),
 
                     new ProposedItem(
-                        "ArmoredMedicalVehicle",
+                        "Armored Medical Vehicle",
                         10500000,
                         10500000,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/08/armoredvehicle.svg",
                         0),
 
                     new ProposedItem(
-                        "Correctionscivilianpositions",
+                        "Corrections civilian positions",
                         2870000,
                         2870000,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/08/Civilian-Correction-Officer.svg",
                         0),
 
                     new ProposedItem(
-                        "AdministrativeOfficeoftheCourts",
+                        "Administrative Office of the Courts",
                         18963000,
                         18963000,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/08/Administrative-Office-of-the-Courts.svg",
                         0),
 
                     new ProposedItem(
-                        "StateAttorney",
+                        "State Attorney",
                         9814000,
                         9814000,
-                        "http://picsum.photos/150/150",
+                        "http://miamidsa.org/wp-content/uploads/2020/09/Prosecutor.svg",
                         0),
                  });
 
@@ -118,7 +126,12 @@ namespace BudgetVisualization.Data
 
         public void CreatePremadeComparisons()
         {
-            PreMadeComparsionResults = new List<string>()
+            PreMadeComparsionResultsLinks = new List<string>()
+            {
+
+            };
+
+                PreMadeComparsionResults = new List<string>()
             {
                 "One year of salaries for 45 new police officer positions is equivalent to 11 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.",
                 "The cost of four new police helicopters is equivalent to 111 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.",
