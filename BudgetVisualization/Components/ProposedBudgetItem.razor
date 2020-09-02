@@ -6,12 +6,12 @@
         <div class="" style="">
             @itemData.ItemName
             <br>
-            $@itemData.BudgetValue Proposed
+            $@itemData.BudgetValue.ToString("N0") Proposed
         </div>
         @if (itemData.percentChange != 0)
         {
             <div class="" style="color: gray;">
-                @itemData.percentChange% from last year
+                @*@itemData.percentChange% from last year*@
             </div>
         }
         else

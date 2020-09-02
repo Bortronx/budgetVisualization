@@ -10,7 +10,7 @@ namespace BudgetVisualization.Data
 
         public string ItemName { get; set; }
 
-        public float ItemValue { get; set; }
+        public double ItemValue { get; set; }
 
         public float BudgetValue { get; set; }
 
@@ -30,7 +30,7 @@ namespace BudgetVisualization.Data
 
         public ProposedItem(
             string ItemName, 
-            float ItemValue,
+            double ItemValue,
             int BudgetValue,
             string imageURL,
             float percentChange = 0)
