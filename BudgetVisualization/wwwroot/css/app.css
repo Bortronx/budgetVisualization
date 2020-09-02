@@ -172,13 +172,14 @@ app {
     }
 
     .comparison-image {
-        width: 100%;
+        width: 35vw;
         margin-bottom: 20px;
     }
 
     .comparison-text {
         font-size: 1.25em;
-        text-align: center;
+        padding-left: 5px;
+        position: relative;
     }
 
     .carousell {
@@ -197,6 +198,10 @@ app {
         float: left;
         display: flex;
         padding: 0.5rem;
+        height: 26.6vh;
+        width: 100vw;
+        font-size: 12px;
+        border-radius: 7px;
     }
 
     .carousell::-webkit-scrollbar { /* WebKit */
@@ -229,6 +234,42 @@ app {
         border-radius: 8px;
         margin-bottom: 3px;
     }
+
+    .comparison-text-part {
+        position:absolute;
+    }
+
+    .comparison-text-part-original {
+        position: absolute;
+    }
+
+    .comparison-text-part:nth-child(1) {
+        animation-name: fade;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-direction: alternate-reverse;
+    }
+
+
+    .comparison-text-part:nth-child(2) {
+        animation-name: fade;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-direction: alternate;
+    }
+
+    @keyframes fade {
+        0%,50% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
 
 }
 
@@ -284,7 +325,9 @@ app {
         display: flex;
         flex-flow: column;
         height: 70vh;
+        width: 24vw;
         padding: 12px;
+        margin-left: 1vw;
     }
 
     .carousell::-webkit-scrollbar { /* WebKit */
@@ -294,17 +337,33 @@ app {
     .proposedItem {
         height: auto;
         padding: 0;
-        background-color: #accce7;
+        background-color: #e6e6e6;
+        font-size: 13px;
+        border-radius: 8px;
+        margin-bottom: 3px;
+    }
+
+    .carousell-last {
+        margin-left: 0.5vw;
     }
 
     .carousell {
-        max-width: 30vw;
+        width: 25vw;
         max-height: 70vh;
         overflow-y: scroll;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        float: left;
-        margin-right: 1vw;
+        padding-top: 4px;
+    }
+
+    .carousell-container {
+        display: inline-flex;
+        border-bottom: outset;
+        border-bottom-color: rgb(0 0 0 / 19%);
+        border-top: outset;
+        border-top-color: rgb(0 0 0 / 19%);
+    }
+
+    .carousell-page {
+        display: inline-flex;
     }
 
     .comparison-image {
@@ -321,6 +380,9 @@ app {
         padding: 10px;
         margin-top: 2vw;
         margin-bottom: 1vw;
+        margin-left: inherit;
+        margin-right: inherit;
+        width: 75.5vw;
         /*display: none;*/
     }
 

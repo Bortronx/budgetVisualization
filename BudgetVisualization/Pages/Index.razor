@@ -6,50 +6,52 @@
 
 <Message></Message>
 
-<div>
-    <div class="carousell">
-        <MatList Style="padding:0px;">
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-        </MatList>
-    </div>
-    <div class="carousell">
-        <MatList Style="padding: 0px;">
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-            <MatListItem Class="proposedItem">
-                <ProposedBudgetItem itemData=@myItem />
-            </MatListItem>
-        </MatList>
+<div class="carousell-page">
+    <div class="carousell-container">
+        <div class="carousell">
+            <MatList Style="padding:0px;">
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+            </MatList>
+        </div>
+        <div class="carousell carousell-last">
+            <MatList Style="padding: 0px;">
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+                <MatListItem Class="proposedItem">
+                    <ProposedBudgetItem itemData=@myItem />
+                </MatListItem>
+            </MatList>
+        </div>
     </div>
     <div class="carousell-result mat-elevation-z1">
         <ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="10" ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>
@@ -57,7 +59,7 @@
 
 </div>
 
-@SectionName
+@*@SectionName
 
 @if (AppState.IsMobile)
 {
@@ -71,7 +73,7 @@ else
     <p>
         Desktop Website
     </p>
-}
+}*@
 
 
 <style>
