@@ -46,15 +46,15 @@ namespace BudgetVisualization.Data
 
                     new ProposedItem(
                         "45 New Police Officer Positions",
-                        2409966,
                         53555,
+                        2409966,
                         "http://miamidsa.org/wp-content/uploads/2020/08/45officers.svg",
                         0),
 
                     new ProposedItem(
                         "Helicopter fleet",
-                        24000000,
                         6000000,
+                        24000000,
                         "http://miamidsa.org/wp-content/uploads/2020/09/New-Police-Helicopters.jpg",
                         0),
                     new ProposedItem(
