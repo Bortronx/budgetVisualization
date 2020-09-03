@@ -6,10 +6,31 @@
 
     <Message></Message>
 
+    <div class="carousell-headings">
+        <div class="carousell-headings-titles">
+            <MatH6 class="carousell-headings-title">Community Services </MatH6>
+            <p class="carousell-headings-subtitle">
+                View County Budget Narrative for Community Action and Human Services
+            </p>
+
+        </div>
+        <div class="carousell-headings-titles">
+            <MatH6 class="carousell-headings-title">Police & Jails </MatH6>
+            <p class="carousell-headings-subtitle">
+                View County Budget Narrative for Police and Corrections and Rehabilitation
+            </p>
+        </div>
+        <div class="carousell-headings-title-comparison mat-elevation-z2">
+            <MatH6 class="carousell-headings-title">Comaprison of Selected</MatH6>
+            <p class="carousell-headings-subtitle">
+               
+            </p>
+        </div>
+    </div>
+
     <div class="carousell-page">
         <div class="carousell-container">
             <div class="carousell">
-                <h4>Community Services</h4>
                 <MatList Style="padding:0px;">
                     @for (int i = 0; i < BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
                     {
@@ -28,7 +49,6 @@
 
             @*Alignment messes up with sufficiently long text.*@
             <div class="carousell carousell-last">
-                <h4>Police & Jails</h4>
                 <MatList Style="padding: 0px;">
                     @for (int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
                     {

@@ -181,16 +181,25 @@ app {
     }
 
     .comparison-image {
-        width: 35vw;
-        height: 200px;
-        float: left;
-        margin-bottom: 20px;
+        opacity: 0.1;
+        height: 100px;
+        filter: grayscale(1);
+    }
+
+    .comparison-image-container {
+        position: fixed;
+        left: 0;
+        right: 0;
+        margin: 5% auto;
+        text-align: center;4
     }
 
     .comparison-text {
-        font-size: 1.25em;
-        padding-left: 5px;
-        display: flex;
+        padding-top: 2vh;
+        text-align: center;
+        font-weight: 700;
+        font-stretch: normal;
+        font-size: small;
     }
 
 
@@ -212,8 +221,8 @@ app {
         font-size: 12px;
         border-radius: 7px;
         background: whitesmoke;
-        outline-style: auto;
-        outline-color: lightgray;
+        /*outline-style: auto;
+        outline-color: lightgray;*/
     }
 
     .carousell-container {
@@ -224,6 +233,46 @@ app {
     .carousell::-webkit-scrollbar { 
         /* WebKit */
         width: 0px;
+    }
+
+    .carousell-page {
+        display: inline-flex;
+    }
+
+    .carousell-headings {
+        line-height: 18px;
+        display: inline-flex;
+    }
+
+    .carousell-headings-titles {
+        width: 50vw;
+        padding-left: 12px;
+        padding-top: 14px;
+        border-right: solid;
+        border-color: whitesmoke;
+        background-color: snow;
+    }
+
+    .carousell-headings-title-comparison {
+        width: 24.3vw;
+        margin-left: 0.8vw;
+        padding-top: 14px;
+        padding-left: 12px;
+        background-color: snow;
+    }
+
+    .carousell-headings-title {
+        line-height: 18px;
+        display: inline-flex;
+        font-stretch: ultra-expanded;
+        font-size: initial;
+    }
+
+    .carousell-headings-subtitle {
+        line-height: 10px;
+        font-size: x-small;
+        width: 100%;
+        padding-right: 10px;
     }
 
     .message {
@@ -347,7 +396,7 @@ app {
 
     .sidebarApp {
         width: 110px;
-        height: 100vw;
+        height: 100vh;
         background-color: whitesmoke;
     }
 
@@ -394,6 +443,42 @@ app {
 
     .carousell-page {
         display: inline-flex;
+    }
+
+    .carousell-headings {
+        line-height: 18px;
+        display: inline-flex;
+        padding-top: 14px;
+    }
+
+    .carousell-headings-titles {
+        width: 25.3vw;
+        padding-left: 12px;
+        padding-top: 14px;
+        border-right: solid;
+        border-color: whitesmoke;
+        background-color: snow;
+    }
+
+    .carousell-headings-title-comparison {
+        width: 24.3vw;
+        margin-left: 0.8vw;
+        padding-top: 14px;
+        padding-left: 12px;
+        background-color: snow;
+    }
+
+    .carousell-headings-title {
+        line-height: 18px;
+        display: inline-flex;
+        font-stretch: ultra-expanded;
+    }
+
+    .carousell-headings-subtitle {
+        line-height: 10px;
+        font-size: x-small;
+        width: 25vw;
+        padding-right: 10px;
     }
 
     .comparison-image {
