@@ -44,7 +44,15 @@
             </div>
         </div>
         <div class="carousell-result mat-elevation-z1">
-            <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="@rowRightItem.imageURL" SecondImagePath="@rowLeftItem.imageURL"></ComparisonResultStatic>
+            @if (rowRightItem != null && rowLeftItem != null)
+            {
+                <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="@rowRightItem.imageURL" SecondImagePath="@rowLeftItem.imageURL"></ComparisonResultStatic>
+            }
+            else
+            {
+                <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="" SecondImagePath=""></ComparisonResultStatic>
+            }
+
         </div>
 
     </div>

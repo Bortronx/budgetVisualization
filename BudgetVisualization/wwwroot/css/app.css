@@ -312,7 +312,6 @@ app {
 
     .main > div {
         padding-left: 1rem !important;
-        display: flex;
     }
 
     .navbar-toggler {
@@ -348,7 +347,7 @@ app {
 
     .sidebarApp {
         width: 110px;
-        height: 100%;
+        height: 100vw;
         background-color: whitesmoke;
     }
 

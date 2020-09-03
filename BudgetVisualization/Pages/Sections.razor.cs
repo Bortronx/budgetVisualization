@@ -17,7 +17,7 @@ namespace BudgetVisualization.Pages
 
         public string ComparisonUnit { get; set; }
 
-        public string CurrentComparisonText { get; set; }
+        public string CurrentComparisonText { get; set; } = "Select the items to compare them.";
 
         public string CurrentComparisonImage { get; set; }
 
