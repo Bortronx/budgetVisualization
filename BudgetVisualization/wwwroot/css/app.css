@@ -275,6 +275,13 @@ app {
         padding-right: 10px;
     }
 
+    .main-image {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 35px;
+        display: block;
+    }
+
     .message {
         border: 3px solid #F6D55C;
         border-radius: 25px;
@@ -291,6 +298,21 @@ app {
 
     .icon-grid {
         margin: auto;
+    }
+
+    .page-container {
+        /* display: flex; */
+        width: 100vw;
+    }
+
+    .glance {
+        background: #EAEAEA;
+        padding-top: 2.5em;
+        padding-left: 1.5em;
+        padding-bottom: 30px;
+        height: 100%;
+        width: 100%;
+        min-width: 360px;
     }
 
     .proposedItem {
@@ -510,4 +532,33 @@ app {
         margin: auto;
     }
 
+    .glance {
+        background: #EAEAEA;
+        padding-top: 2.5em;
+        padding-left: 1.5em;
+        height: 100vh;
+        width: 100%;
+        min-width: 360px;
+    }
+
+    .glance-heading,
+    .glance-text-top {
+        text-align: center;
+    }
+
+    .glance-text-top,
+    .glance-text {
+        margin-bottom: 1px;
+    }
+
+    .page-container {
+        display: flex;
+    }
+
+    .main-image {
+        width: 363px;
+        margin: auto;
+        margin-bottom: 35px;
+        display: block;
+    }
 }
