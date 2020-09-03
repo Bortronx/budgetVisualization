@@ -9,6 +9,7 @@
     <div class="carousell-page">
         <div class="carousell-container">
             <div class="carousell">
+                <h4>Community Services</h4>
                 <MatList Style="padding:0px;">
                     @for (int i = 0; i < BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
                     {
@@ -27,8 +28,9 @@
 
             @*Alignment messes up with sufficiently long text.*@
             <div class="carousell carousell-last">
+                <h4>Police & Jails</h4>
                 <MatList Style="padding: 0px;">
-                    @for(int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
+                    @for (int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
                     {
                         int ii = i;
 
@@ -37,7 +39,7 @@
                         string ItemStyle = (ii == rowRightActiveIndex) ? selectedStyle : unselectedStyle;
 
                         <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedRight(ii, item))" Style="@ItemStyle">
-                        <ProposedBudgetItem itemData=item/>
+                            <ProposedBudgetItem itemData=item />
                         </MatListItem>
                     }
                 </MatList>
