@@ -33,9 +33,9 @@ namespace BudgetVisualization.Data
                     new ProposedItem(ItemName: "Psychological Services", ItemValue: 1000, BudgetValue: 284000,
                     imageURL: "http://miamidsa.org/wp-content/uploads/2020/09/Psycological-Services.jpg",  percentChange: 0.1f),
                     new ProposedItem(ItemName: "Rehabilitative Service", ItemValue: 1000, BudgetValue: 3408000,
-                    imageURL: "https://images.unsplash.com/photo-1595664248149-94356b1ae05c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=200",  percentChange: 0.1f),
+                    imageURL: "http://miamidsa.org/wp-content/uploads/2020/09/Rehabilitation.svg",  percentChange: 0.1f),
                     new ProposedItem(ItemName: "Violence Prevention & Intervention", ItemValue: 1000, BudgetValue: 4472000,
-                    imageURL: "https://images.unsplash.com/photo-1579100884318-4091378d0fc5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=200",  percentChange: 0.1f),
+                    imageURL: "http://miamidsa.org/wp-content/uploads/2020/09/Stop-Violence.svg",  percentChange: 0.1f),
                     new ProposedItem(ItemName: "Public Defender", ItemValue: 1000, BudgetValue: 4832000,
                     imageURL: "http://miamidsa.org/wp-content/uploads/2020/08/Defender.svg",  percentChange: 0.1f),
                 });
@@ -46,15 +46,15 @@ namespace BudgetVisualization.Data
 
                     new ProposedItem(
                         "45 New Police Officer Positions",
-                        2409966,
                         53555,
+                        2409966,
                         "http://miamidsa.org/wp-content/uploads/2020/08/45officers.svg",
                         0),
 
                     new ProposedItem(
                         "Helicopter fleet",
-                        24000000,
                         6000000,
+                        24000000,
                         "http://miamidsa.org/wp-content/uploads/2020/09/New-Police-Helicopters.jpg",
                         0),
                     new ProposedItem(
