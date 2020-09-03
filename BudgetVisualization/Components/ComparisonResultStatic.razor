@@ -1,7 +1,11 @@
 ﻿<div>
-
+    @if(FirstImagePath != null && SecondImagePath != null)
+    {
+        <img class="comparison-image" src="@FirstImagePath" />
+        <img class="comparison-image" src="@SecondImagePath" />
+    }
 </div>
-<img class="comparison-image" src="@ImagePath" />
+
 <div class="comparison-text">
     <p style="overflow: hidden;">
         @ComparisonText
@@ -22,6 +26,10 @@
     [Parameter]
     public string ImagePath { get; set; }
 
-    
+    [Parameter]
+    public string FirstImagePath { get; set; }
+
+    [Parameter]
+    public string SecondImagePath { get; set; }
 
 }

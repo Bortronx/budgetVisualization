@@ -4,7 +4,7 @@
 
 <div class="mat-layout-grid">
     <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell main-text mat-layout-grid-cell-span-8">
+        <div class="mat-layout-grid-cell main-text mat-layout-grid-cell-span-12">
             <img class="main-image" src="http://miamidsa.org/wp-content/uploads/2020/09/Fund-the-People-Miami.jpg" />
             <p>
                 Every July, Miami-Dade County releases its plan for how to spend our money in our communities for the next year*.
@@ -23,53 +23,87 @@
                 visualization tool our communities deserve.
 
             </p>
-        </div>
-        <div class="mat-layout-grid-cell glance mat-layout-grid-cell-span-4">
-            <h4 class="glance-heading">
-                MIAMI-DADE BUDGET<br />
-                AT A GLANCE
-            </h4>
-            <p class="glance-text-top">Total Funding for Operating Budget:</p>
-            <h4 class="glance-text-top teal">$5,713,706,000</h4>
 
-            <div class="red-line">
-                <p class="glance-text">Police Department</p>
-                <h5 class="red">$764,598,000</h5>
-            </div>
+            <MatHeadline6 Style="color: green; font-weight: 700;">
+                HOW WE CHANGE THE BUDGET
+            </MatHeadline6>
 
-            <div class="green-line">
-                <p class="glance-text">Transportation & Public Works</p>
-                <h5 class="green">$616,801,000</h5>
-            </div>
+            <p>
+                Our chance to tell County Commissioners how we want our money spent is taking place digitally this
+                Thursday, September 3rd at 5:00pm via Zoom. Click here to register and make a public comment!
+            </p>
 
-            <div class="blue-line">
-                <p class="glance-text">Corrections</p>
-                <h5 class="blue">$383,686,000</h5>
-            </div>
+            <p>
+                You also reach out to your County Commissioner directly before September 19th’s final vote!
+                Visit our Resources page to find your district and the commissioner’s contact information!
+            </p>
 
-            <div class="orange-line">
-                <p class="glance-text">Community Services</p>
-                <h5 class="orange">$149,058,000</h5>
-            </div>
+            <MatHeadline6 Style="        color: gold;
+        font-weight: 700;
+">
+                SPECIAL THANKS
+            </MatHeadline6>
 
-            <div class="purple-line">
-                <p class="glance-text">Public Housing</p>
-                <h5 class="glance-text purple">$97,602,000*</h5>
-                <MatCaption>*$300,000 from the General Fund</MatCaption>
-            </div>
+            <p>
+                The research, illustrations and design presented here is the accumulated work of many
+                individuals—workers, students and everyday citizens who are dedicated to seeing economic justice
+                and real democracy here in Miami. Without them and the organizations they are a part of this
+                website and the information it makes available to our communities would not have been possible.
+            </p>
 
-            <div class="deep-red-line">
-                <p class="glance-text">Judicial Administration</p>
-                <h5 class="deep-red">$41,234,000</h5>
-            </div>
 
-            <div class="yellow-line">
-                <p class="glance-text">Juvenile Services</p>
-                <h5 class="yellow">$16,700,000</h5>
-            </div>
 
-        </div>
+        </div>     
     </div>
+</div>
+
+<div class="glance">
+    <div>
+        <MatH6 class="glance-heading">
+            MIAMI-DADE BUDGET<br />
+            AT A GLANCE
+        </MatH6>
+        <p class="glance-text-top">Total Funding for Operating Budget:</p>
+        <h4 class="glance-text-top teal">$5,713,706,000</h4>
+
+    </div>
+
+    <div class="red-line">
+        <p class="glance-text">Police Department</p>
+        <h5 class="red">$764,598,000</h5>
+    </div>
+
+    <div class="green-line">
+        <p class="glance-text">Transportation & Public Works</p>
+        <h5 class="green">$616,801,000</h5>
+    </div>
+
+    <div class="blue-line">
+        <p class="glance-text">Corrections</p>
+        <h5 class="blue">$383,686,000</h5>
+    </div>
+
+    <div class="orange-line">
+        <p class="glance-text">Community Services</p>
+        <h5 class="orange">$149,058,000</h5>
+    </div>
+
+    <div class="purple-line">
+        <p class="glance-text">Public Housing</p>
+        <h5 class="glance-text purple">$97,602,000*</h5>
+        <MatCaption>*$300,000 from the General Fund</MatCaption>
+    </div>
+
+    <div class="deep-red-line">
+        <p class="glance-text">Judicial Administration</p>
+        <h5 class="deep-red">$41,234,000</h5>
+    </div>
+
+    <div class="yellow-line">
+        <p class="glance-text">Juvenile Services</p>
+        <h5 class="yellow">$16,700,000</h5>
+    </div>
+
 </div>
 
 
@@ -78,12 +112,16 @@
         width: 363px;
         margin: auto;
         margin-bottom: 35px;
+        display: block;
     }
 
     .glance {
         background: #EAEAEA;
         padding-top: 2.5em;
         padding-left: 1.5em;
+        height: 100vw;
+        width: 100%;
+        min-width: 360px;
     }
 
     .glance-heading,

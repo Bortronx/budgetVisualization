@@ -44,9 +44,7 @@
             </div>
         </div>
         <div class="carousell-result mat-elevation-z1">
-            <ComparisonResultStatic ComparisonText="@CurrentComparisonText" ImagePath="@CurrentComparisonImage"></ComparisonResultStatic>
-            @*<ComparisonResult FirstSelection="Hello this is the first item" CalculatedValue="@CalculatedComparisonValue"
-                ImagePath="https://picsum.photos/200/200" SecondSelection="Testing this text here"></ComparisonResult>*@
+            <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="@rowRightItem.imageURL" SecondImagePath="@rowLeftItem.imageURL"></ComparisonResultStatic>
         </div>
 
     </div>
