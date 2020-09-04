@@ -332,6 +332,10 @@ app {
         position: absolute;
     }
 
+    .carousell-headings-title-comparison {
+        display: none;
+    }
+
     .comparison-text-part:nth-child(1) {
         animation-name: fade;
         animation-fill-mode: both;
@@ -445,6 +449,12 @@ app {
         margin-bottom: 3px;
     }
 
+    .proposedItem-text {
+        display: inline-block;
+        position: absolute;
+        margin-left: 12px;
+    }
+
     .carousell-last {
         margin-left: 0.5vw;
     }
@@ -458,10 +468,7 @@ app {
 
     .carousell-container {
         display: inline-flex;
-        border-bottom: outset;
-        border-bottom-color: rgb(0 0 0 / 19%);
         border-top: outset;
-        border-top-color: rgb(0 0 0 / 19%);
     }
 
     .carousell-page {
@@ -484,14 +491,13 @@ app {
     }
 
     .carousell-headings-title-comparison {
-        width: 24.3vw;
-        margin-left: 0.8vw;
-        padding-top: 14px;
-        padding-left: 12px;
-        background-color: snow;
+        padding-top: 1.3vw;
+        background-color: #dee2e673;
+        text-align: center;
     }
 
     .carousell-headings-title {
+        margin: 0px;
         line-height: 18px;
         display: inline-flex;
         font-stretch: ultra-expanded;
@@ -504,8 +510,18 @@ app {
         padding-right: 10px;
     }
 
+    .carousell-image {
+        min-width: 9vw;
+        height: 9vw;
+        margin: auto;
+    }
+
     .comparison-image {
         max-width: 130px;
+    }
+
+    .comparison-image-container {
+        margin: 5% auto;
     }
 
     .comparison-text {

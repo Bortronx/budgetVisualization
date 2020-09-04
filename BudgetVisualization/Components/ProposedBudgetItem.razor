@@ -1,14 +1,16 @@
 ﻿@using BudgetVisualization.Data
 
-<div style="padding: 10px;">
-    <img src="@itemData.imageURL" style="width: 40%;">
-    <div style="display: inline-block;">
-        <div class="" style="">
-            @itemData.ItemName
-            <br>
-            $@itemData.BudgetValue.ToString("N0") Proposed
-        </div>
-        @if (itemData.percentChange != 0)
+    <div style="padding: 10px;">
+        <img src="@itemData.imageURL" class="carousell-image">
+        <div class="proposedItem-text">
+            <div>
+                @itemData.ItemName
+                <br>
+                <b style="color: #3b4046;font-size: small;">
+                    $@itemData.BudgetValue.ToString("N0") Proposed
+                </b>
+            </div>
+            @if (itemData.percentChange != 0)
         {
             <div class="" style="color: gray;">
                 @*@itemData.percentChange% from last year*@
@@ -20,8 +22,8 @@
 
             </div>
         }
+        </div>
     </div>
-</div>
 
 
 <style>

@@ -45,7 +45,7 @@ namespace BudgetVisualization.Data
                  {
 
                     new ProposedItem(
-                        "45 New Police Officer Positions",
+                        "Approximately 45 New Police Officer Positions",
                         53555,
                         2409966,
                         "http://miamidsa.org/wp-content/uploads/2020/08/45officers.svg",
@@ -72,8 +72,8 @@ namespace BudgetVisualization.Data
 
                     new ProposedItem(
                         "Law Enforcement Records Management System",
-                        10500000,
-                        10500000,
+                        303000,
+                        303000,
                         "http://miamidsa.org/wp-content/uploads/2020/09/LawEnforcementRecordsSystem.svg",
                         0),
 
@@ -85,7 +85,7 @@ namespace BudgetVisualization.Data
                         0),
 
                     new ProposedItem(
-                        "Corrections civilian positions",
+                        "Corrections positions, one year of starting-level salaries.",
                         2870000,
                         2870000,
                         "http://miamidsa.org/wp-content/uploads/2020/08/Civilian-Correction-Officer.svg",
