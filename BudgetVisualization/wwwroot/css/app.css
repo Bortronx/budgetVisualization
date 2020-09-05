@@ -205,7 +205,7 @@ app {
 
     .carousell {
         max-width: 47.8vw;
-        max-height: 60vh;
+        max-height: 49.1vh;
         overflow-y: scroll;
         float: left;
         margin: 1vw;
@@ -336,6 +336,11 @@ app {
         display: none;
     }
 
+    img.carousell-image {
+        max-width: 20vw;
+        max-height: 20vw;
+    }
+
     .comparison-text-part:nth-child(1) {
         animation-name: fade;
         animation-fill-mode: both;
@@ -363,7 +368,13 @@ app {
         }
     }
 
-
+    .localization-dropdown {
+        position: fixed;
+        margin-top: 97vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        background: #73a3d6;
+    }
 
 
 }
@@ -577,5 +588,11 @@ app {
         margin: auto;
         margin-bottom: 35px;
         display: block;
+    }
+
+    .localization-dropdown {
+        position: fixed;
+        margin-left: 89.5vw;
+        margin-top: 96.8vh;
     }
 }

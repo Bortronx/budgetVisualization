@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name=", however, is a mammoth document with hundreds of pages of text, tables, and graphs spread across three volumes and two dozen appendices." xml:space="preserve">
+    <value>, sin embargo, es un documento gigantesco con cientos de páginas de texto, tablas y gráficos repartidos en tres volúmenes y dos docenas de apéndices.</value>
+  </data>
+  <data name="AT A GLANCE" xml:space="preserve">
+    <value>PRESENTADO</value>
+  </data>
+  <data name="Click here to register and make a public comment!" xml:space="preserve">
+    <value>Haz click aqui para registrarte y hacer un comentario publico!</value>
+  </data>
+  <data name="d" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Every July, Miami-Dade County releases its plan for how to spend our money in our communities for the next year*.The July release is meant to give County residents time to review the budget and make comments before it is adopted in September. The" xml:space="preserve">
+    <value>Cada julio, el condado de Miami-Dade publica su plan sobre cómo gastar nuestro dinero en nuestras comunidades durante el próximo año *. La publicación de julio está destinada a dar a los residentes del condado tiempo para revisar el presupuesto y hacer comentarios antes de que se adopte en septiembre. los</value>
+  </data>
+  <data name="Fundthepeoplemiami.com is our attempt to break down this mammoth document. We undertook this work with a group of community organizations in the wake of George Floyd’s death, and it soon became apparent that the disproportionate amount of spending on local law enforcement being decried across the country was also evident in Miami. In this first iteration of the website, we focus on the discrepancies between our county’s funding for policing versus non-violent social services. We hope that as more people join our efforts and new findings are made we can create the most powerful and accessible budget visualization tool our communities deserve." xml:space="preserve">
+    <value>Fundthepeoplemiami.com es nuestro intento de desglosar este gigantesco documento. Llevamos a cabo este trabajo con un grupo de organizaciones comunitarias a raíz de la muerte de George Floyd, y pronto se hizo evidente que la cantidad desproporcionada de gasto en la aplicación de la ley local que se denunciaba en todo el país también era evidente en Miami. En esta primera versión del sitio web, nos centramos en las discrepancias entre la financiación de nuestro condado para la vigilancia y los servicios sociales no violentos. Esperamos que a medida que más personas se unan a nuestros esfuerzos y se obtengan nuevos hallazgos, podamos crear la herramienta de visualización de presupuesto más poderosa y accesible que nuestras comunidades merecen.</value>
+  </data>
+  <data name="Greetings" xml:space="preserve">
+    <value>Hola</value>
+  </data>
+  <data name="HOW WE CHANGE THE BUDGET" xml:space="preserve">
+    <value>COMO CAMBIAMOS EL PRESUPUESTO</value>
+  </data>
+  <data name="MIAMI-DADE BUDGET" xml:space="preserve">
+    <value>PRESUPUESTO DE MIAMI-DADE</value>
+  </data>
+  <data name="Our chance to tell County Commissioners how we want our money spent is taking place digitally this Thursday, September 3rd at 5:00pm via Zoom." xml:space="preserve">
+    <value>Nuestra oportunidad de decirles a los Comisionados del Condado cómo queremos que se gaste nuestro dinero se llevará a cabo digitalmente este jueves 3 de septiembre a las 5:00 pm a través de Zoom.</value>
+  </data>
+  <data name="Proposed Budget" xml:space="preserve">
+    <value>Presupuesto Propuesto</value>
+  </data>
+  <data name="SPECIAL THANKS" xml:space="preserve">
+    <value>AGRADECIMIENTOS ESPECIALES</value>
+  </data>
+  <data name="The research, illustrations and design presented here is the accumulated work of many&#xD;&#xA;                        individuals—workers, students and everyday citizens who are dedicated to seeing economic justice&#xD;&#xA;                        and real democracy here in Miami. Without them and the organizations they are a part of this&#xD;&#xA;                        website and the information it makes available to our communities would not have been possible." xml:space="preserve">
+    <value>La investigación, las ilustraciones y el diseño presentados aquí es el trabajo acumulado de muchos
+                        individuos: trabajadores, estudiantes y ciudadanos comunes que se dedican a ver la justicia económica
+                        y democracia real aquí en Miami. Sin ellos y las organizaciones son parte de este
+                        sitio web y la información que pone a disposición de nuestras comunidades no habría sido posible.</value>
+  </data>
+  <data name="to find your district and the commissioner’s contact information!" xml:space="preserve">
+    <value>para encontrar su distrito y la información de contacto del comisionado.</value>
+  </data>
+  <data name="Visit our Resources page" xml:space="preserve">
+    <value>Visista nuestra pagina de Recursos</value>
+  </data>
+  <data name="You also reach out to your County Commissioner directly before September 19th’s final vote!" xml:space="preserve">
+    <value>¡También comuníquese con el Comisionado de su condado directamente antes de la votación final del 19 de septiembre!</value>
+  </data>
+</root>
