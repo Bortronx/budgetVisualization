@@ -68,5 +68,14 @@ namespace BudgetVisualization.Resources {
                 return ResourceManager.GetString("Greetings", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to test1.
+        /// </summary>
+        public static string test {
+            get {
+                return ResourceManager.GetString("test", resourceCulture);
+            }
+        }
     }
 }
