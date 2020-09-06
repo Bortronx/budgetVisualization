@@ -70,15 +70,15 @@ namespace BudgetVisualization.Data
 
                     new ProposedItem(
                         "Law Enforcement Records Management System",
-                        303000,
-                        303000,
+                        10500000,
+                        10500000,
                         "http://miamidsa.org/wp-content/uploads/2020/09/LawEnforcementRecordsSystem.svg",
                         0),
 
                     new ProposedItem(
                         "Armored Medical Vehicle",
-                        10500000,
-                        10500000,
+                        303000,
+                        303000,
                         "http://miamidsa.org/wp-content/uploads/2020/08/armoredvehicle.svg",
                         0),
 

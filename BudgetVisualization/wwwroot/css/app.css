@@ -529,6 +529,7 @@ app {
 
     .comparison-image {
         max-width: 130px;
+        max-height: 130px;
     }
 
     .comparison-image-container {
