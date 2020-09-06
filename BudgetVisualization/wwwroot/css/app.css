@@ -292,14 +292,6 @@ app {
         display: none;
     }
 
-    .message-mobile {
-        border: 3px solid #F6D55C;
-        border-radius: 25px;
-        padding: 10px;
-        margin-top: 2vw;
-        margin-bottom: 1vw;
-    }
-
     .icon {
         font-size: 5em;
         color: #F6D55C;
@@ -560,6 +552,10 @@ app {
         margin-right: inherit;
         width: 75.5vw;
         /*display: none;*/
+    }
+
+    .message-mobile {
+        display: none;
     }
 
     .icon {
