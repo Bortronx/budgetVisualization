@@ -3,84 +3,85 @@
 @using BudgetVisualization.Components
 @using BudgetVisualization.Data
 
+@inject IStringLocalizer<App> Localize
 
-    <Message></Message>
+<Message></Message>
 
-    <div class="carousell-headings">
-        <div class="carousell-headings-titles">
-            <MatH6 class="carousell-headings-title">Community Services </MatH6>
-            <p class="carousell-headings-subtitle">
-                View County Budget Narrative for 
-                <a href="https://www.miamidade.gov/budget/library/fy2020-21/proposed/community-action-and-human-services.pdf">
-                    Community Action and Human Services
-                </a>
-                (Values are from General Fund)
-            </p>
-
-        </div>
-        <div class="carousell-headings-titles">
-            <MatH6 class="carousell-headings-title">Police & Jails </MatH6>
-            <p class="carousell-headings-subtitle">
-                View County Budget Narrative for
-                <a href="https://www.miamidade.gov/budget/library/fy2020-21/proposed/police.pdf">
-                    Police
-                </a>
-                and
-                <a href="https://www.miamidade.gov/budget/library/fy2020-21/proposed/corrections-and-rehabilitation.pdf">
-                    Corrections and Rehabilitation
-                </a>
-                (Values are from General Fund)
-            </p>
-        </div>
-    </div>
-
-    <div class="carousell-page">
-        <div class="carousell-container">
-            <div class="carousell">
-                <MatList Style="padding:0px;">
-                    @for (int i = 0; i < BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
-                    {
-                        int ii = i;
-
-                        var item = BudgetData.GetSection(SectionName).ProposedItems[ii];
-
-                        string ItemStyle = (ii == rowLeftActiveIndex) ? selectedStyle : unselectedStyle;
-
-                        <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedLeft(ii, item))" Style="@ItemStyle">
-                            <ProposedBudgetItem itemData=item />
-                        </MatListItem>
-                    }
-                </MatList>
-            </div>
-
-            @*Alignment messes up with sufficiently long text.*@
-            <div class="carousell carousell-last">
-                <MatList Style="padding: 0px;">
-                    @for (int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
-                    {
-                        int ii = i;
-
-                        var item = BudgetData.GetCurrentComparedToSection().ProposedItems[ii];
-
-                        string ItemStyle = (ii == rowRightActiveIndex) ? selectedStyle : unselectedStyle;
-
-                        <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedRight(ii, item))" Style="@ItemStyle">
-                            <ProposedBudgetItem itemData=item />
-                        </MatListItem>
-                    }
-                </MatList>
-            </div>
-        </div>
-        <div class="carousell-result mat-elevation-z1">
-            @if (rowRightItem != null && rowLeftItem != null)
-            {
-                <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="@rowRightItem.imageURL" SecondImagePath="@rowLeftItem.imageURL"></ComparisonResultStatic>
-            }
-            else
-            {
-                <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="" SecondImagePath=""></ComparisonResultStatic>
-            }
-
-        </div>
+<div class="carousell-headings">
+    <div class="carousell-headings-titles">
+        <MatH6 class="carousell-headings-title">@Localize["Community Services"] </MatH6>
+        <p class="carousell-headings-subtitle">
+            View County Budget Narrative for
+            <a href="https://www.miamidade.gov/budget/library/fy2020-21/proposed/community-action-and-human-services.pdf">
+                Community Action and Human Services
+            </a>
+            (Values are from General Fund)
+        </p>
 
     </div>
+    <div class="carousell-headings-titles">
+        <MatH6 class="carousell-headings-title">Police & Jails </MatH6>
+        <p class="carousell-headings-subtitle">
+            View County Budget Narrative for
+            <a href="https://www.miamidade.gov/budget/library/fy2020-21/proposed/police.pdf">
+                Police
+            </a>
+            and
+            <a href="https://www.miamidade.gov/budget/library/fy2020-21/proposed/corrections-and-rehabilitation.pdf">
+                Corrections and Rehabilitation
+            </a>
+            (Values are from General Fund)
+        </p>
+    </div>
+</div>
+
+<div class="carousell-page">
+    <div class="carousell-container">
+        <div class="carousell">
+            <MatList Style="padding:0px;">
+                @for (int i = 0; i < BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
+                {
+                    int ii = i;
+
+                    var item = BudgetData.GetSection(SectionName).ProposedItems[ii];
+
+                    string ItemStyle = (ii == rowLeftActiveIndex) ? selectedStyle : unselectedStyle;
+
+                    <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedLeft(ii, item))" Style="@ItemStyle">
+                        <ProposedBudgetItem itemData=item />
+                    </MatListItem>
+                }
+            </MatList>
+        </div>
+
+        @*Alignment messes up with sufficiently long text.*@
+        <div class="carousell carousell-last">
+            <MatList Style="padding: 0px;">
+                @for (int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
+                {
+                    int ii = i;
+
+                    var item = BudgetData.GetCurrentComparedToSection().ProposedItems[ii];
+
+                    string ItemStyle = (ii == rowRightActiveIndex) ? selectedStyle : unselectedStyle;
+
+                    <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedRight(ii, item))" Style="@ItemStyle">
+                        <ProposedBudgetItem itemData=item />
+                    </MatListItem>
+                }
+            </MatList>
+        </div>
+    </div>
+    <div class="carousell-result mat-elevation-z1">
+        @if (rowRightItem != null && rowLeftItem != null)
+        {
+            <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="@rowRightItem.imageURL" SecondImagePath="@rowLeftItem.imageURL"></ComparisonResultStatic>
+        }
+        else
+        {
+            <ComparisonResultStatic ComparisonText="@CurrentComparisonText" FirstImagePath="" SecondImagePath=""></ComparisonResultStatic>
+        }
+
+    </div>
+
+</div>
