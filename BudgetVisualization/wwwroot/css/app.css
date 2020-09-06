@@ -532,7 +532,8 @@ app {
     }
 
     .comparison-image-container {
-        margin: 5% auto;
+        text-align: center;
+        padding: 3vh;
     }
 
     .comparison-text {
