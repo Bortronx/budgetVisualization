@@ -84,7 +84,7 @@ namespace BudgetVisualization.Data
                         0),
 
                     new ProposedItem(
-                        "Increase to Corrections Salaries, one year of starting-level salaries.",
+                        "Increase to Corrections Salaries",
                         2870000,
                         2870000,
                         "http://miamidsa.org/wp-content/uploads/2020/08/Civilian-Correction-Officer.svg",
