@@ -13,6 +13,7 @@ namespace BudgetVisualization.Data
         public double ItemValue { get; set; }
 
         public float BudgetValue { get; set; }
+        public string budgetValueTypeName;
 
         public float percentChange { get; set; }
 
@@ -33,13 +34,15 @@ namespace BudgetVisualization.Data
             double ItemValue,
             int BudgetValue,
             string imageURL,
-            float percentChange = 0)
+            float percentChange = 0,
+            string budgetValueTypeName = "Proposed")
         {
             this.ItemName = ItemName;
             this.ItemValue = ItemValue;
             this.BudgetValue = BudgetValue;
             this.imageURL = imageURL;
             this.percentChange = percentChange;
+            this.budgetValueTypeName = budgetValueTypeName;
 
             ItemStyle = baseStyle;
         }
