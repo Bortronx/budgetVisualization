@@ -539,6 +539,7 @@ app {
 
     .comparison-text {
         padding: 12px;
+        overflow-y: hidden;
     }
 
     .message {
