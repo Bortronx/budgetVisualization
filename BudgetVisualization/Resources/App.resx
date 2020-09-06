@@ -117,7 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="District info" xml:space="preserve">
+    <value>to find your district and the commissioner’s contact information!</value>
+    <comment>Index</comment>
+  </data>
   <data name="Greetings" xml:space="preserve">
     <value>Hello</value>
+  </data>
+  <data name="Reach out" xml:space="preserve">
+    <value>You also reach out to your County Commissioner directly before September 19th’s final vote!</value>
+    <comment>Index</comment>
   </data>
 </root>

@@ -61,11 +61,29 @@ namespace BudgetVisualization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to to find your district and the commissioner’s contact information!.
+        /// </summary>
+        public static string District_info {
+            get {
+                return ResourceManager.GetString("District info", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hello.
         /// </summary>
         public static string Greetings {
             get {
                 return ResourceManager.GetString("Greetings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You also reach out to your County Commissioner directly before September 19th’s final vote!.
+        /// </summary>
+        public static string Reach_out {
+            get {
+                return ResourceManager.GetString("Reach out", resourceCulture);
             }
         }
     }

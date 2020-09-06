@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace BudgetVisualization.Data
 {
     public class BudgetData
     {
+
         public List<BudgetSection> BudgetSections;
 
         // The index within the Budget Section list of the item being compared to
@@ -85,7 +83,7 @@ namespace BudgetVisualization.Data
                         0),
 
                     new ProposedItem(
-                        "Corrections positions, one year of starting-level salaries.",
+                        "Increase to Corrections Salaries, one year of starting-level salaries.",
                         2870000,
                         2870000,
                         "http://miamidsa.org/wp-content/uploads/2020/08/Civilian-Correction-Officer.svg",
