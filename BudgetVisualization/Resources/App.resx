@@ -117,65 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name=", however, is a mammoth document with hundreds of pages of text, tables, and graphs spread across three volumes and two dozen appendices." xml:space="preserve">
-    <value>, however, is a mammoth document with hundreds of pages of text, tables, and graphs spread across three volumes and two dozen appendices.</value>
-    <comment>Index</comment>
-  </data>
-  <data name="a" xml:space="preserve">
-    <value />
-  </data>
-  <data name="AT A GLANCE" xml:space="preserve">
-    <value>AT A GLANCE</value>
-    <comment>Index</comment>
-  </data>
-  <data name="Click here to register and make a public comment!" xml:space="preserve">
-    <value>Click here to register and make a public comment!</value>
-    <comment>Index</comment>
-  </data>
   <data name="District info" xml:space="preserve">
     <value>to find your district and the commissioner’s contact information!</value>
-    <comment>Index</comment>
-  </data>
-  <data name="Every July, Miami-Dade County releases its plan for how to spend our money in our communities for the next year*.The July release is meant to give County residents time to review the budget and make comments before it is adopted in September. The" xml:space="preserve">
-    <value>Every July, Miami-Dade County releases its plan for how to spend our money in our communities for the next year*.The July release is meant to give County residents time to review the budget and make comments before it is adopted in September. The</value>
     <comment>Index</comment>
   </data>
   <data name="Greetings" xml:space="preserve">
     <value>Hello</value>
   </data>
-  <data name="HOW WE CHANGE THE BUDGET" xml:space="preserve">
-    <value>HOW WE CHANGE THE BUDGET</value>
-    <comment>Index</comment>
-  </data>
-  <data name="MIAMI-DADE BUDGET" xml:space="preserve">
-    <value>MIAMI-DADE BUDGET</value>
-    <comment>Index</comment>
-  </data>
-  <data name="Our chance to tell County Commissioners how we want our money spent is taking place digitally this Thursday, September 3rd at 5:00pm via Zoom." xml:space="preserve">
-    <value>Our chance to tell County Commissioners how we want our money spent is taking place digitally this Thursday, September 3rd at 5:00pm via Zoom.</value>
-    <comment>Index</comment>
-  </data>
-  <data name="Proposed Budget" xml:space="preserve">
-    <value>Proposed Budget</value>
-    <comment>Index</comment>
-  </data>
   <data name="Reach out" xml:space="preserve">
     <value>You also reach out to your County Commissioner directly before September 19th’s final vote!</value>
-    <comment>Index</comment>
-  </data>
-  <data name="SPECIAL THANKS" xml:space="preserve">
-    <value>SPECIAL THANKS</value>
-    <comment>Index</comment>
-  </data>
-  <data name="Special Thanks Paragraph" xml:space="preserve">
-    <value>The research, illustrations and design presented here is the accumulated work of many
-                        individuals—workers, students and everyday citizens who are dedicated to seeing economic justice
-                        and real democracy here in Miami. Without them and the organizations they are a part of this
-                        website and the information it makes available to our communities would not have been possible.</value>
-    <comment>Index</comment>
-  </data>
-  <data name="Visit our Resources page" xml:space="preserve">
-    <value>Visit our Resources page</value>
     <comment>Index</comment>
   </data>
 </root>
