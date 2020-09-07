@@ -1,6 +1,5 @@
 ﻿@page "/Resources"
 
-    <div class="mat-layout-grid">
         <div class="mat-layout-grid">
             <div class="mat-layout-grid-inner">
                 <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12-desktop">
@@ -22,8 +21,8 @@
                                 Chart of Operating Budget
                             </a>
                         </h4>
-                        <p style="font-size: small;">
-                            (This is a chart of the Operating Budget expenses by revenue source, also known as “Appendix A”.)
+                        <p style="font-size: medium;">
+                            This is a chart of the Operating Budget expenses by revenue source, also known as “Appendix A”.
                         </p>
 
                         <br />
@@ -43,12 +42,12 @@
                     </div>
                     <div class="mat-layout-grid-cell mat-layout-grid-cell-span-8-desktop mat-layout-grid-cell-span-1-tablet">
                         <h4><a class="resource-tile" href="https://www.miamidade.gov/commission/" target="_blank">Who is My Commissioner?</a></h4>
-                        <p style="font-size: small;">
+                        <p style="font-size: medium;">
                             The County Commissioners are the individuals elected in Miami-Dade’s 13 districts to represent us.
                             Click the link above to find out who represents your district and tell them your thoughts about
                             this year’s budget!
                         </p>
-                        <div class="mat-layout-grid">
+                        <div class="mat-layout-grid commissioner-list">
                             <div class="mat-layout-grid-inner">
                                 <div class="mat-layout-grid-cell mat-layout-grid-cell-span-6">
 
@@ -137,12 +136,14 @@
                 </div>
             </div>
 
-</div>
-
 <style>
     .resource-tile {
         color: #c30d2f;
         font-stretch: expanded;
         text-decoration: underline;
+    }
+
+    .commissioner-list {
+        padding-left: 0;
     }
 </style>
