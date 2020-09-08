@@ -5,40 +5,18 @@
 
 
 <div class="mat-layout-grid message">
-    <div class="mat-layout-grid-inner">
-        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-2 icon-grid">
-            <MatIcon class="icon" Icon="warning"></MatIcon>
-       </div>
-        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-10  mat-layout-grid-cell-align-middle">
-            <p style=" text-align: inherit; margin: auto;">
-                Our last chance to tell County Commissioners how we want our money spent is taking place
-                digitally on <b>Thursday, September 17th at 5:00pm</b> via Zoom.
-                             <a href="https://www.miamidade.gov/global/management/budget/2020-21-proposed-budget.page">Check here to find the Registration Link once the county provides.</a>
-            </p>
-        </div>
-    </div>
+    <MessageContent></MessageContent>
 </div>
 
 <div class="message-mobile">
     <MatDialog @bind-IsOpen="@dialogIsOpen">
         <MatDialogContent>
             <div class="mat-layout-grid">
-                <div class="mat-layout-grid-inner">
-                    <div class="mat-layout-grid-cell mat-layout-grid-cell-span-2 icon-grid">
-                        <MatIcon class="icon" Icon="warning"></MatIcon>
-                    </div>
-                    <div class="mat-layout-grid-cell mat-layout-grid-cell-span-10  mat-layout-grid-cell-align-middle">
-                        <p style=" text-align: inherit; margin: auto;">
-                            Our opportunity to make comments to County Commissioners on how we want our money spent is taking
-                            place digitally <b>Thursday, September 3rd at 5:00PM</b> via Zoom.
-                            <a href="https://www.miamidade.gov/commission/registration/2020-09-03-BCC-meeting-registration.asp">Click here to register!</a>
-                        </p>
-                    </div>
-                </div>
+                <MessageContent></MessageContent>
             </div>
         </MatDialogContent>
         <MatDialogActions>
-            <MatButton OnClick="@OkClick">OK</MatButton>
+            <MatButton OnClick="@OkClick" Raised="true">OK</MatButton>
         </MatDialogActions>
     </MatDialog>
 </div>

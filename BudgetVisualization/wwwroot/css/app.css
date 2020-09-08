@@ -153,7 +153,6 @@ app {
     .sidebarApp-item {
         height: 13vh;
         float: left;
-        padding-top: 12px;
         width: 33.3vw;
         background-color: whitesmoke;
         border-right-style: inset;
@@ -162,6 +161,8 @@ app {
         border-bottom-style: ridge;
         border-bottom-width: 1px;
         border-bottom-color: snow;
+        text-align: center;
+        align-items: baseline;
     }
 
     .sidebarApp-item-content {
@@ -170,14 +171,14 @@ app {
         font-size: 11px;
         position: relative;
         text-align: center;
+        padding-top: calc(3vh - 1vw);
         margin: auto;
     }
 
     .sidebarApp {
         background-color: whitesmoke;
-        width: 100vw;
+        width: 100vw; 
         display: inline-block;
-        height: -webkit-fill-available;
     }
 
     .comparison-image {
@@ -427,8 +428,9 @@ app {
     }
 
     .sidebarApp-item-content {
-        text-align: -webkit-center;
+        text-align: center;
         font-size: 12px;
+    
     }
 
     .sidebarApp {
