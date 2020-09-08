@@ -1,12 +1,18 @@
 ﻿using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
 using BudgetVisualization.Data;
+using BudgetVisualization.Services;
+using System;
+
 namespace BudgetVisualization.Pages
 {
     public partial class Sections
     {
         [Inject]
         protected BudgetData BudgetData { get; set; }
+
+        [Inject]
+        protected BrowserService BrowserService { get; set; }
 
         [Parameter]
         public string SectionName { get; set; }
@@ -44,15 +50,27 @@ namespace BudgetVisualization.Pages
         protected override async Task OnInitializedAsync()
         {
 
+            // Subscribe to the StateChanged EventHandler
+            AppState.StateChanged +=
+                AppStateHasChanged;
+
+
+            System.Console.WriteLine("Main Layout Initialized");
+
+            AppState.IsMobile = await BrowserService.CheckIsMobile();
+
+            System.Console.WriteLine("Main Layout Initialized 2");
+
+            AppState.StateHasChanged();
 
             System.Console.WriteLine("Sections Initialized");
 
         }
 
-        protected override void OnInitialized()
-        {
-            
-        }
+        // This method is fired when the AppState object
+        // invokes its StateHasChanged() method
+        void AppStateHasChanged(
+            object sender, EventArgs e) => StateHasChanged();
 
         public void SetItemSelectedRight(int index, ProposedItem rightItem)
         {

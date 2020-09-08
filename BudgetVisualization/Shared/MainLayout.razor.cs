@@ -7,30 +7,30 @@ namespace BudgetVisualization.Shared
 {
     public partial class MainLayout
     {
-        [Inject]
-        protected BrowserService BrowserService { get; set; }
+        //[Inject]
+        //protected BrowserService BrowserService { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
-            // Subscribe to the StateChanged EventHandler
-            AppState.StateChanged +=
-                AppStateHasChanged;
+            //// Subscribe to the StateChanged EventHandler
+            //AppState.StateChanged +=
+            //    AppStateHasChanged;
 
 
-            System.Console.WriteLine("Main Layout Initialized");
+            //System.Console.WriteLine("Main Layout Initialized");
 
-            AppState.IsMobile = await BrowserService.CheckIsMobile();
+            //AppState.IsMobile = await BrowserService.CheckIsMobile();
 
-            System.Console.WriteLine("Main Layout Initialized 2");
+            //System.Console.WriteLine("Main Layout Initialized 2");
 
-            AppState.StateHasChanged();
+            //AppState.StateHasChanged();
         }
 
 
         // This method is fired when the AppState object
         // invokes its StateHasChanged() method
-        void AppStateHasChanged(
-            object sender, EventArgs e) => StateHasChanged();
+        //void AppStateHasChanged(
+        //    object sender, EventArgs e) => StateHasChanged();
 
     }
 }

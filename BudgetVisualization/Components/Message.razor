@@ -1,6 +1,4 @@
 ﻿<style>
-
-    
 </style>
 
 
@@ -8,7 +6,8 @@
     <MessageContent></MessageContent>
 </div>
 
-<div class="message-mobile">
+@if (IsMobile)
+{
     <MatDialog @bind-IsOpen="@dialogIsOpen">
         <MatDialogContent>
             <div class="mat-layout-grid">
@@ -19,9 +18,13 @@
             <MatButton OnClick="@OkClick" Raised="true">OK</MatButton>
         </MatDialogActions>
     </MatDialog>
-</div>
+}
+
 
 @code {
+
+    [Parameter]
+    public bool IsMobile { get; set; }
 
     bool dialogIsOpen = true;
 
