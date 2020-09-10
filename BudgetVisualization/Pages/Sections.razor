@@ -38,7 +38,7 @@
 <div class="carousell-page">
     <div class="carousell-container">
         <div class="carousell">
-            <MatList Style="padding:0px;">
+            <MatList Style="padding:0px;padding-bottom:5vh;">
                 @for (int i = 0; i < BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
                 {
                     int ii = i;
@@ -56,7 +56,7 @@
 
         @*Alignment messes up with sufficiently long text.*@
         <div class="carousell carousell-last">
-            <MatList Style="padding: 0px;">
+            <MatList Style="padding: 0px;padding-bottom: 5vh;">
                 @for (int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
                 {
                     int ii = i;
