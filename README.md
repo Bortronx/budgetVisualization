@@ -24,4 +24,4 @@ Using git, clone the project template as follows:
 5.Make Changes
 
 
-##[Deploying the web app](https://github.com/Bortronx/budgetVisualization/wiki/Publish-changes-to-the-web-app)
+## [Deploying the web app](https://github.com/Bortronx/budgetVisualization/wiki/Publish-changes-to-the-web-app)
