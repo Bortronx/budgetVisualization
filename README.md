@@ -18,7 +18,7 @@ https://visualstudio.microsoft.com/vs/community/
 
 4. Make sure to have a github account
 Using git, clone the project template as follows:
-git clone https://github.com/Bortronx/budgetVisualization
+`git clone https://github.com/Bortronx/budgetVisualization`
 
 
 5.Make Changes
