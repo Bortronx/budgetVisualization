@@ -197,11 +197,14 @@ app {
     }
 
     .comparison-text {
-        padding-top: 2vh;
+        padding: 1vh;
         text-align: center;
         font-weight: 700;
         font-stretch: normal;
         font-size: small;
+        height: 100%;
+        overflow-y: auto;
+        position: relative;
     }
 
 
@@ -218,13 +221,11 @@ app {
         top: 74vh;
         position: fixed;
         padding: 0.5rem;
-        height: 100vh;
+        height: 23vh;
         width: 100vw;
         font-size: 12px;
         border-radius: 7px;
         background: whitesmoke;
-        /*outline-style: auto;
-        outline-color: lightgray;*/
     }
 
     .carousell-container {
