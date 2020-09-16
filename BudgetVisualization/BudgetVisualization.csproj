@@ -19,20 +19,26 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\App.Designer.cs">
+    <Compile Update="Resources\Index.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>App.resx</DependentUpon>
+      <DependentUpon>Index.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Sections.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Sections.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\App.es.resx">
-      <Generator></Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\App.resx">
+    <EmbeddedResource Update="Resources\Index.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>App.Designer.cs</LastGenOutput>
+      <LastGenOutput>Index.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Sections.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sections.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inject IStringLocalizer<App> Localize
+@inject IStringLocalizer<Index> Localize
 
 <div class="page-container">
 
@@ -9,20 +9,17 @@
                 <img class="main-image" src="http://miamidsa.org/wp-content/uploads/2020/09/Fund-the-People-Miami.jpg" />
                 <p>
                     @Localize["Every July, Miami-Dade County releases its plan for how to spend"]
-                    <i>our</i>
+                    <i> @Localize["our"]</i>
                     @Localize["money in"]
-                    <i>our</i>
-                    @Localize["communities for public comment before it is adopted in September. The"]
+                    <i> @Localize["our"]</i>
+                    @Localize["communities for public comment before it is adopted in September. The "]
                     <a href="https://www.miamidade.gov/global/management/budget/2020-21-proposed-budget.page" target=”_blank”>
                         @Localize["Proposed Budget"]
                     </a>
                     @Localize[", however, runs hundreds of pages long and is no easy read."]
                 </p>
                 <p>
-                    @Localize["Fundthepeoplemiami.com is our attempt to break down this mammoth document. We undertook this work with a group of community organizations in the wake of George " +
-                   "Floyd’s death, and it soon became apparent that the disproportionate amount of spending on local law enforcement being decried across the country was also evident in Miami. " +
-                   "In this first iteration of the website, we focus on the discrepancies between our county’s funding for policing and jails versus community services. We hope that as more people " +
-                   "join our efforts and new findings are made we can create the most powerful and accessible budget visualization tool our communities deserve."]
+                    @Localize["Fundthepeoplemiami.com is our attempt to break down this mammoth document. We undertook this work with a group of community organizations in the wake of George Floyd’s death, and it soon became apparent that the disproportionate amount of spending on local law enforcement being decried across the country was also evident in Miami. In this first iteration of the website, we focus on the discrepancies between our county’s funding for policing and jails versus community services. We hope that as more people join our efforts and new findings are made we can create the most powerful and accessible budget visualization tool our communities deserve."]
                 </p>
 
                 <MatHeadline6 Style="color: green; font-weight: 700;">
@@ -30,18 +27,23 @@
                 </MatHeadline6>
 
                 <p>
-                    @Localize[@"Our last chance to tell County Commissioners how we want our money spent is taking place digitally on"]
+                    @Localize[@"Our last chance to tell County Commissioners how we want our money spent is taking place digitally on "]
                     <b>
                         @Localize[@"Thursday, September 17th at 5:00pm via Zoom."]
                     </b>
-                                     <a href="https://www.miamidade.gov/global/management/budget/2020-21-proposed-budget.page">
-                                         @Localize["Check here to find the Registration Link once the county provides."]
-                                        </a>
-</p>
+                    <a href="https://www.miamidade.gov/commission/registration/2020-09-17-BCC-meeting-registration.asp">
+                        @Localize["Click here to register!"]
+                    </a>
+                </p>
 
                 <p>
                     @Localize["Contact your County Commissioner directly before September 17th’s adoption and tell them we need more funding for rent relief, climate resilience and a sobering center! Visit our Resources page to find your district and the commissioner’s contact information."]
 
+                    <a href="https://docs.google.com/document/d/1BuD86ch1_zDkmQ2vZMn15YHgNunR3yf1lH2pj4Kra4U/edit?usp=sharing">
+                        @Localize["Click here"]
+                    </a>
+
+                    @Localize["for a step-by-step guide to both these actions!"]
                 </p>
 
                 <MatHeadline6 Style="color: #B89413;font-weight: 700;">
@@ -52,7 +54,9 @@
                     @Localize["The research, illustrations and design presented here is the accumulated work of many individuals—workers, students and everyday citizens who are dedicated to seeing economic justice and real democracy here in Miami. Without them and the organizations they are a part of this website and the information it makes available to our communities would not have been possible."]
                 </p>
 
-
+                <a href="https://github.com/Bortronx/budgetVisualization">
+                    @Localize["Developer? Contribute Here!"]
+                </a>
 
             </div>
         </div>
@@ -61,10 +65,12 @@
     <div class="glance">
         <div>
             <MatH6 class="glance-heading">
-                MIAMI-DADE BUDGET<br />
-                AT A GLANCE
+                @Localize["MIAMI-DADE BUDGET"]<br />
+                @Localize["AT A GLANCE"]
             </MatH6>
-            <p class="glance-text-top">Total Funding for Operating Budget:</p>
+            <p class="glance-text-top">
+                @Localize["Total Funding for Operating Budget:"]
+            </p>
             <h4 class="glance-text-top teal">$5,713,706,000</h4>
 
         </div>
@@ -75,7 +81,9 @@
         </div>
 
         <div class="green-line">
-            <p class="glance-text">Transportation & Public Works</p>
+            <p class="glance-text">
+                @Localize["Transportation & Public Works"]
+            </p>
             <h5 class="green">$616,801,000</h5>
         </div>
 
@@ -85,18 +93,24 @@
         </div>
 
         <div class="orange-line">
-            <p class="glance-text">Community Services</p>
+            <p class="glance-text">
+                @Localize["Community Services"]
+            </p>
             <h5 class="orange">$149,058,000</h5>
         </div>
 
         <div class="purple-line">
-            <p class="glance-text">Public Housing</p>
+            <p class="glance-text">
+                @Localize["Public Housing"]
+            </p>
             <h5 class="glance-text purple">$97,602,000*</h5>
             <MatCaption>*$300,000 from the General Fund</MatCaption>
         </div>
 
         <div class="deep-red-line">
-            <p class="glance-text">Judicial Administration</p>
+            <p class="glance-text">
+                @Localize["Judicial Administration"]
+            </p>
             <h5 class="deep-red">$41,234,000</h5>
         </div>
 
