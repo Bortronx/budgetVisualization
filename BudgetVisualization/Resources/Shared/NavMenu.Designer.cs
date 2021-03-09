@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BudgetVisualization.Resources {
+namespace BudgetVisualization.Resources.Shared {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace BudgetVisualization.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Sections {
+    public class NavMenu {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Sections() {
+        internal NavMenu() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace BudgetVisualization.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BudgetVisualization.Resources.Sections", typeof(Sections).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BudgetVisualization.Resources.Shared.NavMenu", typeof(NavMenu).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,24 @@ namespace BudgetVisualization.Resources {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Overview.
+        /// </summary>
+        public static string Overview {
+            get {
+                return ResourceManager.GetString("Overview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to test.
+        /// </summary>
+        public static string test {
+            get {
+                return ResourceManager.GetString("test", resourceCulture);
             }
         }
     }

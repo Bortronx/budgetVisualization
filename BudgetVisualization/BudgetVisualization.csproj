@@ -9,6 +9,10 @@
     <None Remove="Components\Message.razor~RF7464d0.TMP" />
   </ItemGroup>
 
+	<PropertyGroup>
+		<BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+	</PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="MatBlazor" Version="2.6.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="3.2.1" />
@@ -19,27 +23,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\Index.Designer.cs">
+    <Compile Update="Resources\Pages\Index.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Index.resx</DependentUpon>
     </Compile>
-    <Compile Update="Resources\Sections.Designer.cs">
+    <Compile Update="Resources\Shared\NavMenu.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Sections.resx</DependentUpon>
+      <DependentUpon>NavMenu.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Resources\Index.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Index.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Sections.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Sections.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-
+	<ItemGroup>
+		<EmbeddedResource Update="Resources\Pages\Index.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<LastGenOutput>Index.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Shared\NavMenu.es.resx">
+		  <Generator></Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Shared\NavMenu.resx">
+		  <Generator>PublicResXFileCodeGenerator</Generator>
+		  <LastGenOutput>NavMenu.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+	
 </Project>

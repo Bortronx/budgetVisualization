@@ -120,6 +120,9 @@
   <data name=", however, runs hundreds of pages long and is no easy read." xml:space="preserve">
     <value>tiene ciento de paginas y no es facil de leer.</value>
   </data>
+  <data name="A BRIEF HISTORY" xml:space="preserve">
+    <value>NUESTRA HISTORIA</value>
+  </data>
   <data name="AT A GLANCE" xml:space="preserve">
     <value>PRESENTADO</value>
   </data>
@@ -145,6 +148,11 @@
   <data name="Developer? Contribute Here!" xml:space="preserve">
     <value>¿Programador? ¡Contribuya aquí!</value>
   </data>
+  <data name="Each summer, Miami-Dade County releases a Proposed Budget for the next fiscal year: this is the plan for how to spend billions of dollars of our taxes and other county revenue in our communities over the next year. Historically, there have been few opportunities for public comment before the budget is approved by a vote of the County Commissioners in the fall—let alone public input in the crafting of the budget. What is more, while the budget is available on the County website, it runs hundreds of pages long and is no easy read if you don’t know what you’re looking for. We believe that the budget should reflect the values and needs of the County’s residents, and we’re wise enough to know that we can’t simply rely on those in power to look after our best interests. Fundthepeoplemiami.com was born out of our attempt to break down the County budget so that anyone could know what the plan is for our money and our communities and, together, have a say in it." xml:space="preserve">
+    <value>Cada verano, el Condado Miami-Dade publica la Propuesta de Presupuesto para el próximo año fiscal. Este es el plan de cómo gastar billones de dólares de nuestros taxes y otras ganancias del condado dinero en nuestras comunidades durante el próximo año. Históricamente, habido pocas oportunidades para comentarios públicos antes de que el presupuesto sea aprobado por el voto de los Comisionados del Condado in el otoño, y menos todavía que el publico opine en el proceso de conformación del presupuesto.  No solo esto, aunque el presupuesto está disponible en el sitio web del Condado está compuesto de ciento de paginas y no es fácil de leer si no sabe que esta buscando. Nosotros creemos que el presupuesto debe reflejar los valores y necesidades de los residentes del Condado. Somos lo suficiente inteligente para saber que no podemos simplemente apoyarnos en aquellos que están en el poder para tener en cuenta nuestro mejor interés.
+Fundthepeoplemiami.com (Financia a la gente miami) fue creado como nuestra iniciativa para desglosar el presupuesto del Condado para que cualquiera pueda saber y entender cuál es el plan para nuestro dinero y nuestras comunidades y que juntos nuestra opinión este presente.</value>
+    <comment>3_9_2021</comment>
+  </data>
   <data name="Every July, Miami-Dade County releases its plan for how to spend" xml:space="preserve">
     <value>Cada Julio, Miami-Dade County publica su plan para como gastar</value>
     <comment>Overview Page</comment>
@@ -152,8 +160,15 @@
   <data name="Every July, Miami-Dade County releases its plan for how to spend our money in our communities for the next year*.The July release is meant to give County residents time to review the budget and make comments before it is adopted in September. The" xml:space="preserve">
     <value>Cada julio, el condado de Miami-Dade publica su plan sobre cómo gastar nuestro dinero en nuestras comunidades durante el próximo año *. La publicación de julio está destinada a dar a los residentes del condado tiempo para revisar el presupuesto y hacer comentarios antes de que se adopte en septiembre. los</value>
   </data>
+  <data name="f" xml:space="preserve">
+    <value />
+  </data>
   <data name="for a step-by-step guide to both these actions!" xml:space="preserve">
     <value>para obtener una guía paso a paso de ambas acciones.</value>
+  </data>
+  <data name="for a step-by-step guide to both these actions! Finally, our “Get Involved” tab will have updated links to events and training for the general public to become a part in the county budget decision-making processes." xml:space="preserve">
+    <value>para un guía paso por paso para ambas acciones! Finalmente, nuestra sección “Involúcrate” tendrá enlaces actualizados a eventos y entrenamientos para el publico general para ser parte del proceso de decisiones del presupuesto del condado.</value>
+    <comment>3_9_2021</comment>
   </data>
   <data name="Fundthepeoplemiami.com is our attempt to break down this mammoth document. We undertook this work with a group of community organizations in the wake of George Floyd’s death, and it soon became apparent that the disproportionate amount of spending on local law enforcement being decried across the country was also evident in Miami. In this first iteration of the website, we focus on the discrepancies between our county’s funding for policing and jails versus community services. We hope that as more people join our efforts and new findings are made we can create the most powerful and accessible budget visualization tool our communities deserve." xml:space="preserve">
     <value>Fundthepeoplemiami.com es nuestro intento de desglosar este gigantesco documento. Llevamos a cabo este trabajo con un conjunto de organizaciones comunitarias juntadas a raíz de la muerte de George Floyd, y pronto se hizo evidente que como se ah denunciado en todo el país la cantidad desproporcionada de gastos en la aplicación de la ley a nivel local también es evidente en Miami. En esta primera versión del sitio web, nos centramos en las discrepancias entre la financiación de nuestro condado de la vigilancia y las cárceles en contraste con los servicios comunitarios. Esperamos que a medida que más personas se unan a nuestros esfuerzos y se obtengan nuevos hallazgos, podamos crear la herramienta de visualización de presupuesto más poderosa y accesible que nuestras comunidades merecen.</value>
@@ -163,6 +178,9 @@
   </data>
   <data name="HOW WE CHANGE THE BUDGET" xml:space="preserve">
     <value>COMO CAMBIAMOS EL PRESUPUESTO</value>
+  </data>
+  <data name="INTERESTED IN GETTING INVOLVED?" xml:space="preserve">
+    <value>INTEREZADO EN INVOLUCRARTE?</value>
   </data>
   <data name="Judicial Administration" xml:space="preserve">
     <value>Administración judicial</value>
@@ -179,11 +197,22 @@
   <data name="Our last chance to tell County Commissioners how we want our money spent is taking place digitally on" xml:space="preserve">
     <value>Nuestra oportunidad de decirles a los Comisionados del Condado cómo queremos que se gaste nuestro dinero se llevará a cabo digitalmente este </value>
   </data>
+  <data name="Our mission is to make Miami Dade County’s budget more accessible while providing interactive tools and opportunities for the general public to become informed on the ways our Miami-Dade taxpayer money is spent. Our “Community Services” tab includes a comparison tool that aims to illustrate discrepancies and inequities in public funding in Miami-Dade. Use our “Resources” tab to find your district and your commissioner’s contact information." xml:space="preserve">
+    <value>Nuestra misión es hacer el presupuesto del Condado Miami Dade más asequible y a la vez proveer herramientas interactivas y oportunidades para que el público general este informado sobre las maneras en que el dinero de los pagadores de taxes en Miami-Dade será gastado.  En la sección “Servicios Comunitarios” incluimos una herramienta de comparación con la meta de ilustrar discrepancias y desigualdades en el uso de fondos públicos en el Miami Dade. Use la sección de “Recursos” para encontrar su distrito y la información de contacto de su comisionado.</value>
+    <comment>3_9_2021</comment>
+  </data>
+  <data name="OUR WHAT &amp; WHY" xml:space="preserve">
+    <value>NUESTRO QUE? Y PORQUE?</value>
+  </data>
   <data name="Proposed Budget" xml:space="preserve">
     <value>Presupuesto Propuesto</value>
   </data>
   <data name="Public Housing" xml:space="preserve">
     <value>Vivienda pública</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Recursos</value>
+    <comment>3_9_2021</comment>
   </data>
   <data name="SPECIAL THANKS" xml:space="preserve">
     <value>AGRADECIMIENTOS ESPECIALES</value>
@@ -197,11 +226,14 @@
                         y democracia real aquí en Miami. Sin ellos y las organizaciones son parte de este
                         sitio web y la información que pone a disposición de nuestras comunidades no habría sido posible.</value>
   </data>
-  <data name="The research, illustrations and design presented here is the accumulated work of many individuals—workers, students and everyday citizens who are dedicated to seeing economic justice and real democracy here in Miami. Without them and the organizations they are a part of this website and the information it makes available to our communities would not have been possible." xml:space="preserve">
+  <data name="The research, illustrations, and design presented here is the accumulated work of many individuals—workers, students and everyday citizens who are dedicated to seeing economic justice and real democracy here in Miami. Without them and the organizations they are a part of this website and the information it makes available to our communities would not have been possible." xml:space="preserve">
     <value>La investigación, las ilustraciones y el diseño que se presentan aquí son el trabajo acumulado de muchas personas: trabajadores, estudiantes y ciudadanos comunes que se dedican a ver la justicia económica y la democracia real aquí en Miami. Sin ellos y las organizaciones son parte de este sitio web y la información que pone a disposición de nuestras comunidades no hubiera sido posible.</value>
   </data>
   <data name="Thursday, September 17th at 5:00pm via Zoom." xml:space="preserve">
     <value>Jueves 17 de septiembre a las 5:00 pm vía Zoom.</value>
+  </data>
+  <data name="to email us and let's work together to prioritize the people of Miami." xml:space="preserve">
+    <value>Para escribirnos un correo y trabajar juntos para darle prioridad a la gente de Miami.</value>
   </data>
   <data name="to find your district and the commissioner’s contact information!" xml:space="preserve">
     <value>para encontrar su distrito y la información de contacto del comisionado.</value>

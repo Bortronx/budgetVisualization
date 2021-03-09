@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BudgetVisualization.Resources {
+namespace BudgetVisualization.Resources.Pages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace BudgetVisualization.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BudgetVisualization.Resources.Index", typeof(Index).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BudgetVisualization.Resources.Pages.Index", typeof(Index).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -75,6 +75,15 @@ namespace BudgetVisualization.Resources {
         public static string Greetings {
             get {
                 return ResourceManager.GetString("Greetings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OUR WHAT &amp; WHY.
+        /// </summary>
+        public static string OUR_WHAT___WHY {
+            get {
+                return ResourceManager.GetString("OUR WHAT & WHY", resourceCulture);
             }
         }
         
