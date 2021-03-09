@@ -1,11 +1,11 @@
 ﻿@page "/Resources"
 
-@inject IStringLocalizer<App> Localize
+@inject IStringLocalizer<Resources> Localize
 
 <div class="mat-layout-grid">
     <div class="mat-layout-grid-inner">
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12">
-            <MatH4><b>Resources</b></MatH4>
+            <MatH4><b>@Localize["Resources"]</b></MatH4>
         </div>
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12" style="margin-bottom: 3vh;">
             <MatDivider></MatDivider>
@@ -14,126 +14,133 @@
     <div class="mat-layout-grid-inner">
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-4">
 
-            <h4 style="margin-bottom: 2px"><a class="resource-tile" href="https://www.miamidade.gov/global/management/budget/2020-21-adopted-budget.page">The 2021-2021 Budget </a></h4>
+            <h4 style="margin-bottom: 2px">
+                <a class="resource-tile" href="https://www.miamidade.gov/global/management/budget/2020-21-adopted-budget.page">
+                    @Localize["The 2021-2021 Budget"]
+                </a>
+            </h4>
 
-            Here is Miami-Dade’s Adopted Budget for 2020-2021.
+            @Localize["Here is Miami-Dade’s Adopted Budget for 2020-2021."]
 
             <h4 style="margin-top: 30px;">
                 <a class="resource-tile" href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/appendix-b.pdf">
-                    Table of Operating Budget
+                    @Localize[" Table of Operating Budget"]
                 </a>
             </h4>
             <p style="font-size: medium;">
-                This table provides an overview of all operating budget expenses by strategic area, department, and the primary activities engaged in by those departments. These expenses are broken down by revenue source: the table represents how much funding goes to departmental activities and from which sources and also shows last year’s numbers for comparison. For a more detailed breakdown, take a look at the departmental budget narratives.
+                @Localize["This table provides an overview of all operating budget expenses by strategic area, department, and the primary activities engaged in by those departments. These expenses are broken down by revenue source: the table represents how much funding goes to departmental activities and from which sources and also shows last year’s numbers for comparison. For a more detailed breakdown, take a look at the departmental budget narratives."]
             </p>
 
             <br />
 
             <h6>
                 <b>
-                    Departmental Budget Narratives Used On This Site:
+                    @Localize["Departmental Budget Narratives Used On This Site:"]
                 </b>
             </h6>
 
-            <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/police.pdf" target="_blank">Police</a>
-            <br />
-            <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/corrections-and-rehabilitation.pdf" target="_blank">Corrections and Rehabilitation</a>
-            <br />
-            <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/community-action-and-human-services.pdf" target="_blank">Community Action and Human Services</a>
+            <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/police.pdf" target="_blank">
+                @Localize["Police"]</a>
+                <br />
+                <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/corrections-and-rehabilitation.pdf" target="_blank">
+                    @Localize["Corrections and Rehabilitation"]</a>
+                                <br />
+                                <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/community-action-and-human-services.pdf" target="_blank"> @Localize["Community Action and Human Services"]</a>
 
-        </div>
+</div>
         <div class="mat-layout-grid-cell mat-layout-grid-cell-span-8-desktop">
-            <h4 style="margin-bottom: 2px"><a class="resource-tile" href="https://www.miamidade.gov/commission/" target="_blank">Who is My Commissioner?</a></h4>
+            <h4 style="margin-bottom: 2px"><a class="resource-tile" href="https://www.miamidade.gov/commission/" target="_blank">
+    @Localize["Who is My Commissioner?"]</a></h4>
             <p style="font-size: medium;">
-                The Mayor and Board of County Commissioners are our elected representatives in Miami-Dade. 
-                Click the link above to find out who represents your district and tell them what you would like to see funded in next year’s budget!
+                @Localize["The Mayor and Board of County Commissioners are our elected representatives in Miami-Dade."]
+                @Localize["Click the link above to find out who represents your district and tell them what you would like to see funded in next year’s budget!"]
             </p>
-            <div class="mat-layout-grid commissioner-list">
-                <div class="mat-layout-grid-inner">
-                    <div class="mat-layout-grid-cell mat-layout-grid-cell-span-6">
+    <div class="mat-layout-grid commissioner-list">
+        <div class="mat-layout-grid-inner">
+            <div class="mat-layout-grid-cell mat-layout-grid-cell-span-6">
 
 
 
-                        <p>
-                            <b>District 1: Oliver G. Gilbert, III </b><br />
-                            <a href="tel:305-375-5694">305-375-5694</a> <br />
-                            <a href="tel:305-474-3011">305-474-3011</a> <br />
-                            <a href="mailto:District1@miamidade.gov">District1@miamidade.gov</a> <br />
-                        </p>
+                <p>
+                    <b>District 1: Oliver G. Gilbert, III </b><br />
+                    <a href="tel:305-375-5694">305-375-5694</a> <br />
+                    <a href="tel:305-474-3011">305-474-3011</a> <br />
+                    <a href="mailto:District1@miamidade.gov">District1@miamidade.gov</a> <br />
+                </p>
 
 
-                        <p>
-                            <b>District 2: Jean Monestime </b><br />
-                            <a href="tel:305-375-4833">305-375-4833</a> <br />
-                            <a href="mailto:district2@miamidade.gov">district2@miamidade.gov</a> <br />
-                        </p>
-                        <p>
-                            <b>District 3: Keon Hardemon </b><br />
-                            <a href="tel:305-375-5393">305-375-5393</a> <br />
-                            <a href="mailto:district3@miamidade.gov">district3@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 4: Sally A. Heyman</b><br />
-                            <a href="tel:305-787-5999">305-787-5999</a> <br />
-                            <a href="mailto:district4@miamidade.gov">district4@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 5: Eileen Higgins </b><br />
-                            <a href="tel:305-375-5924">305-375-5924</a> <br />
-                            <a href="mailto:district5@miamidade.gov">district5@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 6: Rebeca Sosa </b><br />
-                            <a href="tel:305-267-6377">305-267-6377</a> <br />
-                            <a href="mailto:district6@miamidade.gov">district6@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 7: Raquel A. Regalado </b><br />
-                            <a href="tel:305-375-5680">305-375-5680</a> <br />
-                            <a href="mailto:district7@miamidade.gov">district7@miamidade.gov</a>
-                        </p>
+                <p>
+                    <b>District 2: Jean Monestime </b><br />
+                    <a href="tel:305-375-4833">305-375-4833</a> <br />
+                    <a href="mailto:district2@miamidade.gov">district2@miamidade.gov</a> <br />
+                </p>
+                <p>
+                    <b>District 3: Keon Hardemon </b><br />
+                    <a href="tel:305-375-5393">305-375-5393</a> <br />
+                    <a href="mailto:district3@miamidade.gov">district3@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 4: Sally A. Heyman</b><br />
+                    <a href="tel:305-787-5999">305-787-5999</a> <br />
+                    <a href="mailto:district4@miamidade.gov">district4@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 5: Eileen Higgins </b><br />
+                    <a href="tel:305-375-5924">305-375-5924</a> <br />
+                    <a href="mailto:district5@miamidade.gov">district5@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 6: Rebeca Sosa </b><br />
+                    <a href="tel:305-267-6377">305-267-6377</a> <br />
+                    <a href="mailto:district6@miamidade.gov">district6@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 7: Raquel A. Regalado </b><br />
+                    <a href="tel:305-375-5680">305-375-5680</a> <br />
+                    <a href="mailto:district7@miamidade.gov">district7@miamidade.gov</a>
+                </p>
 
-                    </div>
-                    <div class="mat-layout-grid-cell mat-layout-grid-cell-span-6">
-                        <p>
-                            <b>District 8: Danielle Cohen Higgins </b><br />
-                            <a href="tel:305-375-5218">305-375-5218</a> <br />
-                            <a href="mailto:district8@miamidade.gov">district8@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 9: Kionne L. McGhee </b><br />
-                            <a href="tel:305-375-4832">305-375-4832</a>
-                            <a href="mailto:district9@miamidade.gov">district9@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 10: Javier D. Souto </b><br />
-                            <a href="tel:305-222-2116">305-222-2116</a> <br />
-                            <a href="mailto:district10@miamidade.gov">district10@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 11: Joe A. Martinez </b><br />
-                            <a href="tel:305-552-1155">305-552-1155</a> <br />
-                            <a href="mailto:district11@miamidade.gov">district11@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 12: Jose “Pepe” Dias </b><br />
-                            <a href="tel:305-599-1200">305-599-1200</a> <br />
-                            <a href="mailto:district12@miamidade.gov">district12@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>District 13: René Garcia </b><br />
-                            <a href="tel:305-375-4831">305-375-4831</a> <br />
-                            <a href="mailto:district13@miamidade.gov">district13@miamidade.gov</a>
-                        </p>
-                        <p>
-                            <b>Mayor: Daniella Lavine Cava </b><br />
-                            <a href="tel:305-375-5071">305-375-5071</a> <br />
-                            <a href="mailto:mayor@miamidade.gov">mayor@miamidade.gov</a>
-                        </p>
-                    </div>
-                </div>
+            </div>
+            <div class="mat-layout-grid-cell mat-layout-grid-cell-span-6">
+                <p>
+                    <b>District 8: Danielle Cohen Higgins </b><br />
+                    <a href="tel:305-375-5218">305-375-5218</a> <br />
+                    <a href="mailto:district8@miamidade.gov">district8@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 9: Kionne L. McGhee </b><br />
+                    <a href="tel:305-375-4832">305-375-4832</a>
+                    <a href="mailto:district9@miamidade.gov">district9@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 10: Javier D. Souto </b><br />
+                    <a href="tel:305-222-2116">305-222-2116</a> <br />
+                    <a href="mailto:district10@miamidade.gov">district10@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 11: Joe A. Martinez </b><br />
+                    <a href="tel:305-552-1155">305-552-1155</a> <br />
+                    <a href="mailto:district11@miamidade.gov">district11@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 12: Jose “Pepe” Dias </b><br />
+                    <a href="tel:305-599-1200">305-599-1200</a> <br />
+                    <a href="mailto:district12@miamidade.gov">district12@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>District 13: René Garcia </b><br />
+                    <a href="tel:305-375-4831">305-375-4831</a> <br />
+                    <a href="mailto:district13@miamidade.gov">district13@miamidade.gov</a>
+                </p>
+                <p>
+                    <b>Mayor: Daniella Lavine Cava </b><br />
+                    <a href="tel:305-375-5071">305-375-5071</a> <br />
+                    <a href="mailto:mayor@miamidade.gov">mayor@miamidade.gov</a>
+                </p>
             </div>
         </div>
+    </div>
+</div>
     </div>
 </div>
 

@@ -117,73 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="45 New Police Officer Positions" xml:space="preserve">
-    <value>45 Nuevas Posiciones de Oficiales de Policía</value>
-  </data>
-  <data name="Administrative Office of the Courts" xml:space="preserve">
-    <value>Oficina Administrativa de las Cortes</value>
-  </data>
-  <data name="and" xml:space="preserve">
-    <value>y</value>
-  </data>
-  <data name="Armored Medical Vehicle" xml:space="preserve">
-    <value>Vehicule Armados Medico</value>
-  </data>
-  <data name="Cloud-based fingerprint ID system" xml:space="preserve">
-    <value>Sistema de Huellas basada en la Nube</value>
+  <data name="Click the link above to find out who represents your district and tell them what you would like to see funded in next year’s budget" xml:space="preserve">
+    <value>Haga Click en el enlace de arriba para saber quién representa su distrito y decirle que usted quisiera ver financiado en el presupuesto del próximo ano.</value>
   </data>
   <data name="Community Action and Human Services" xml:space="preserve">
     <value>Acción comunitaria y Servicios Humanos</value>
   </data>
-  <data name="Community Services" xml:space="preserve">
-    <value>Servicios Comunitarios</value>
-  </data>
   <data name="Corrections and Rehabilitation" xml:space="preserve">
     <value>Correcciones y Rehabilitación</value>
   </data>
-  <data name="Employment and Training" xml:space="preserve">
-    <value>Empleo y Entrenamiento</value>
+  <data name="Departmental Budget Narratives Used On This Site:" xml:space="preserve">
+    <value>Narrativas del Presupuesto por Departamento usadas en este sitio: </value>
   </data>
-  <data name="Helicopter fleet" xml:space="preserve">
-    <value>Helicópteros</value>
+  <data name="Here is Miami-Dade’s Adopted Budget for 2020-2021" xml:space="preserve">
+    <value>Aqui esta el Presupuesto Adoptado por el Miami-Dade para el 2020-2021</value>
   </data>
-  <data name="Increase to Corrections Salaries" xml:space="preserve">
-    <value>Incrementos a los salarios de Centros de Corrección</value>
+  <data name="Resources" xml:space="preserve">
+    <value>Recursos</value>
   </data>
-  <data name="Law Enforcement Records Management System" xml:space="preserve">
-    <value>Sistema de Manejo de Archivos de Imposición de la Ley</value>
+  <data name="Table of Operating Budget" xml:space="preserve">
+    <value>Tabla de Presupuesto Operativo</value>
   </data>
-  <data name="Neighborhood Centers/ Community Resource Centers" xml:space="preserve">
-    <value>Centros de Recursos Comunitarios/ Centros en la Vecindad</value>
+  <data name="The 2021-2021 Budget" xml:space="preserve">
+    <value>El Presupuesto 2021-2022</value>
   </data>
-  <data name="Police" xml:space="preserve">
-    <value>Policía</value>
+  <data name="The Mayor and Board of County Commissioners are our elected representatives in Miami-Dade." xml:space="preserve">
+    <value>El Alcalde y el Buro de Commisionados del condado son nuestros representates elejidos en el Miami-Dade.</value>
   </data>
-  <data name="Police &amp; Jails" xml:space="preserve">
-    <value>Policía Y Cárceles</value>
+  <data name="This table provides an overview of all operating budget expenses by strategic area, department, and the primary activities engaged in by those departments. These expenses are broken down by revenue source: the table represents how much funding goes to departmental activities and from which sources and also shows last year’s numbers for comparison. For a more detailed breakdown, take a look at the departmental budget narratives." xml:space="preserve">
+    <value>Esta tabla muestra todos los gastos del presupuesto operativo por área estratégica, departamento, y actividades acuminadas por esos departamentos. Estos gastos están separados por de dónde vienen la ganancia. La table representa cuantos gastos van hacia actividades del departamento y de donde viene ese dinero. También muestra los números del año pasado para comparar. Para una mirada en detalle vea las narrativas del presupuesto por departamento.</value>
   </data>
-  <data name="Psychological Services" xml:space="preserve">
-    <value>Servicios Psicológicos</value>
-  </data>
-  <data name="Public Defender" xml:space="preserve">
-    <value>Defensores Públicos</value>
-  </data>
-  <data name="Rehabilitative Service" xml:space="preserve">
-    <value>Servicios de Rehabilitación</value>
-  </data>
-  <data name="State Attorney" xml:space="preserve">
-    <value>Abogado Estatal</value>
-  </data>
-  <data name="Values are from General Fund" xml:space="preserve">
-    <value>Valores son del Fondo General</value>
-  </data>
-  <data name="Video cameras &amp; license plate readers" xml:space="preserve">
-    <value>Video Cameras y lectores de placa de licencia.</value>
-  </data>
-  <data name="View County Budget Narrative for" xml:space="preserve">
-    <value>Ver Narrativa del Presupuesto del Condado</value>
-  </data>
-  <data name="Violence Prevention &amp; Intervention" xml:space="preserve">
-    <value>Prevención y Intervención en la Violencia</value>
+  <data name="Who is My Commissioner?" xml:space="preserve">
+    <value>Quien es mi Comisionado?</value>
   </data>
 </root>

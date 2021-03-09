@@ -28,6 +28,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Index.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resources\Pages\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Pages\Sections.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Sections.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resources\Shared\NavMenu.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -38,6 +48,14 @@
 		<EmbeddedResource Update="Resources\Pages\Index.resx">
 			<Generator>PublicResXFileCodeGenerator</Generator>
 			<LastGenOutput>Index.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Pages\Resources.resx">
+		  <Generator>PublicResXFileCodeGenerator</Generator>
+		  <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Pages\Sections.resx">
+		  <Generator>PublicResXFileCodeGenerator</Generator>
+		  <LastGenOutput>Sections.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
 		<EmbeddedResource Update="Resources\Shared\NavMenu.es.resx">
 		  <Generator></Generator>
