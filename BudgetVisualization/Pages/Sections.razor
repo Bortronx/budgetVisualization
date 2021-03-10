@@ -2,6 +2,7 @@
 
 @using BudgetVisualization.Components
 @using BudgetVisualization.Data
+@using BudgetVisualization.Models
 
 @inject IStringLocalizer<Sections> Localize
 
@@ -10,28 +11,33 @@
 
 <div class="carousell-headings">
     <div class="carousell-headings-titles">
-        <MatH6 class="carousell-headings-title">@Localize["Community Services"] </MatH6>
+        <MatH6 class="carousell-headings-title">
+            @Localize["Community Services"] 
+        </MatH6>
         <p class="carousell-headings-subtitle">
-            View County Budget Narrative for
-            <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/community-action-and-human-services.pdf">
+            @Localize["View County Budget Narrative for"]
+
+            <a href = "https://www.miamidade.gov/budget/library/fy2020-21/adopted/community-action-and-human-services.pdf" >
                 @Localize["Community Action and Human Services"]
             </a>
-            ( @Localize["Values are from General Fund"])
+
+            @Localize["Values are from General Fund"]
         </p>
 
     </div>
     <div class="carousell-headings-titles">
-        <MatH6 class="carousell-headings-title">Police & Jails </MatH6>
+        <MatH6 class="carousell-headings-title">
+            @Localize["Police & Jails"]
+        </MatH6>
         <p class="carousell-headings-subtitle">
             @Localize["View County Budget Narrative for"]
-            <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/police.pdf">
-                @Localize["Police"]
+            <a href = "https://www.miamidade.gov/budget/library/fy2020-21/adopted/police.pdf" >
+            @Localize["Police"]
             </a>
             @Localize["and"]
             <a href="https://www.miamidade.gov/budget/library/fy2020-21/adopted/corrections-and-rehabilitation.pdf">
-                @Localize["Corrections and Rehabilitation"]
+            @Localize["Corrections and Rehabilitation"]
             </a>
-
         </p>
     </div>
 </div>
@@ -39,8 +45,8 @@
 <div class="carousell-page">
     <div class="carousell-container">
         <div class="carousell">
-            <MatList Style="padding:0px;padding-bottom:5vh;">
-                @for (int i = 0; i < BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
+            <MatList Style="padding:0px;padding-bottom:5vh;" >
+                @for(int i = 0; i<BudgetData.GetSection(SectionName).ProposedItems.Count; i++)
                 {
                     int ii = i;
 
@@ -49,16 +55,15 @@
                     string ItemStyle = (ii == rowLeftActiveIndex) ? selectedStyle : unselectedStyle;
 
                     <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedLeft(ii, item))" Style="@ItemStyle">
-                        <ProposedBudgetItem itemData=item Localizer="@Localize" />
+                        <ProposedBudgetItem itemData="@item" Localizer="@Localize" />
                     </MatListItem>
                 }
             </MatList>
         </div>
-
-        @*Alignment messes up with sufficiently long text.*@
+        @*TODO: Fix Alignment messes up with sufficiently long text.*@
         <div class="carousell carousell-last">
             <MatList Style="padding: 0px;padding-bottom: 5vh;">
-                @for (int i = 0; i < BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
+                @for (int i = 0; i<BudgetData.GetCurrentComparedToSection().ProposedItems.Count; i++)
                 {
                     int ii = i;
 
@@ -67,21 +72,22 @@
                     string ItemStyle = (ii == rowRightActiveIndex) ? selectedStyle : unselectedStyle;
 
                     <MatListItem Class="proposedItem" OnClick="(() => SetItemSelectedRight(ii, item))" Style="@ItemStyle">
-                        <ProposedBudgetItem itemData=item Localizer="@Localize" />
+                        <ProposedBudgetItem itemData="@item" Localizer="@Localize" />
                     </MatListItem>
-                }
+                 }
             </MatList>
         </div>
     </div>
     <div class="carousell-result mat-elevation-z1">
         @if (rowRightItem != null && rowLeftItem != null)
         {
-            <ComparisonResultStatic ComparisonText="@Localize[CurrentComparisonText]" FirstImagePath="@rowRightItem.imageURL" SecondImagePath="@rowLeftItem.imageURL"></ComparisonResultStatic>
+            var x = CurrentComparisonText;
+
+            <ComparisonResultStatic ComparisonText="@Localize[CurrentComparisonText]" FirstImagePath="@rowRightItem.imageURL" SecondImagePath="@rowLeftItem.imageURL" Localizer="@Localize"></ComparisonResultStatic>
         }
         else
         {
-            <ComparisonResultStatic ComparisonText="@Localize[CurrentComparisonText]" FirstImagePath="" SecondImagePath=""></ComparisonResultStatic>
+            <ComparisonResultStatic ComparisonText="@Localize[CurrentComparisonText]"Localizer="@Localize"></ComparisonResultStatic>
         }
     </div>
-
 </div>

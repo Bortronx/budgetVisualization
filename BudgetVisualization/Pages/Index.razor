@@ -8,8 +8,7 @@
             <div class="mat-layout-grid-cell main-text mat-layout-grid-cell-span-12">
                 <img class="main-image" src="http://miamidsa.org/wp-content/uploads/2020/09/Fund-the-People-Miami.jpg" />
                 <MatHeadline6 Style="color: green; font-weight: 700;">
-                    @(Localize["OUR WHAT & WHY"].ResourceNotFound)
-                    @(Localize["OUR WHAT & WHY"].SearchedLocation)
+                    @(Localize["OUR WHAT & WHY"])
                 </MatHeadline6>
                 <p>
                     @Localize["Each summer, Miami-Dade County releases a Proposed Budget for the next fiscal year: this is the plan for how to spend billions of dollars of our taxes and other county revenue in our communities over the next year. Historically, there have been few opportunities for public comment before the budget is approved by a vote of the County Commissioners in the fall—let alone public input in the crafting of the budget. What is more, while the budget is available on the County website, it runs hundreds of pages long and is no easy read if you don’t know what you’re looking for. We believe that the budget should reflect the values and needs of the County’s residents, and we’re wise enough to know that we can’t simply rely on those in power to look after our best interests. Fundthepeoplemiami.com was born out of our attempt to break down the County budget so that anyone could know what the plan is for our money and our communities and, together, have a say in it."]
@@ -72,9 +71,10 @@
         </div>
 
         <div class="red-line">
-            <p class="glance-text">Police Department</p>
-            <h5 class="red">$764,598,000</h5>
-        </div>
+            <p class="glance-text">
+                @Localize["Police Department"]</p>
+                <h5 class="red">$764,598,000</h5>
+</div>
 
         <div class="green-line">
             <p class="glance-text">
@@ -84,9 +84,10 @@
         </div>
 
         <div class="blue-line">
-            <p class="glance-text">Corrections</p>
-            <h5 class="blue">$383,686,000</h5>
-        </div>
+            <p class="glance-text">
+                @Localize["Corrections"]</p>
+                        <h5 class="blue">$383,686,000</h5>
+</div>
 
         <div class="orange-line">
             <p class="glance-text">
@@ -100,8 +101,8 @@
                 @Localize["Public Housing"]
             </p>
             <h5 class="glance-text purple">$97,602,000*</h5>
-            <MatCaption>*$300,000 from the General Fund</MatCaption>
-        </div>
+            <MatCaption>* $300,000 @Localize["from the General Fund"]</MatCaption>
+</div>
 
         <div class="deep-red-line">
             <p class="glance-text">

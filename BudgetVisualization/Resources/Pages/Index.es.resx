@@ -145,6 +145,9 @@
   <data name="Contact your County Commissioner directly before September 17th’s adoption and tell them we need more funding for rent relief, climate resilience and a sobering center! Visit our Resources page to find your district and the commissioner’s contact information." xml:space="preserve">
     <value>Comuníquese con el Comisionado de su condado directamente antes de la adopción este 17 de septiembre y dígales que necesitamos más fondos para el alivio del alquiler, la resiliencia climática y un centro de desembriagar. Visite nuestra página de Recursos para encontrar su distrito y la información de contacto del comisionado.</value>
   </data>
+  <data name="Corrections" xml:space="preserve">
+    <value>Correcciones</value>
+  </data>
   <data name="Developer? Contribute Here!" xml:space="preserve">
     <value>¿Programador? ¡Contribuya aquí!</value>
   </data>
@@ -170,6 +173,9 @@ Fundthepeoplemiami.com (Financia a la gente miami) fue creado como nuestra inici
     <value>para un guía paso por paso para ambas acciones! Finalmente, nuestra sección “Involúcrate” tendrá enlaces actualizados a eventos y entrenamientos para el publico general para ser parte del proceso de decisiones del presupuesto del condado.</value>
     <comment>3_9_2021</comment>
   </data>
+  <data name="from the General Fund" xml:space="preserve">
+    <value>del Fondo General</value>
+  </data>
   <data name="Fundthepeoplemiami.com is our attempt to break down this mammoth document. We undertook this work with a group of community organizations in the wake of George Floyd’s death, and it soon became apparent that the disproportionate amount of spending on local law enforcement being decried across the country was also evident in Miami. In this first iteration of the website, we focus on the discrepancies between our county’s funding for policing and jails versus community services. We hope that as more people join our efforts and new findings are made we can create the most powerful and accessible budget visualization tool our communities deserve." xml:space="preserve">
     <value>Fundthepeoplemiami.com es nuestro intento de desglosar este gigantesco documento. Llevamos a cabo este trabajo con un conjunto de organizaciones comunitarias juntadas a raíz de la muerte de George Floyd, y pronto se hizo evidente que como se ah denunciado en todo el país la cantidad desproporcionada de gastos en la aplicación de la ley a nivel local también es evidente en Miami. En esta primera versión del sitio web, nos centramos en las discrepancias entre la financiación de nuestro condado de la vigilancia y las cárceles en contraste con los servicios comunitarios. Esperamos que a medida que más personas se unan a nuestros esfuerzos y se obtengan nuevos hallazgos, podamos crear la herramienta de visualización de presupuesto más poderosa y accesible que nuestras comunidades merecen.</value>
   </data>
@@ -194,6 +200,9 @@ Fundthepeoplemiami.com (Financia a la gente miami) fue creado como nuestra inici
   <data name="our" xml:space="preserve">
     <value>nuestro</value>
   </data>
+  <data name="Our content and resources draw from our research on the latest county budget and reflect the goals, initiatives, actions, and developments of a wide coalition of community-based organizations in Miami-Dade county." xml:space="preserve">
+    <value>Nuestro contenido y recursos se basan en nuestra investigación sobre el último presupuesto del condado y reflejan los objetivos, iniciativas, acciones y desarrollos de una amplia coalición de organizaciones comunitarias en el condado de Miami-Dade.</value>
+  </data>
   <data name="Our last chance to tell County Commissioners how we want our money spent is taking place digitally on" xml:space="preserve">
     <value>Nuestra oportunidad de decirles a los Comisionados del Condado cómo queremos que se gaste nuestro dinero se llevará a cabo digitalmente este </value>
   </data>
@@ -203,6 +212,9 @@ Fundthepeoplemiami.com (Financia a la gente miami) fue creado como nuestra inici
   </data>
   <data name="OUR WHAT &amp; WHY" xml:space="preserve">
     <value>NUESTRO QUE? Y PORQUE?</value>
+  </data>
+  <data name="Police Department" xml:space="preserve">
+    <value>Departamento de la Policia</value>
   </data>
   <data name="Proposed Budget" xml:space="preserve">
     <value>Presupuesto Propuesto</value>
@@ -246,6 +258,9 @@ Fundthepeoplemiami.com (Financia a la gente miami) fue creado como nuestra inici
   </data>
   <data name="Visit our Resources page" xml:space="preserve">
     <value>Visista nuestra pagina de Recursos</value>
+  </data>
+  <data name="We undertook this work with a group of community organizations in the wake of George Floyd’s death, and it soon became apparent that the disproportionate amount of spending on local law enforcement being decried across the country was also evident in Miami. In this first iteration of the website, we focus on the discrepancies between our county’s funding for policing and jails versus community services. We hope that as more people join our efforts and new findings are made we can create the most powerful and accessible budget visualization tool our communities deserve. The figures used on this website have been updated to reflect the County’s Adopted Budget for the 2020-2021 fiscal year." xml:space="preserve">
+    <value>Emprendimos este trabajo con un grupo de organizaciones comunitarias a raíz de la muerte de George Floyd, y pronto se hizo evidente que la cantidad desproporcionada de gasto en las fuerzas del orden locales que se criticaban en todo el país también era evidente en Miami. En esta primera iteración del sitio web, nos centramos en las discrepancias entre la financiación de nuestro condado para la policía y las cárceles frente a los servicios comunitarios. Esperamos que a medida que más personas se unan a nuestros esfuerzos y se hagan nuevos hallazgos, podamos crear la herramienta de visualización presupuestaria más poderosa y accesible que nuestras comunidades merecen. Las cifras utilizadas en este sitio web se han actualizado para reflejar el Presupuesto Aprobado del Condado para el año fiscal 2020-2021.</value>
   </data>
   <data name="You also reach out to your County Commissioner directly before September 19th’s final vote!" xml:space="preserve">
     <value>¡También comuníquese con el Comisionado de su condado directamente antes de la votación final del 19 de septiembre!</value>

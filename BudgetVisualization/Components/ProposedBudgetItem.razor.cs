@@ -1,4 +1,5 @@
 ﻿using BudgetVisualization.Data;
+using BudgetVisualization.Models;
 using BudgetVisualization.Pages;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;

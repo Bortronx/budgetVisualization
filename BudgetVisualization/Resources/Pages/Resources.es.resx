@@ -120,6 +120,9 @@
   <data name="Click the link above to find out who represents your district and tell them what you would like to see funded in next year’s budget" xml:space="preserve">
     <value>Haga Click en el enlace de arriba para saber quién representa su distrito y decirle que usted quisiera ver financiado en el presupuesto del próximo ano.</value>
   </data>
+  <data name="Click the link above to find out who represents your district and tell them what you would like to see funded in next year’s budget!" xml:space="preserve">
+    <value>Haga clic en el enlace de arriba para averiguar quién representa a su distrito y dígales qué le gustaría ver financiado en el presupuesto del próximo año.</value>
+  </data>
   <data name="Community Action and Human Services" xml:space="preserve">
     <value>Acción comunitaria y Servicios Humanos</value>
   </data>
@@ -131,6 +134,9 @@
   </data>
   <data name="Here is Miami-Dade’s Adopted Budget for 2020-2021" xml:space="preserve">
     <value>Aqui esta el Presupuesto Adoptado por el Miami-Dade para el 2020-2021</value>
+  </data>
+  <data name="Police" xml:space="preserve">
+    <value>Policía</value>
   </data>
   <data name="Resources" xml:space="preserve">
     <value>Recursos</value>

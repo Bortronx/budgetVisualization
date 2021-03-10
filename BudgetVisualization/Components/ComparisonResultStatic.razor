@@ -1,38 +1,22 @@
 ﻿<div class="carousell-headings-title-comparison ">
-    <MatH6 class="carousell-headings-title">Comparison of Selected</MatH6>
-    <p class="carousell-headings-subtitle">
+    <MatH6 class="carousell-headings-title">
+        @Localizer["Comparison of Selected"]</MatH6>
+<p class="carousell-headings-subtitle">
 
-    </p>
+</p>
 </div>
 <div class="comparison-image-container">
-    <img class="comparison-image" src="@FirstImagePath" />
-    <img class="comparison-image" src="@SecondImagePath" />
+<img class="comparison-image" src="@FirstImagePath" />
+<img class="comparison-image" src="@SecondImagePath" />
 </div>
 
 <div class="comparison-text">
-    <p style="">
-        @ComparisonText
-    </p>
-    @*<p class="comparison-text-part comparison-text-part-original">
+<p>
+@Localizer[ComparisonText]
+</p>
+        @*<p class="comparison-text-part comparison-text-part-original">
 
         </p>
         <p class="comparison-text-part"> elderly to substance abuse treatment.</p>*@
 </div>
 
-
-
-@code {
-
-    [Parameter]
-    public string ComparisonText { get; set; }
-
-    [Parameter]
-    public string ImagePath { get; set; }
-
-    [Parameter]
-    public string FirstImagePath { get; set; }
-
-    [Parameter]
-    public string SecondImagePath { get; set; }
-
-}

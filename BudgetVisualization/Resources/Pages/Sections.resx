@@ -1,101 +1,282 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
-		Microsoft ResX Schema
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
 
-		Version 1.3
-
-		The primary goals of this format is to allow a simple XML format 
-		that is mostly human readable. The generation and parsing of the 
-		various data types are done through the TypeConverter classes 
-		associated with the data types.
-
-		Example:
-
-		... ado.net/XML headers & schema ...
-		<resheader name="resmimetype">text/microsoft-resx</resheader>
-		<resheader name="version">1.3</resheader>
-		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-		<data name="Name1">this is my long string</data>
-		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-			[base64 mime encoded serialized .NET Framework object]
-		</data>
-		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-			[base64 mime encoded string representing a byte array form of the .NET Framework object]
-		</data>
-
-		There are any number of "resheader" rows that contain simple 
-		name/value pairs.
-
-		Each data row contains a name, and value. The row also contains a 
-		type or mimetype. Type corresponds to a .NET class that support 
-		text/value conversion through the TypeConverter architecture. 
-		Classes that don't support this are serialized and stored with the 
-		mimetype set.
-
-		The mimetype is used for serialized objects, and tells the 
-		ResXResourceReader how to depersist the object. This is currently not 
-		extensible. For a given mimetype the value must be set accordingly:
-
-		Note - application/x-microsoft.net.object.binary.base64 is the format 
-		that the ResXResourceWriter will generate, however the reader can 
-		read any of the formats listed below.
-
-		mimetype: application/x-microsoft.net.object.binary.base64
-		value   : The object must be serialized with 
-			: System.Serialization.Formatters.Binary.BinaryFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.soap.base64
-		value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.bytearray.base64
-		value   : The object must be serialized into a byte array 
-			: using a System.ComponentModel.TypeConverter
-			: and then encoded with base64 encoding.
-	-->
-	
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>1.3</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Comparison #0" xml:space="preserve">
+    <value>One year of salaries for 45 new police officer positions is equivalent to 11 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #1" xml:space="preserve">
+    <value>The cost of four new police helicopters is equivalent to 111 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #2" xml:space="preserve">
+    <value>The cost of new video cameras and license plate readers is equivalent to 32 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #3" xml:space="preserve">
+    <value>The pricetag on a new cloud-based fingerprint ID system is equivalent to 7 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #4" xml:space="preserve">
+    <value>The bill for a new Law Enforcement Records Management System is equivalent to 8 times the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #5" xml:space="preserve">
+    <value>The cost of a single Armored Medical Vehicle is equivalent to 1.4 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #6" xml:space="preserve">
+    <value>The increase of dollars spent on salaries for Corrections is equivalent to over 13 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #7" xml:space="preserve">
+    <value>One year of administrative costs from the General Fund for the Office of the Courts is equivalent to 88 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #8" xml:space="preserve">
+    <value>The amount of money drawn from the General Fund for the State Attorney is equivalent to more than 45 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="Comparison #9" xml:space="preserve">
+    <value>One year of salaries for 45 new police officer positions is equivalent to 69% of the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #10" xml:space="preserve">
+    <value>The cost of four new police helicopters is 7 times the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #11" xml:space="preserve">
+    <value>The cost of new video cameras and license plate readers is 2 times the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #12" xml:space="preserve">
+    <value>The pricetag on a new cloud-based fingerprint ID system is equivalent to 43% of the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #13" xml:space="preserve">
+    <value>The bill for a new Law Enforcement Records Management System comes out to over half of the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #14" xml:space="preserve">
+    <value>The cost of a single Armored Medical Vehicle is 8.7% of the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #15" xml:space="preserve">
+    <value>The increase of dollars spent on salaries for Corrections is equivalent to 83% of the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #16" xml:space="preserve">
+    <value>One year of administrative costs from the General Fund for the Office of the Courts is five and a half times the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #17" xml:space="preserve">
+    <value>The amount of money drawn from the General Fund for the State Attorney is nearly 3 times the County's funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment.</value>
+  </data>
+  <data name="Comparison #18" xml:space="preserve">
+    <value>One year of salaries for 45 new police officer positions equals eight (8) and a half times the entire budget of Psychological Services. This division is responsible for providing psychological services to clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention. Despite that responsibililty, the division is staffed by a four-person internship program.</value>
+  </data>
+  <data name="Comparison #19" xml:space="preserve">
+    <value>The cost of four new police helicopters equals eighty-four and a half times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #20" xml:space="preserve">
+    <value>The cost of new video cameras and license plate readers equals 24 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #21" xml:space="preserve">
+    <value>The pricetag on a new cloud-based fingerprint ID system equals more than 5 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #22" xml:space="preserve">
+    <value>The bill for a new Law Enforcement Records Management System equals nearly 7 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #23" xml:space="preserve">
+    <value>The cost of a single Armored Medical Vehicle could cover the entire budget of Psychological Services, with $19,000 to spare. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #24" xml:space="preserve">
+    <value>The increase of dollars spent on salaries for Corrections equals 10 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #25" xml:space="preserve">
+    <value>One year of administrative costs from the General Fund for the Office of the Courts equals 67 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #26" xml:space="preserve">
+    <value>The amount of money drawn from the General Fund for the State Attorney equals 35 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention.</value>
+  </data>
+  <data name="Comparison #27" xml:space="preserve">
+    <value>One year of salaries for 45 new police officer positions comes out to 70 percent of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #28" xml:space="preserve">
+    <value>The cost of four new police helicopters comes out to 7 times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #29" xml:space="preserve">
+    <value>The cost of new video cameras and license plate readers comes out to 2 times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #30" xml:space="preserve">
+    <value>The pricetag on a new cloud-based fingerprint ID system comes out to 44% of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #31" xml:space="preserve">
+    <value>The bill for a new Law Enforcement Records Management System comes out to over half of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #32" xml:space="preserve">
+    <value>The cost of a single Armored Medical Vehicle comes out to 9% of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #33" xml:space="preserve">
+    <value>The increase of dollars spent on salaries for Corrections comes out to 84% of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #34" xml:space="preserve">
+    <value>One year of administrative costs from the General Fund for the Office of the Courts comes out to more than five times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #35" xml:space="preserve">
+    <value>The amount of money drawn from the General Fund for the State Attorney comes out to nearly 3 times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time.</value>
+  </data>
+  <data name="Comparison #36" xml:space="preserve">
+    <value>One year of salaries for 45 new police officer positions is 54% of the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #37" xml:space="preserve">
+    <value>The cost of four new police helicopters is more than 5 times the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #38" xml:space="preserve">
+    <value>The cost of new video cameras and license plate readers is one and a half times the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #39" xml:space="preserve">
+    <value>The pricetag on a new cloud-based fingerprint ID system is equivalent to 33% of the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #40" xml:space="preserve">
+    <value>The bill for a new Law Enforcement Records Management System is equivalent to nearly half of the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #41" xml:space="preserve">
+    <value>The cost of a single Armored Medical Vehicle is equivalent to 7% of the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #42" xml:space="preserve">
+    <value>The increase of dollars spent on salaries for Corrections is equivalent to 64% of the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #43" xml:space="preserve">
+    <value>One year of administrative costs from the General Fund for the Office of the Courts is over 4 times the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #44" xml:space="preserve">
+    <value>The amount of money drawn from the General Fund for the State Attorney is more than twice (2) the County's funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth.</value>
+  </data>
+  <data name="Comparison #45" xml:space="preserve">
+    <value>One year of salaries for 45 new police officer positions is equivalent to 50% of the total funding of the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #46" xml:space="preserve">
+    <value>The cost of four new police helicopters is 5 times the total funding of the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #47" xml:space="preserve">
+    <value>The cost of new video cameras and license plate readers is nearly one and a half times the total funding of the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #48" xml:space="preserve">
+    <value>The pricetag on a new cloud-based fingerprint ID system is equivalent to 31% of the total funding of the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #49" xml:space="preserve">
+    <value>The bill for a new Law Enforcement Records Management System is more than a third of the total funding of the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #50" xml:space="preserve">
+    <value>The cost of a single Armored Medical Vehicle is equivalent to over 6% of the total funding for the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #51" xml:space="preserve">
+    <value>The increase of dollars spent on salaries for Corrections is equivalent to 60% of the total funding for the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #52" xml:space="preserve">
+    <value>One year of administrative costs from the General Fund for the Office of the Courts is 4 times the total funding for the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
+  <data name="Comparison #53" xml:space="preserve">
+    <value>The amount of money drawn from the General Fund for the State Attorney is 2 times the total funding for the Public Defender's Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney.</value>
+  </data>
 </root>

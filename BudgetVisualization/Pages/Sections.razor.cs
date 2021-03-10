@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using BudgetVisualization.Data;
 using BudgetVisualization.Services;
 using System;
+using BudgetVisualization.Models;
 
 namespace BudgetVisualization.Pages
 {
@@ -99,7 +100,8 @@ namespace BudgetVisualization.Pages
 
                 //GetComparisonResult(rowLeftItem.ItemValue, rowRightItem.BudgetValue, rowLeftItem.SelectionType);
 
-                CurrentComparisonText = BudgetData.PreMadeComparsionResults[(rowLeftActiveIndex * BudgetData.GetCurrentComparedToSection()
+                CurrentComparisonText = BudgetData
+                    .PreMadeComparsionResults[(rowLeftActiveIndex * BudgetData.GetCurrentComparedToSection()
                     .ProposedItems.Count)  + rowRightActiveIndex];
 
                 StateHasChanged();

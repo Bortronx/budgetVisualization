@@ -129,6 +129,9 @@
   <data name="Armored Medical Vehicle" xml:space="preserve">
     <value>Vehicule Armados Medico</value>
   </data>
+  <data name="Click the link above to find out who represents your district and tell them what you would like to see funded in next year’s budget!" xml:space="preserve">
+    <value>Haga clic en el enlace de arriba para averiguar quién representa a su distrito y dígales qué le gustaría ver financiado en el presupuesto del próximo año.</value>
+  </data>
   <data name="Cloud-based fingerprint ID system" xml:space="preserve">
     <value>Sistema de Huellas basada en la Nube</value>
   </data>
@@ -137,6 +140,9 @@
   </data>
   <data name="Community Services" xml:space="preserve">
     <value>Servicios Comunitarios</value>
+  </data>
+  <data name="Comparison of Selected" xml:space="preserve">
+    <value>Comparación de la Selección</value>
   </data>
   <data name="Corrections and Rehabilitation" xml:space="preserve">
     <value>Correcciones y Rehabilitación</value>
@@ -147,6 +153,9 @@
   <data name="Helicopter fleet" xml:space="preserve">
     <value>Helicópteros</value>
   </data>
+  <data name="Helicopter vs Training" xml:space="preserve">
+    <value>The cost of four new police helicopters is equivalent to 111 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
   <data name="Increase to Corrections Salaries" xml:space="preserve">
     <value>Incrementos a los salarios de Centros de Corrección</value>
   </data>
@@ -156,10 +165,13 @@
   <data name="Neighborhood Centers/ Community Resource Centers" xml:space="preserve">
     <value>Centros de Recursos Comunitarios/ Centros en la Vecindad</value>
   </data>
+  <data name="One year of salaries for 45 new police officer positions is equivalent to 11 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers." xml:space="preserve">
+    <value>One year of salaries for 45 new police officer positions is equivalent to 11 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
   <data name="Police" xml:space="preserve">
     <value>Policía</value>
   </data>
-  <data name="Police &amp; Jails" xml:space="preserve">
+  <data name="Police &amp;amp; Jails" xml:space="preserve">
     <value>Policía Y Cárceles</value>
   </data>
   <data name="Psychological Services" xml:space="preserve">
@@ -171,19 +183,199 @@
   <data name="Rehabilitative Service" xml:space="preserve">
     <value>Servicios de Rehabilitación</value>
   </data>
+  <data name="Select one item from each column to compare them." xml:space="preserve">
+    <value>Seleccione un elemento de cada columna para compararlos</value>
+  </data>
   <data name="State Attorney" xml:space="preserve">
     <value>Abogado Estatal</value>
+  </data>
+  <data name="Table of Operating Budget" xml:space="preserve">
+    <value>Tabla de presupuesto operativo</value>
+  </data>
+  <data name="The bill for a new Law Enforcement Records Management System is equivalent to 8 times the County's funding for Employment and Training programs that serve at-risk youth and farmworkers." xml:space="preserve">
+    <value>The bill for a new Law Enforcement Records Management System is equivalent to 8 times the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="The cost of new video cameras and license plate readers is equivalent to 32 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers." xml:space="preserve">
+    <value>The cost of new video cameras and license plate readers is equivalent to 32 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
+  </data>
+  <data name="The pricetag on a new cloud-based fingerprint ID system is equivalent to 7 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers." xml:space="preserve">
+    <value>The pricetag on a new cloud-based fingerprint ID system is equivalent to 7 years of the County's funding for Employment and Training programs that serve at-risk youth and farmworkers.</value>
   </data>
   <data name="Values are from General Fund" xml:space="preserve">
     <value>Valores son del Fondo General</value>
   </data>
-  <data name="Video cameras &amp; license plate readers" xml:space="preserve">
+  <data name="Video cameras &amp;amp; license plate readers" xml:space="preserve">
     <value>Video Cameras y lectores de placa de licencia.</value>
   </data>
   <data name="View County Budget Narrative for" xml:space="preserve">
     <value>Ver Narrativa del Presupuesto del Condado</value>
   </data>
-  <data name="Violence Prevention &amp; Intervention" xml:space="preserve">
+  <data name="Violence Prevention &amp;amp; Intervention" xml:space="preserve">
     <value>Prevención y Intervención en la Violencia</value>
+  </data>
+  <data name="Comparison #0" xml:space="preserve">
+    <value>Un año de salarios para 45 nuevos puestos de policía equivale a 11 años de la financiación del Condado para programas de empleo y capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #1" xml:space="preserve">
+    <value>El costo de cuatro nuevos helicópteros de policía equivale a 111 años de los fondos del Condado para programas de empleo y capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #2" xml:space="preserve">
+    <value>El costo de las nuevas cámaras de video y lectores de matrículas es equivalente a 32 años de los fondos del Condado para programas de empleo y capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #3" xml:space="preserve">
+    <value>El precio de  un nuevo sistema de identificación de huellas dactilares basado en la nube equivale a 7 años de financiación del Condado para programas de empleo y capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #4" xml:space="preserve">
+    <value>El proyecto de ley para un nuevo Sistema de Gestión de Registros de Aplicación de la Ley es equivalente a 8 veces el financiamiento del Condado para programas de empleo y capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #5" xml:space="preserve">
+    <value>El costo de un solo vehículo médico blindado equivale a 1,4 años de los fondos del Condado para programas de empleo y capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #6" xml:space="preserve">
+    <value>El aumento de dólares gastados en salarios para Correccionales es equivalente a más de 13 años de los fondos del Condado para programas de Empleo y Capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #7" xml:space="preserve">
+    <value>Un año de costos administrativos del Fondo General para la Oficina de los Tribunales equivale a 88 años de la financiación del Condado para programas de Empleo y Capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #8" xml:space="preserve">
+    <value>La cantidad de dinero extraída del Fondo General para el Fiscal del Estado equivale a más de 45 años de los fondos del Condado para programas de Empleo y Capacitación que sirven a jóvenes y trabajadores agrícolas en riesgo.</value>
+  </data>
+  <data name="Comparison #9" xml:space="preserve">
+    <value>Un año de salarios para 45 nuevos puestos de policía equivale al 69% de la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #10" xml:space="preserve">
+    <value>El costo de cuatro nuevos helicópteros de policía es 7 veces la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #11" xml:space="preserve">
+    <value>El costo de las nuevas cámaras de video y lectores de matrículas es 2 veces la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #12" xml:space="preserve">
+    <value>El precio de un nuevo sistema de identificación por huellas dactilares basado en la nube equivale al 43% de la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #13" xml:space="preserve">
+    <value>El proyecto de ley para un nuevo Sistema de Gestión de Registros de Aplicación de la Ley sale a más de la mitad de la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #14" xml:space="preserve">
+    <value>El costo de un solo Vehículo Médico Blindado es del 8,7% de la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #15" xml:space="preserve">
+    <value>El aumento de dólares gastados en salarios para Correccionales equivale al 83% de la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #16" xml:space="preserve">
+    <value>Un año de costos administrativos del Fondo General para la Oficina de los Tribunales es cinco veces y media la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #17" xml:space="preserve">
+    <value>La cantidad de dinero extraída del Fondo General para el Fiscal del Estado es casi 3 veces la financiación del Condado para los 13 Centros de Recursos Comunitarios a través de los cuales los residentes pueden acceder a la gama de servicios sociales ofrecidos por el Condado, desde capacitación informática hasta comidas para ancianos y tratamiento de abuso de sustancias.</value>
+  </data>
+  <data name="Comparison #18" xml:space="preserve">
+    <value>Un año de salarios para 45 nuevos puestos de policía equivale a ocho (8) y media veces el presupuesto completo de Servicios Psicológicos. Esta división es responsable de proporcionar servicios psicológicos a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia. A pesar de esa responsabilidad,la división está atendida por un programa depasantías para cuatro  personas.</value>
+  </data>
+  <data name="Comparison #19" xml:space="preserve">
+    <value>El costo de cuatro nuevos helicópteros de policía equivale a ochenta y cuatro veces y media todo el presupuesto de Servicios Psicológicos. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #20" xml:space="preserve">
+    <value>El costo de las nuevas cámaras de video y lectores de matrículas equivale 24 veces a todo el presupuesto de Servicios Psicológicos. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #21" xml:space="preserve">
+    <value>El precio de un nuevo sistema de identificación de huellas dactilares basado en la nube equivale a más de 5 veces todo el presupuesto de Servicios Psicológicos. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #22" xml:space="preserve">
+    <value>La factura de un nuevo sistema de gestión de registros policiales equivale a casi 7 veces todo el presupuesto de Servicios Psicológicos. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #23" xml:space="preserve">
+    <value>El costo de un solo vehículo médico blindado podría cubrir todo el presupuesto de Servicios Psicológicos, con $19,000 de sobra. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #24" xml:space="preserve">
+    <value>El aumento de dólares gastados en salarios para Correccionales equivale 10 veces a todo el presupuesto de Servicios Psicológicos. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #25" xml:space="preserve">
+    <value>Un año de costos administrativos del Fondo General para la Oficina de las Cortes equivale a 67 veces el presupuesto completo de Servicios Psicológicos. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #26" xml:space="preserve">
+    <value>La cantidad de dinero extraída del Fondo General para el Fiscal del Estado equivale 35 veces a todo el presupuesto de Servicios Psicológicos. Esta división es responsable de proporcionar asesoramiento y orientación a los clientes de muchos programas sociales ofrecidos por el Condado, tales como Head Start, Servicios Familiares y Comunitarios, y Prevención e Intervención de la Violencia.</value>
+  </data>
+  <data name="Comparison #27" xml:space="preserve">
+    <value>Un año de salarios para 45 nuevos puestos de oficial de policía sale al 70 por ciento de lo que el Condado pone hacia los Servicios de Rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #28" xml:space="preserve">
+    <value>El costo de cuatro nuevos helicópteros de policía sale a 7 veces lo que el Condado pone hacia los servicios de rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #29" xml:space="preserve">
+    <value>El costo de las nuevas cámaras de video y lectores de matrículas se reduce a 2 veces lo que el Condado pone hacia los servicios de rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #30" xml:space="preserve">
+    <value>El precio de un nuevo sistema de identificación de huellas dactilares basado en la nube se destina al 44% de lo que el Condado pone hacia los servicios de rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos  para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la  cárcel.</value>
+  </data>
+  <data name="Comparison #31" xml:space="preserve">
+    <value>El proyecto de ley para un nuevo Sistema de Gestión de Registros de Aplicación de la Ley sale a más de la mitad de lo que el Condado pone hacia los Servicios de Rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #32" xml:space="preserve">
+    <value>El costo de un solo vehículo médico blindado sale al 9% de lo que el Condado pone hacia los servicios de rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #33" xml:space="preserve">
+    <value>El aumento de los dólares gastados en salarios para Correccionales sale al 84% de lo que el Condado pone hacia los Servicios de Rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #34" xml:space="preserve">
+    <value>Un año de costos administrativos del Fondo General para la Oficina de los Tribunales sale a más de cinco veces lo que el Condado pone hacia los Servicios de Rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #35" xml:space="preserve">
+    <value>La cantidad de dinero extraída del Fondo General para el Fiscal del Estado sale a casi 3 veces lo que el Condado pone hacia los Servicios de Rehabilitación. Esta división proporciona servicios de evaluaciones, referencias y tratamientos para adultos que sufren de abuso de sustancias. Incluye el Programa de Desvío y Tratamiento, a través del cual las personas son referidas al tratamiento como una alternativa a la cárcel.</value>
+  </data>
+  <data name="Comparison #36" xml:space="preserve">
+    <value>Un año de salarios para 45 nuevos puestos de policía es el 54% de la financiación del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #37" xml:space="preserve">
+    <value>El costo de cuatro nuevos helicópteros de policía es más de 5 veces la financiación del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #38" xml:space="preserve">
+    <value>El costo de las nuevas cámaras de video y lectores de matrículas es una vez y media la financiación del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #39" xml:space="preserve">
+    <value>La preciotag en un nuevo sistema de identificación de huellas dactilares basado en la nube equivale al 33% de la financiación del Condado para la división de Prevención e Intervención de la Violencia, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para Juventud. </value>
+  </data>
+  <data name="Comparison #40" xml:space="preserve">
+    <value>El proyecto de ley para un nuevo Sistema de Gestión de Registros de Aplicación de la Ley equivale a casi la mitad de los fondos del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #41" xml:space="preserve">
+    <value>El costo de un solo vehículo médico blindado equivale al 7% de los fondos del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #42" xml:space="preserve">
+    <value>El aumento de dólares gastados en salarios para Correccionales equivale al 64% de los fondos del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #43" xml:space="preserve">
+    <value>Un año de costos administrativos del Fondo General para la Oficina de los Tribunales es más de 4 veces la financiación del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #44" xml:space="preserve">
+    <value>La cantidad de dinero extraída del Fondo General para el Fiscal del Estado es más del doble (2) la financiación del Condado para la Prevención de la Violencia &amp; División de intervención, que proporciona refugio, asistencia financiera de emergencia, asesoramiento en crisis y defensa legal a las víctimas de violencia doméstica, así como servicios de asesoramiento e intervención para jóvenes.</value>
+  </data>
+  <data name="Comparison #45" xml:space="preserve">
+    <value>Un año de salarios para 45 nuevos puestos de policía equivale al 50% de la financiación total de la Defensoría Pública. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #46" xml:space="preserve">
+    <value>El costo de cuatro nuevos helicópteros de policía es 5 veces el financiamiento total de la Defensoría Pública. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #47" xml:space="preserve">
+    <value>El costo de las nuevas cámaras de video y lectores de matrículas es casi una vez y media el financiamiento total de la Defensoría Pública. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #48" xml:space="preserve">
+    <value>El precio de un nuevo sistema de identificación de huellas dactilares basado en la nube equivale al 31% de la financiación total de la Oficina del Defensor Público. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #49" xml:space="preserve">
+    <value>El proyecto de ley para un nuevo Sistema de Gestión de Registros de Aplicación de la Ley es más de un tercio de la financiación total de la Oficina del Defensor Público. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #50" xml:space="preserve">
+    <value>El costo de un solo vehículo médico blindado equivale a más del 6% de la financiación total para la Oficina del Defensor Público. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #51" xml:space="preserve">
+    <value>El aumento de dólares gastados en salarios por correcciones equivale al 60% del financiamiento total para la Oficina del Defensor Público. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #52" xml:space="preserve">
+    <value>Un año de costos administrativos del Fondo General para la Oficina de los Tribunales es 4 veces el financiamiento total para la Defensoría Pública. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Comparison #53" xml:space="preserve">
+    <value>La cantidad de dinero extraída del Fondo General para el Fiscal del Estado es 2 veces el financiamiento total para la Defensoría Pública. El Defensor Público proporciona representación legal para las personas que no pueden pagar un abogado privado.</value>
+  </data>
+  <data name="Police &amp; Jails" xml:space="preserve">
+    <value>Policía Y Prisiones</value>
   </data>
 </root>

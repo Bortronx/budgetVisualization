@@ -59,5 +59,491 @@ namespace BudgetVisualization.Resources.Pages {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of salaries for 45 new police officer positions is equivalent to 11 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__0 {
+            get {
+                return ResourceManager.GetString("Comparison #0", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of four new police helicopters is equivalent to 111 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__1 {
+            get {
+                return ResourceManager.GetString("Comparison #1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of four new police helicopters is 7 times the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__10 {
+            get {
+                return ResourceManager.GetString("Comparison #10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of new video cameras and license plate readers is 2 times the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__11 {
+            get {
+                return ResourceManager.GetString("Comparison #11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pricetag on a new cloud-based fingerprint ID system is equivalent to 43% of the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__12 {
+            get {
+                return ResourceManager.GetString("Comparison #12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The bill for a new Law Enforcement Records Management System comes out to over half of the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__13 {
+            get {
+                return ResourceManager.GetString("Comparison #13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of a single Armored Medical Vehicle is 8.7% of the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__14 {
+            get {
+                return ResourceManager.GetString("Comparison #14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The increase of dollars spent on salaries for Corrections is equivalent to 83% of the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__15 {
+            get {
+                return ResourceManager.GetString("Comparison #15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of administrative costs from the General Fund for the Office of the Courts is five and a half times the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__16 {
+            get {
+                return ResourceManager.GetString("Comparison #16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The amount of money drawn from the General Fund for the State Attorney is nearly 3 times the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__17 {
+            get {
+                return ResourceManager.GetString("Comparison #17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of salaries for 45 new police officer positions equals eight (8) and a half times the entire budget of Psychological Services. This division is responsible for providing psychological services to clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention. Despite that responsibililty, the division is staffed by a four-person internship program..
+        /// </summary>
+        public static string Comparison__18 {
+            get {
+                return ResourceManager.GetString("Comparison #18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of four new police helicopters equals eighty-four and a half times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__19 {
+            get {
+                return ResourceManager.GetString("Comparison #19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of new video cameras and license plate readers is equivalent to 32 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__2 {
+            get {
+                return ResourceManager.GetString("Comparison #2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of new video cameras and license plate readers equals 24 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__20 {
+            get {
+                return ResourceManager.GetString("Comparison #20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pricetag on a new cloud-based fingerprint ID system equals more than 5 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__21 {
+            get {
+                return ResourceManager.GetString("Comparison #21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The bill for a new Law Enforcement Records Management System equals nearly 7 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__22 {
+            get {
+                return ResourceManager.GetString("Comparison #22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of a single Armored Medical Vehicle could cover the entire budget of Psychological Services, with $19,000 to spare. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__23 {
+            get {
+                return ResourceManager.GetString("Comparison #23", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The increase of dollars spent on salaries for Corrections equals 10 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__24 {
+            get {
+                return ResourceManager.GetString("Comparison #24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of administrative costs from the General Fund for the Office of the Courts equals 67 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__25 {
+            get {
+                return ResourceManager.GetString("Comparison #25", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The amount of money drawn from the General Fund for the State Attorney equals 35 times the entire budget of Psychological Services. This division is responsible for providing counseling and guidance to the clients of many social programs offered by the County, such as Head Start, Family and Community Services, and Violence Prevention and Intervention..
+        /// </summary>
+        public static string Comparison__26 {
+            get {
+                return ResourceManager.GetString("Comparison #26", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of salaries for 45 new police officer positions comes out to 70 percent of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__27 {
+            get {
+                return ResourceManager.GetString("Comparison #27", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of four new police helicopters comes out to 7 times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__28 {
+            get {
+                return ResourceManager.GetString("Comparison #28", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of new video cameras and license plate readers comes out to 2 times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__29 {
+            get {
+                return ResourceManager.GetString("Comparison #29", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pricetag on a new cloud-based fingerprint ID system is equivalent to 7 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__3 {
+            get {
+                return ResourceManager.GetString("Comparison #3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pricetag on a new cloud-based fingerprint ID system comes out to 44% of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__30 {
+            get {
+                return ResourceManager.GetString("Comparison #30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The bill for a new Law Enforcement Records Management System comes out to over half of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__31 {
+            get {
+                return ResourceManager.GetString("Comparison #31", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of a single Armored Medical Vehicle comes out to 9% of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__32 {
+            get {
+                return ResourceManager.GetString("Comparison #32", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The increase of dollars spent on salaries for Corrections comes out to 84% of what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__33 {
+            get {
+                return ResourceManager.GetString("Comparison #33", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of administrative costs from the General Fund for the Office of the Courts comes out to more than five times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__34 {
+            get {
+                return ResourceManager.GetString("Comparison #34", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The amount of money drawn from the General Fund for the State Attorney comes out to nearly 3 times what the County puts toward Rehabilitative Services. This division provides evaluations, referrals, and treatments services for adults suffering with substance abuse. It includes the Diversion and Treatment Program, through which individuals are referred to treatment as an alternative to jail time..
+        /// </summary>
+        public static string Comparison__35 {
+            get {
+                return ResourceManager.GetString("Comparison #35", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of salaries for 45 new police officer positions is 54% of the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__36 {
+            get {
+                return ResourceManager.GetString("Comparison #36", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of four new police helicopters is more than 5 times the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__37 {
+            get {
+                return ResourceManager.GetString("Comparison #37", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of new video cameras and license plate readers is one and a half times the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__38 {
+            get {
+                return ResourceManager.GetString("Comparison #38", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pricetag on a new cloud-based fingerprint ID system is equivalent to 33% of the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__39 {
+            get {
+                return ResourceManager.GetString("Comparison #39", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The bill for a new Law Enforcement Records Management System is equivalent to 8 times the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__4 {
+            get {
+                return ResourceManager.GetString("Comparison #4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The bill for a new Law Enforcement Records Management System is equivalent to nearly half of the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__40 {
+            get {
+                return ResourceManager.GetString("Comparison #40", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of a single Armored Medical Vehicle is equivalent to 7% of the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__41 {
+            get {
+                return ResourceManager.GetString("Comparison #41", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The increase of dollars spent on salaries for Corrections is equivalent to 64% of the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__42 {
+            get {
+                return ResourceManager.GetString("Comparison #42", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of administrative costs from the General Fund for the Office of the Courts is over 4 times the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__43 {
+            get {
+                return ResourceManager.GetString("Comparison #43", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The amount of money drawn from the General Fund for the State Attorney is more than twice (2) the County&apos;s funding for the Violence Prevention &amp; Intervention division, which provides shelter, emergency financial assistance, crisis counseling, and legal advocacy to victims of domestic violence as well as counseling and intervention services for youth..
+        /// </summary>
+        public static string Comparison__44 {
+            get {
+                return ResourceManager.GetString("Comparison #44", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of salaries for 45 new police officer positions is equivalent to 50% of the total funding of the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__45 {
+            get {
+                return ResourceManager.GetString("Comparison #45", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of four new police helicopters is 5 times the total funding of the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__46 {
+            get {
+                return ResourceManager.GetString("Comparison #46", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of new video cameras and license plate readers is nearly one and a half times the total funding of the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__47 {
+            get {
+                return ResourceManager.GetString("Comparison #47", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pricetag on a new cloud-based fingerprint ID system is equivalent to 31% of the total funding of the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__48 {
+            get {
+                return ResourceManager.GetString("Comparison #48", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The bill for a new Law Enforcement Records Management System is more than a third of the total funding of the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__49 {
+            get {
+                return ResourceManager.GetString("Comparison #49", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of a single Armored Medical Vehicle is equivalent to 1.4 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__5 {
+            get {
+                return ResourceManager.GetString("Comparison #5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The cost of a single Armored Medical Vehicle is equivalent to over 6% of the total funding for the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__50 {
+            get {
+                return ResourceManager.GetString("Comparison #50", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The increase of dollars spent on salaries for Corrections is equivalent to 60% of the total funding for the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__51 {
+            get {
+                return ResourceManager.GetString("Comparison #51", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of administrative costs from the General Fund for the Office of the Courts is 4 times the total funding for the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__52 {
+            get {
+                return ResourceManager.GetString("Comparison #52", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The amount of money drawn from the General Fund for the State Attorney is 2 times the total funding for the Public Defender&apos;s Office. The Public Defender provides legal representation for individuals who cannot afford a private attorney..
+        /// </summary>
+        public static string Comparison__53 {
+            get {
+                return ResourceManager.GetString("Comparison #53", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The increase of dollars spent on salaries for Corrections is equivalent to over 13 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__6 {
+            get {
+                return ResourceManager.GetString("Comparison #6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of administrative costs from the General Fund for the Office of the Courts is equivalent to 88 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__7 {
+            get {
+                return ResourceManager.GetString("Comparison #7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The amount of money drawn from the General Fund for the State Attorney is equivalent to more than 45 years of the County&apos;s funding for Employment and Training programs that serve at-risk youth and farmworkers..
+        /// </summary>
+        public static string Comparison__8 {
+            get {
+                return ResourceManager.GetString("Comparison #8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One year of salaries for 45 new police officer positions is equivalent to 69% of the County&apos;s funding for the 13 Community Resource Centers through which residents can access the range of social services offered by the County, from computer training to meals for the elderly to substance abuse treatment..
+        /// </summary>
+        public static string Comparison__9 {
+            get {
+                return ResourceManager.GetString("Comparison #9", resourceCulture);
+            }
+        }
     }
 }

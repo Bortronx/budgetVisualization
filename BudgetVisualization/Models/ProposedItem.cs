@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BudgetVisualization.Data
+namespace BudgetVisualization.Models
 {
     public class ProposedItem
     {
