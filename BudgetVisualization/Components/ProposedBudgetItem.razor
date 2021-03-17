@@ -7,7 +7,7 @@
             @Localizer[itemData.ItemName]
             <br>
             <b style="color: #3b4046;font-size: small;">
-                $@itemData.BudgetValue.ToString("N0") @itemData.budgetValueTypeName
+                $@itemData.BudgetValue.ToString("N0") @*@itemData.budgetValueTypeName*@
             </b>
         </div>
         @if (itemData.percentChange != 0)
