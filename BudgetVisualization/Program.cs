@@ -22,6 +22,8 @@ namespace BudgetVisualization
             builder.Services.AddScoped<BudgetData>();
             builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
 
+            builder.Services.AddSingleton<LanguageStateContainer>();
+
             var host = builder.Build();
 
             var jsInterop = host.Services.GetRequiredService<IJSRuntime>();

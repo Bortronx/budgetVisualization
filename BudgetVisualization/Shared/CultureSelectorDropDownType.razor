@@ -1,21 +1,23 @@
-﻿@using  System.Globalization
+﻿@*TODO: Depreciated Remove this Implementation*@
+
+@using  System.Globalization
 @inject IJSRuntime JSRuntime
 @inject NavigationManager Nav
 
-<div class="localization-dropdown">
+<div class="@dropdownMenuStyle">
     <select @bind="Culture">
         @foreach (var culture in supportedCultures)
-        {
-            <option value="@culture">@culture.DisplayName</option>
-        }
+            {
+        <option value="@culture">@culture.DisplayName</option>
+            }
     </select>
 </div>
 
-
-
-
 @code
 {
+    string dropdownMenuStyleSelected = "display:none;";
+    string dropdownMenuStyle = "localization-dropdown";
+
     CultureInfo[] supportedCultures = new[]
     {
         new CultureInfo("en-US"),
@@ -27,6 +29,7 @@
         get => CultureInfo.CurrentCulture;
         set
         {
+
             if (CultureInfo.CurrentCulture != value)
             {
                 var js = (IJSInProcessRuntime)JSRuntime;
@@ -34,6 +37,8 @@
 
                 Nav.NavigateTo(Nav.Uri, forceLoad: true);
             }
+
+
         }
     }
 }

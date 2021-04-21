@@ -7,12 +7,12 @@ namespace BudgetVisualization.Models
 {
     public class ProposedItem
     {
-
         public string ItemName { get; set; }
 
         public double ItemValue { get; set; }
 
         public float BudgetValue { get; set; }
+
         public string budgetValueTypeName;
 
         public float percentChange { get; set; }

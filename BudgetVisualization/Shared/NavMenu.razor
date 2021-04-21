@@ -1,7 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Components
 @inject NavigationManager uriHelper
 @inject IStringLocalizer<NavMenu> Localize
-
+ 
 
 <MatNavMenu Class="sidebarApp  mat-elevation-z1">
 
@@ -33,8 +33,24 @@
         <div class="sidebarApp-item-content">
             <MatIcon Icon="library_books"></MatIcon>
             <div>
-                @Localize["Resources"]</div>
-                    </div>
+                @Localize["Resources"]
+            </div>
+        </div>
+    </MatNavItem>
+
+    <MatNavItem Class="sidebarApp-item" Href="@uriHelper.ToAbsoluteUri("TakeAction").AbsoluteUri">
+        <div class="sidebarApp-item-content">
+            <MatIcon Icon="flag"></MatIcon>
+            <div>
+                @Localize["Take Action"]
+            </div>
+        </div>
+    </MatNavItem>
+
+    <MatNavItem Class="sidebarApp-item" OnClick="ChangeLanguage" >
+        <div class="sidebarApp-item-content">
+            <CultureSelectorButtonType ></CultureSelectorButtonType>
+        </div>
     </MatNavItem>
 
 </MatNavMenu>

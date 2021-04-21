@@ -11,6 +11,9 @@ namespace BudgetVisualization.Shared
         [Inject]
         protected BudgetData BudgetData { get; set; }
 
+        [Inject]
+        public LanguageStateContainer LanguageState { get; set; }
+
         protected override async Task OnInitializedAsync()
         {
             // Subscribe to the StateChanged EventHandler
@@ -22,6 +25,7 @@ namespace BudgetVisualization.Shared
 
         }
 
+      
         // This method is fired when the AppState object
         // invokes its StateHasChanged() method
         void AppStateHasChanged(
@@ -31,6 +35,14 @@ namespace BudgetVisualization.Shared
         public void CreateData()
         {           
             System.Console.WriteLine("Section Count: " + BudgetData.BudgetSections.Count);
+        }
+
+        // Change Language Button 
+        public void ChangeLanguage()
+        {
+            LanguageState.NotifyStateChanged();
+
+           
         }
 
     }

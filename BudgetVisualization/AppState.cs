@@ -25,7 +25,5 @@ namespace BudgetVisualization
         // Mobile when page dimension ratio (height/widt) is higher than 1
         public static bool IsMobile = false;
 
-
-
     }
 }
