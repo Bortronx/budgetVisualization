@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Acción</value>
+  </data>
+  <data name="After exploring our budget comparison tool, we encourage you to find who your county commissioner is and let them know your thoughts on it. We also encourage you to take action by getting involved in the initiatives below, which will be updated weekly." xml:space="preserve">
+    <value>Después de explorar nuestra herramienta de comparación de presupuestos, lo alentamos a encontrar quién es el comisionado de su condado y hacerles saber sus opiniones al respecto. También lo alentamos a tomar medidas al involucrarse en las iniciativas a continuación, que se actualizarán semanalmente.</value>
+  </data>
+  <data name="Click" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="Free the Block Campaign" xml:space="preserve">
+    <value>Campaña Libera el Bloque</value>
+  </data>
+  <data name="here" xml:space="preserve">
+    <value>aquí</value>
+  </data>
+  <data name="If you're interested we meet up at 720 NW 55th Street Miami FL. Wear comfortable, breathable clothes and footwear and a reusable water bottle if you have it." xml:space="preserve">
+    <value>Si está interesado, nos reunimos en 720 NW 55th Street Miami FL. Use ropa y calzado cómodos y transpirables y una botella de agua reutilizable si la tiene.</value>
+  </data>
+  <data name="Take Action" xml:space="preserve">
+    <value>Tomar acción</value>
+  </data>
+  <data name="The Free the Block campaign is attempting to build a base of residents who live in Miami's Liberty City and increase democratic decision making in the Miami- Dade county budget. We canvass every Saturday 10am- 1:30PM." xml:space="preserve">
+    <value>La campaña Free the Block intenta construir una base de residentes que viven en Liberty City de Miami y aumentar la toma de decisiones democráticas en el presupuesto del condado de Miami-Dade. Sondeos todos los sábados de 10 a. M. A 1:30 p. M.</value>
+  </data>
+  <data name="Thrive 305" xml:space="preserve">
+    <value>Prosperar 305</value>
+  </data>
+  <data name="Thrive305 is a countywide civic engagement initiative launched by Miami-Dade County Mayor Daniella Levine Cava that will leverage Miami-Dade's biggest asset, its residents, through a bottom-up, community-driven policy framework. The focus is on policies, initiatives, and strategies that center on an equitable recovery and a thriving community." xml:space="preserve">
+    <value>Thrive305 es una iniciativa de participación cívica en todo el condado lanzada por la alcaldesa del condado de Miami-Dade, Daniella Levine Cava, que aprovechará el activo más grande de Miami-Dade, sus residentes, a través de un marco de políticas de abajo hacia arriba impulsado por la comunidad. La atención se centra en políticas, iniciativas y estrategias que se centran en una recuperación equitativa y una comunidad próspera.</value>
+  </data>
+  <data name="to stay tuned for May’s Action Plan Workshops &amp; other ways to connect with the mayor’s decision-making processes more directly" xml:space="preserve">
+    <value>para estar atento a los talleres del plan de acción de mayo y otras formas de conectarse con los procesos de toma de decisiones del alcalde de manera más directa</value>
+  </data>
+</root>

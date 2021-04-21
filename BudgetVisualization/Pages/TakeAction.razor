@@ -1,0 +1,63 @@
+﻿@page "/TakeAction"
+@using BudgetVisualization.Components
+@inject IStringLocalizer<Sections> Localize
+
+@* TODO: Review translation *@
+
+<div class="mat-layout-grid">
+    <div class="mat-layout-grid-inner">
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12">
+            <MatH4><b>@Localize["Take Action"]</b></MatH4>
+        </div>
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12">
+            <p>
+                @Localize["After exploring our budget comparison tool, we encourage you to find who your county commissioner is and let them know your thoughts on it. We also encourage you to take action by getting involved in the initiatives below, which will be updated weekly."]
+            </p>
+        </div>
+        
+
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12" style="margin-bottom: 3vh;">
+            <MatDivider></MatDivider>
+        </div>
+    </div>
+    <div class="mat-layout-grid-inner">
+        <div class="mat-layout-grid-cell mat-layout-grid-cell-span-12">
+
+            <CampaignSection CampaignName="@Localize["Free the Block Campaign"]" CampaignActionTitle="@Localize["Action"]">
+                <CampaignDescription>
+                    @Localize["The Free the Block campaign is attempting to build a base of residents who live in Miami's Liberty City and increase democratic decision making in the Miami- Dade county budget. We canvass every Saturday 10am- 1:30PM. "]
+                </CampaignDescription>
+                <CampaignActionContent>
+                    @Localize["If you're interested we meet up at 720 NW 55th Street Miami FL. Wear comfortable, breathable clothes and footwear and a reusable water bottle if you have it."]
+                </CampaignActionContent>
+            </CampaignSection>
+
+            <CampaignSection CampaignName="@Localize["Thrive 305"]" CampaignActionTitle="@Localize["Action"]">
+                <CampaignDescription>
+                    @Localize["Thrive305 is a countywide civic engagement initiative launched by Miami-Dade County Mayor Daniella Levine Cava that will leverage Miami-Dade's biggest asset, its residents, through a bottom-up, community-driven policy framework. The focus is on policies, initiatives, and strategies that center on an equitable recovery and a thriving community."]
+                </CampaignDescription>
+                <CampaignActionContent>
+                    @Localize["Click"]
+                    <a href="https://home.thrive305.org/en/projects/thrive305">@Localize["here"]</a>
+                    @Localize["to stay tuned for May’s Action Plan Workshops & other ways to connect with the mayor’s decision-making processes more directly"]
+                </CampaignActionContent>
+            </CampaignSection>
+        </div>
+    </div>
+</div>
+
+<style>
+    .resource-tile {
+        color: #c30d2f;
+        font-stretch: expanded;
+        text-decoration: underline;
+    }
+
+    .commissioner-list {
+        padding-left: 0;
+    }
+</style>
+
+@code {
+
+}
